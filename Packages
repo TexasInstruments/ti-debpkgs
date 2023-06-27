@@ -584,6 +584,26 @@ Description: Mesa Vulkan graphics drivers
  Vulkan is a low-overhead 3D graphics and compute API. This package
  includes Vulkan drivers provided by the Mesa project.
 
+Package: ti-img-rogue-driver-dkms
+Source: ti-img-rogue-driver
+Version: 6.1-1
+Architecture: arm64
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Installed-Size: 16908
+Depends: dkms (>= 2.1.0.0), linux-headers, libc-dev | libc, linux-image
+Filename: ./ti-img-rogue-driver-dkms_6.1-1_arm64.deb
+Size: 1448744
+MD5sum: 5d601767cabda68163acb63e46949b4d
+SHA1: 83e075135566d1a3acabffeb9e4fb9ff39060efd
+SHA256: e177d8215216b0fb5e62ed35dfe66f058258c42477e6a2dd13887996373f3d8d
+Section: kernel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-driver/
+Description: Rogue 8XE DDK Kernel Mode Driver
+ ti-img-rogue-driver is Texas Instruments' Rogue 8XE DDK kernel mode
+ graphical driver.
+
 Package: wl18xx-ti-utils
 Version: 0.8-1
 Architecture: arm64
