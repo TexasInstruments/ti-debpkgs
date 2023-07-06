@@ -647,12 +647,12 @@ Version: 6.1-1
 Architecture: arm64
 Maintainer: Suhaas Joshi <s-joshi@ti.com>
 Installed-Size: 16908
-Depends: dkms (>= 2.1.0.0), linux-headers, libc-dev | libc, linux-image
+Depends: dkms (>= 2.1.0.0), linux-headers-6.1.33-dirty, linux-libc-dev, linux-image-6.1.33-dirty
 Filename: ./ti-img-rogue-driver-dkms_6.1-1_arm64.deb
 Size: 1448744
-MD5sum: 5d601767cabda68163acb63e46949b4d
-SHA1: 83e075135566d1a3acabffeb9e4fb9ff39060efd
-SHA256: e177d8215216b0fb5e62ed35dfe66f058258c42477e6a2dd13887996373f3d8d
+MD5sum: cd39163f514fd8566c3ee9d51f8e8976
+SHA1: c321004b9a2e0294b010258195881bd3edca76c4
+SHA256: 1268a944779514bed4510bcc7fa1e8b92dd33fed7791d347dfcc86e5fd533cd1
 Section: kernel
 Priority: optional
 Multi-Arch: foreign
