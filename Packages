@@ -1,3 +1,25 @@
+Package: cryptodev-linux-dkms
+Source: cryptodev-linux
+Version: 1.13-1
+Architecture: arm64
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Installed-Size: 298
+Depends: dkms (>= 2.1.0.0), linux-headers-6.1.33-dirty, linux-libc-dev, linux-image-6.1.33-dirty
+Filename: ./cryptodev-linux-dkms_1.13-1_arm64.deb
+Size: 39928
+MD5sum: e41bd9dc8bdf2ba14ecd4055472c225f
+SHA1: b4704b710211bcc920333941ee98ba5fbf295c20
+SHA256: c3f3feb4c8460bf2cd47e953122dd659f3c2fa9ff4333abd2b16287ff90f87e6
+Section: kernel
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://cryptodev-linux.org
+Description: Linux Kernel device for cryptographic accelerator access
+ Cryptodev-linux is a Linux-kernel device that allows user-space access to
+ hardware cryptographic accelerators. The main idea is to access existing
+ ciphers in kernel space from userspace, thus enabling the re-use of a hardware
+ implementation of a cipher.
+
 Package: k3conf
 Source: k3conf-0.1
 Version: 90-1
