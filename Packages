@@ -487,55 +487,55 @@ Homepage: https://mesa3d.org/
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
-Package: linux-headers-6.1.33-dirty
+Package: linux-headers-6.1.26
 Source: linux-upstream
-Version: 6.1.33-dirty-1
+Version: 6.1.26-4
 Architecture: arm64
 Maintainer: root <root@SHIELD01.dhcp.ti.com>
-Installed-Size: 49497
-Filename: ./linux-headers-6.1.33-dirty_6.1.33-dirty-1_arm64.deb
-Size: 8180068
-MD5sum: 67b141365bf343c1219b9a27f4fc5c54
-SHA1: 262ea4816d86b26a85312304f3e7bf5a66507e61
-SHA256: efe2b6ccd75f90fb3ab791541f73f133f11acc1cece33722d7f84953ba2eaaa3
+Installed-Size: 49415
+Filename: ./linux-headers-6.1.26_6.1.26-4_arm64.deb
+Size: 8177728
+MD5sum: 1e6f273d1efd5cad326eae67f9c8992d
+SHA1: a19f9b0ce1468e3ce8b3e2cfe38cebdda4ddd208
+SHA256: c967b456c36e3d99105eebb2c45b61ea2411efb837212523b0eebb8968d65764
 Section: kernel
 Priority: optional
 Homepage: https://www.kernel.org/
-Description: Linux kernel headers for 6.1.33-dirty on arm64
- This package provides kernel header files for 6.1.33-dirty on arm64
+Description: Linux kernel headers for 6.1.26 on arm64
+ This package provides kernel header files for 6.1.26 on arm64
  .
  This is useful for people who need to build external modules
 
-Package: linux-image-6.1.33-dirty
+Package: linux-image-6.1.26
 Source: linux-upstream
-Version: 6.1.33-dirty-1
+Version: 6.1.26-4
 Architecture: arm64
 Maintainer: root <root@SHIELD01.dhcp.ti.com>
-Installed-Size: 71967
-Filename: ./linux-image-6.1.33-dirty_6.1.33-dirty-1_arm64.deb
-Size: 23142736
-MD5sum: 623bce986dbeff65909a4a3193a7708d
-SHA1: fc3b65e7a2e7935bb137e73c99a27ac47db04fad
-SHA256: 67be92c8245edc3ac12b444ad1bcca06e071444583d1946dd71716f823ee5530
+Installed-Size: 51493
+Filename: ./linux-image-6.1.26_6.1.26-4_arm64.deb
+Size: 16699152
+MD5sum: cf1f43614fd4430c3e42384d467e66fd
+SHA1: 15261384bd90f44d0deba6d6929f436dc290f1fc
+SHA256: 3e2a0504e230d223f26c337c644780279cf36c73bb5a6bc0771e8274bd5cb6a3
 Section: kernel
 Priority: optional
 Homepage: https://www.kernel.org/
-Description: Linux kernel, version 6.1.33-dirty
+Description: Linux kernel, version 6.1.26
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.1.33-dirty.
+ files, version: 6.1.26.
 
 Package: linux-libc-dev
 Source: linux-upstream
-Version: 6.1.33-dirty-1
+Version: 6.1.26-4
 Architecture: arm64
 Maintainer: root <root@SHIELD01.dhcp.ti.com>
 Installed-Size: 6498
 Provides: linux-kernel-headers
-Filename: ./linux-libc-dev_6.1.33-dirty-1_arm64.deb
-Size: 1251508
-MD5sum: 99a101e997cce3e3c714608986733df1
-SHA1: 8f77713e2fb1f95cee57dfe4669e2e2532fdc367
-SHA256: 7e8bda43a6472f7da46706c5f6d52fe56a5c8c63bf52f6e8a0910d7725a1f354
+Filename: ./linux-libc-dev_6.1.26-4_arm64.deb
+Size: 1251536
+MD5sum: 591f9523cf31dba7acea6c133e0eca11
+SHA1: 26eef4f41f13b9cf0846303dc2891bcb0ea59814
+SHA256: 7d3730b0b84b9556052b071f3ec257682d4f63ae5b74a0e158b4273685a46d05
 Section: devel
 Priority: optional
 Multi-Arch: same
