@@ -1,0 +1,154 @@
+Format: 3.0 (quilt)
+Package: cryptodev-linux
+Binary: cryptodev-linux-dkms
+Architecture: arm64
+Version: 1.13-1
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Homepage: http://cryptodev-linux.org
+Standards-Version: 4.5.1
+Testsuite: autopkgtest
+Build-Depends: debhelper-compat (= 13), dkms
+Package-List:
+ cryptodev-linux-dkms deb kernel optional arch=arm64
+Directory: .
+Checksums-Sha1:
+ 251d334494e7d02e6a02c9ad5d77ff2ed941b94c 922 cryptodev-linux_1.13-1.dsc
+ 7262fa7a7490824d89a0decc36e8edc405746096 2173942 cryptodev-linux_1.13.orig.tar.gz
+ 0fd5256303c6f788c890baa5d7d09c17017b7f18 3252 cryptodev-linux_1.13-1.debian.tar.xz
+Checksums-Sha256:
+ 0fe33adb8f51c12de3437cc82463d3212af6f7b4b31291f8e4f54e3cca34ce0b 922 cryptodev-linux_1.13-1.dsc
+ 6bc491d39cb0fe47c4cf934fc761143e42da3e87e04bcb4010c40be63f17557a 2173942 cryptodev-linux_1.13.orig.tar.gz
+ 0ed162ea85e52aa48c064388cb970aa4ac489e0585c87bcc8a3322a2648da189 3252 cryptodev-linux_1.13-1.debian.tar.xz
+Files:
+ 3f4088123000cdc65bce312563bde40f 922 cryptodev-linux_1.13-1.dsc
+ 692163e6cc9180be6d1d73a53a984d1d 2173942 cryptodev-linux_1.13.orig.tar.gz
+ 03a82a47a8184b2e45a2e7789262339b 3252 cryptodev-linux_1.13-1.debian.tar.xz
+
+Format: 3.0 (quilt)
+Package: k3conf
+Binary: k3conf
+Architecture: arm64
+Version: 0.1-90
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Homepage: https://git.ti.com/cgit/k3conf/k3conf
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 13)
+Package-List:
+ k3conf deb devel optional arch=arm64
+Directory: .
+Checksums-Sha1:
+ 098f12c89fd3109adf57e6d5961a23d3bcf25229 806 k3conf_0.1-90.dsc
+ 52ad22bbeb245e60a782a6411a0ccb2edcb4539b 722844 k3conf_0.1.orig.tar.gz
+ cdd3a996406113c2c48995836fa3ed8ca3068629 4512 k3conf_0.1-90.debian.tar.xz
+Checksums-Sha256:
+ 88c05e82e2e16efe955a53bf652a0a0e1d824ed4dc2f432b8dc12a3795f3e89d 806 k3conf_0.1-90.dsc
+ 4a2d9231087afcdeea04a66b9ff945af577bd66871fb768cbdebc29fe68cae6b 722844 k3conf_0.1.orig.tar.gz
+ 6be0695afffd8d9553f3c6d239c87dec4d996134c87e3637eda015ba2d843538 4512 k3conf_0.1-90.debian.tar.xz
+Files:
+ 8ff1962675ad8e9b41fff727b7f3ee56 806 k3conf_0.1-90.dsc
+ 064798186ee1aa345b42b302d0feacce 722844 k3conf_0.1.orig.tar.gz
+ fb286c7d68bfe611742b374e9c954f47 4512 k3conf_0.1-90.debian.tar.xz
+
+Format: 3.0 (quilt)
+Package: pru-pssp
+Binary: libpru-pssp-dev, pru-pssp
+Architecture: arm64
+Version: 6.1-1
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Homepage: https://git.ti.com/cgit/pru-software-support-package/pru-software-support-package
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 12)
+Package-List:
+ libpru-pssp-dev deb libs optional arch=arm64
+ pru-pssp deb libs optional arch=arm64
+Directory: .
+Checksums-Sha1:
+ b7ae5d133062d15b066b5f07a38fa6b1569fde30 929 pru-pssp_6.1-1.dsc
+ 1e4870a3aac30ef2297c2ed2d0c33fb9cda5eaab 3489211 pru-pssp_6.1.orig.tar.gz
+ 5cf0b3aa52a542d96949612a35fd03d765693ed1 9140 pru-pssp_6.1-1.debian.tar.xz
+Checksums-Sha256:
+ 4611e412d746856469cc11c54d98e3181dbfcad9535dc0917281c4f480c7b0df 929 pru-pssp_6.1-1.dsc
+ 91ad282a717645b53605b07a0eded6277afdd522a79a2d78470b96fe6293162d 3489211 pru-pssp_6.1.orig.tar.gz
+ d46c5a2fc0a3c3a570d2af0f1648328786927c53dc4ca455266614d0f4325cae 9140 pru-pssp_6.1-1.debian.tar.xz
+Files:
+ 634cee622628bfb3d9a17e27185894fd 929 pru-pssp_6.1-1.dsc
+ d9496cb89944bc9abe7d8caa8270d8d0 3489211 pru-pssp_6.1.orig.tar.gz
+ 20a5a874adbf96466cb02b47c7e68486 9140 pru-pssp_6.1-1.debian.tar.xz
+
+Format: 3.0 (quilt)
+Package: ti-img-rogue-driver
+Binary: ti-img-rogue-driver-dkms
+Architecture: arm64
+Version: 6.1-1
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-driver/
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 12), dkms
+Package-List:
+ ti-img-rogue-driver-dkms deb kernel optional arch=arm64
+Directory: .
+Checksums-Sha1:
+ bc1e9d9a8db08ed54c4abf905d4d92875bebcd99 958 ti-img-rogue-driver_6.1-1.dsc
+ a00e517ef267329042fd09f2c8aca7bae6a332f2 8526335 ti-img-rogue-driver_6.1.orig.tar.gz
+ 2d6d002bbb0f7eb8cb679e542324a68e058c42cd 15228 ti-img-rogue-driver_6.1-1.debian.tar.xz
+Checksums-Sha256:
+ 341876fa2c46f5f25bd45d9eac8b5cab0e4f3ccd6266293073ef7576222b0210 958 ti-img-rogue-driver_6.1-1.dsc
+ 64a4cd128411c29744acee1e09a10dc43e3c18acc1fbc239ffa8e18442468924 8526335 ti-img-rogue-driver_6.1.orig.tar.gz
+ dcfc411264ed476abb680d54a638fe86118fd5389a28d91e9354e96ef8b77239 15228 ti-img-rogue-driver_6.1-1.debian.tar.xz
+Files:
+ ed393b7a5c16bedf85d4976407f2d458 958 ti-img-rogue-driver_6.1-1.dsc
+ daf2686b41cf9594d3f22896554c07d1 8526335 ti-img-rogue-driver_6.1.orig.tar.gz
+ 90fe158431da94b7d1efd5846c2e9a46 15228 ti-img-rogue-driver_6.1-1.debian.tar.xz
+
+Format: 3.0 (quilt)
+Package: ti-rpmsg-char
+Binary: libti-rpmsg-char, libti-rpmsg-char-dev
+Architecture: arm64
+Version: 0.3.0-1
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Homepage: https://git.ti.com/cgit/rpmsg/ti-rpmsg-char
+Standards-Version: 4.5.1
+Testsuite: autopkgtest
+Build-Depends: debhelper-compat (= 13), dh-autoreconf
+Package-List:
+ libti-rpmsg-char deb libs optional arch=arm64
+ libti-rpmsg-char-dev deb libdevel optional arch=arm64
+Directory: .
+Checksums-Sha1:
+ adebe321ce1597aa8576d23123ff5f6bf98bb455 1005 ti-rpmsg-char_0.3.0-1.dsc
+ 301569d54e28a6f651a64bedbada34ec114584cf 221281 ti-rpmsg-char_0.3.0.orig.tar.gz
+ 01671fc6a762d6ea5e0d9398c24287ef27d943d2 3316 ti-rpmsg-char_0.3.0-1.debian.tar.xz
+Checksums-Sha256:
+ 3e0820fe5eb3113263e1e58870574cd4712159c3b06799e763dadd8f59aa89f7 1005 ti-rpmsg-char_0.3.0-1.dsc
+ 426fe35931c3c51ebe51d9129db3d14c7e6040dad4cec9fad7752937be0a8bfe 221281 ti-rpmsg-char_0.3.0.orig.tar.gz
+ 0f8351af7ee42ea55e8c86ef65fa943903b4db50a33a33970e3876efe313a837 3316 ti-rpmsg-char_0.3.0-1.debian.tar.xz
+Files:
+ 36df9afd1ad11ba53aea162ede10132d 1005 ti-rpmsg-char_0.3.0-1.dsc
+ ff2dadc67a2a776990ab8a19d726444d 221281 ti-rpmsg-char_0.3.0.orig.tar.gz
+ d357c1a78c077fbe8b88ea9d5caea6a8 3316 ti-rpmsg-char_0.3.0-1.debian.tar.xz
+
+Format: 3.0 (quilt)
+Package: wl18xx-ti-utils
+Binary: wl18xx-ti-utils
+Architecture: arm64
+Version: 0.8-1
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Homepage: https://git.ti.com/cgit/wlink8-wlan/18xx-ti-utils
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 12), libnl-3-dev, libnl-genl-3-dev
+Package-List:
+ wl18xx-ti-utils deb utils optional arch=arm64
+Directory: .
+Checksums-Sha1:
+ a90ddf5e1497fc57725f7e789c020d55b708138f 935 wl18xx-ti-utils_0.8-1.dsc
+ 4c636887696a43c9a496ed83138934b3a8e8063a 20844201 wl18xx-ti-utils_0.8.orig.tar.gz
+ 3fc0d040312e682315884e99a9e2b480a37fd5ce 10356 wl18xx-ti-utils_0.8-1.debian.tar.xz
+Checksums-Sha256:
+ e713217eb534b11ea3f2529b66e5726a0ebb2288b2bb8af4e52daf7d67bb4e87 935 wl18xx-ti-utils_0.8-1.dsc
+ 548c2ec30d40fc14efa91975964ece0405ff325535361f939bf614a9d8c7c2fd 20844201 wl18xx-ti-utils_0.8.orig.tar.gz
+ 27523d9a573e3ce392d0515780a9ddfcfedc4ebf7c588842b7700f294d88c8c0 10356 wl18xx-ti-utils_0.8-1.debian.tar.xz
+Files:
+ 3257f102977f076a94cec4b79599f910 935 wl18xx-ti-utils_0.8-1.dsc
+ 17fc3445a9376ea786c0983485c2880c 20844201 wl18xx-ti-utils_0.8.orig.tar.gz
+ 3e63e200eedf151499827b3c2c3d7d2b 10356 wl18xx-ti-utils_0.8-1.debian.tar.xz
+
