@@ -506,6 +506,25 @@ Description: Linux kernel headers for 6.1.26 on arm64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-6.1.33
+Source: linux-upstream
+Version: 6.1.33-1
+Architecture: arm64
+Maintainer: root <root@SHIELD01.dhcp.ti.com>
+Installed-Size: 49450
+Filename: ./linux-headers-6.1.33_6.1.33-1_arm64.deb
+Size: 8181304
+MD5sum: 1c7ae5c14fd7a6bd1b8769ef7cd6a801
+SHA1: 3280bb1af9d97e00635ce7210262ac0853b7455f
+SHA256: bb3d8ab871fc1c987a21bc3d0fee893c2dd1072a8e96236879547ca72f43b0e9
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 6.1.33 on arm64
+ This package provides kernel header files for 6.1.33 on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-6.1.26
 Source: linux-upstream
 Version: 6.1.26-4
@@ -524,6 +543,24 @@ Description: Linux kernel, version 6.1.26
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.26.
 
+Package: linux-image-6.1.33
+Source: linux-upstream
+Version: 6.1.33-1
+Architecture: arm64
+Maintainer: root <root@SHIELD01.dhcp.ti.com>
+Installed-Size: 53397
+Filename: ./linux-image-6.1.33_6.1.33-1_arm64.deb
+Size: 17150744
+MD5sum: a95a5c805c061cce8ab5ddec1e915681
+SHA1: d08eb05ee544672fa440ec8f58026ffb49114da6
+SHA256: c5fe1e180a056bac54952fc7fb228e679652adac8190919c564ea35def2c1559
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 6.1.33
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.33.
+
 Package: linux-libc-dev
 Source: linux-upstream
 Version: 6.1.26-4
@@ -536,6 +573,26 @@ Size: 1251536
 MD5sum: 591f9523cf31dba7acea6c133e0eca11
 SHA1: 26eef4f41f13b9cf0846303dc2891bcb0ea59814
 SHA256: 7d3730b0b84b9556052b071f3ec257682d4f63ae5b74a0e158b4273685a46d05
+Section: devel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
+Package: linux-libc-dev
+Source: linux-upstream
+Version: 6.1.33-1
+Architecture: arm64
+Maintainer: root <root@SHIELD01.dhcp.ti.com>
+Installed-Size: 6498
+Provides: linux-kernel-headers
+Filename: ./linux-libc-dev_6.1.33-1_arm64.deb
+Size: 1251552
+MD5sum: 3260c9abc6318c7719bf40ebeca91eeb
+SHA1: 3b50bca46dc8a0df811f315eb05a8b6dcf7f4685
+SHA256: b0b8eb0ac29bfe3181df50717c2f10e63b3842097f94f813b41046392a30ce4c
 Section: devel
 Priority: optional
 Multi-Arch: same
