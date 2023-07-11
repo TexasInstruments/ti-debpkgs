@@ -667,13 +667,13 @@ Package: ti-img-rogue-driver
 Version: 6.1-1
 Architecture: arm64
 Maintainer: Suhaas Joshi <s-joshi@ti.com>
-Installed-Size: 12105
+Installed-Size: 16908
 Depends: dkms (>= 2.1.0.0)
 Filename: ./ti-img-rogue-driver_6.1-1_arm64.deb
-Size: 1271300
-MD5sum: 973f2c56031c50988bd7f0e235ae15ba
-SHA1: 124cd2b9888d5a9b8549b38c0c196eea28e17372
-SHA256: 86ba1bf0d598555a90bd834a4f1442dd080e04f3642b9b3d80a856dae33845bc
+Size: 1448456
+MD5sum: 4a6311b1ecb1e78436dc7df2d70cf71f
+SHA1: 4b454e8c9094f3f084283129ddccf0c6c2512e84
+SHA256: 53570946c747eb2265f6b650508ca41e1d31f9e4037f790ba13c93856d8dad6f
 Section: kernel
 Priority: optional
 Multi-Arch: foreign
@@ -688,12 +688,12 @@ Version: 6.1-1
 Architecture: arm64
 Maintainer: Suhaas Joshi <s-joshi@ti.com>
 Installed-Size: 16908
-Depends: dkms (>= 2.1.0.0), linux-headers-6.1.33-dirty, linux-libc-dev, linux-image-6.1.33-dirty
+Depends: dkms (>= 2.1.0.0)
 Filename: ./ti-img-rogue-driver-dkms_6.1-1_arm64.deb
-Size: 1448744
-MD5sum: cd39163f514fd8566c3ee9d51f8e8976
-SHA1: c321004b9a2e0294b010258195881bd3edca76c4
-SHA256: 1268a944779514bed4510bcc7fa1e8b92dd33fed7791d347dfcc86e5fd533cd1
+Size: 1448728
+MD5sum: 70411acbeaeacb106f3e07eb9f323cf7
+SHA1: 544c64a96ec68d9d85264b63ed399a7f93df52ab
+SHA256: ef67f2eee007e3956eb5ecaa19c19fe4ff395caf11cef94eb4344e52f0b68579
 Section: kernel
 Priority: optional
 Multi-Arch: foreign
