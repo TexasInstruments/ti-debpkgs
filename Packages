@@ -1,15 +1,14 @@
-Package: cryptodev-linux-dkms
-Source: cryptodev-linux
+Package: cryptodev-linux
 Version: 1.13-1
 Architecture: arm64
 Maintainer: Suhaas Joshi <s-joshi@ti.com>
 Installed-Size: 298
-Depends: dkms (>= 2.1.0.0), linux-headers-6.1.33-dirty, linux-libc-dev, linux-image-6.1.33-dirty
-Filename: ./cryptodev-linux-dkms_1.13-1_arm64.deb
-Size: 39928
-MD5sum: e41bd9dc8bdf2ba14ecd4055472c225f
-SHA1: b4704b710211bcc920333941ee98ba5fbf295c20
-SHA256: c3f3feb4c8460bf2cd47e953122dd659f3c2fa9ff4333abd2b16287ff90f87e6
+Depends: dkms (>= 2.1.0.0)
+Filename: ./cryptodev-linux_1.13-1_arm64.deb
+Size: 39848
+MD5sum: da4f7a00aa041db0a53dd4f46f895c45
+SHA1: 7a5a31d1d2e689645b3577115da24bc5f76ef687
+SHA256: a20efe1b7ba0464ae109dc388045284a2b0b689212891743c55f0527f79c1352
 Section: kernel
 Priority: optional
 Multi-Arch: foreign
