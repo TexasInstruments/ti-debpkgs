@@ -738,26 +738,6 @@ Description: Rogue 8XE DDK Kernel Mode Driver
  ti-img-rogue-driver is Texas Instruments' Rogue 8XE DDK kernel mode
  graphical driver.
 
-Package: ti-img-rogue-driver-dkms
-Source: ti-img-rogue-driver
-Version: 6.1-1
-Architecture: arm64
-Maintainer: Suhaas Joshi <s-joshi@ti.com>
-Installed-Size: 16908
-Depends: dkms (>= 2.1.0.0)
-Filename: ./ti-img-rogue-driver-dkms_6.1-1_arm64.deb
-Size: 1448728
-MD5sum: 70411acbeaeacb106f3e07eb9f323cf7
-SHA1: 544c64a96ec68d9d85264b63ed399a7f93df52ab
-SHA256: ef67f2eee007e3956eb5ecaa19c19fe4ff395caf11cef94eb4344e52f0b68579
-Section: kernel
-Priority: optional
-Multi-Arch: foreign
-Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-driver/
-Description: Rogue 8XE DDK Kernel Mode Driver
- ti-img-rogue-driver is Texas Instruments' Rogue 8XE DDK kernel mode
- graphical driver.
-
 Package: wl18xx-ti-utils
 Version: 0.8-1
 Architecture: arm64
