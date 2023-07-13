@@ -423,6 +423,30 @@ Description: PowerVR OpenGLES libraries for Texas Instruments AM62x SoC
 License: custom
 Vendor: Texas Instruments
 
+Package: libpru-pssp-dev
+Source: pru-pssp
+Version: 6.1-1
+Architecture: arm64
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Installed-Size: 1507
+Filename: ./libpru-pssp-dev_6.1-1_arm64.deb
+Size: 64608
+MD5sum: f7183f7d93f66e7893fd5bfbd1709eb4
+SHA1: a1546e0f8fc7038d617e706263ce22eb5377a545
+SHA256: 7a1c001b802e56e0f0daf718796debc40cbf8ceb402d218f137d1fe82de9924e
+Section: libs
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://git.ti.com/cgit/pru-software-support-package/pru-software-support-package
+Description: Development files for PRU-PSSP v6.1.0
+ The PRU Software Support Package (PSSP) is an add-on package that provides a
+ framework and examples for developing software for the Programmable Real-time
+ Unit  sub-system and Industrial Communication Sub-System (PRU-ICSS) in the
+ supported TI processors.  The PRU-ICSS achieves deterministic, real-time
+ processing, direct access to I/Os and meets ultra-low-latency requirements.
+ .
+ This package contains development files for PRU-PSSP.
+
 Package: libti-rpmsg-char
 Source: ti-rpmsg-char
 Version: 0.3.0-1
@@ -718,6 +742,27 @@ Homepage: https://mesa3d.org/
 Description: Mesa Vulkan graphics drivers
  Vulkan is a low-overhead 3D graphics and compute API. This package
  includes Vulkan drivers provided by the Mesa project.
+
+Package: pru-pssp
+Version: 6.1-1
+Architecture: arm64
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Installed-Size: 275
+Filename: ./pru-pssp_6.1-1_arm64.deb
+Size: 24692
+MD5sum: 162ff1e0ad1c1c0dfcd1fb4d36fa4bb4
+SHA1: 5e1b9338ecf4fec5dd0ee29956ece6e0bfbd6fa4
+SHA256: e589c9e69f5168486a043b55cd46f279f4df0cf805bcb764e1d1bebede5b0b1f
+Section: libs
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://git.ti.com/cgit/pru-software-support-package/pru-software-support-package
+Description: Programmable Real-time Unit (PRU) Software Support Package v6.1.0
+ The PRU Software Support Package (PSSP) is an add-on package that provides a
+ framework and examples for developing software for the Programmable Real-time
+ Unit  sub-system and Industrial Communication Sub-System (PRU-ICSS) in the
+ supported TI processors.  The PRU-ICSS achieves deterministic, real-time
+ processing, direct access to I/Os and meets ultra-low-latency requirements.
 
 Package: ti-img-rogue-driver
 Version: 6.1-1
