@@ -1,0 +1,5 @@
+Component: main
+Origin: ti-debpkgs
+Label: ti-debpkgs
+Architecture: arm64
+Description: Apt repository for Texas Instruments
