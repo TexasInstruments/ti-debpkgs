@@ -534,6 +534,68 @@ Description: Mesa Off-screen rendering extension -- development files
  .
  For more information on OSmesa see the libosmesa6 package.
 
+Package: libti-rpmsg-char
+Source: ti-rpmsg-char
+Version: 0.6.3+git20231210+369ed24-1
+Architecture: arm64
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Installed-Size: 88
+Depends: libc6 (>= 2.33)
+Multi-Arch: same
+Homepage: https://git.ti.com/cgit/rpmsg/ti-rpmsg-char
+Priority: optional
+Section: libs
+Filename: pool/main/t/ti-rpmsg-char/libti-rpmsg-char_0.6.3+git20231210+369ed24-1_arm64.deb
+Size: 10260
+SHA256: 93cd682196e4751276fa852708a338c756f7466fc5adf0eb0790a47bf9a4ec0a
+SHA1: 4eb44201ea19e25b8a57d240f03f2bac7a1e28d8
+MD5sum: 7b84e1da2807240ff2bdf823cf2861e8
+Description: RPMSG-char Utility Library
+ ti-rpmsg-char is a library designed to provide Linux applications an easy means
+ to open and identify rpmsg character devices created by the Linux kernel
+ rpmsg-char driver using the virio-rpmsg-bus transport back-end.
+
+Package: libti-rpmsg-char-dbgsym
+Source: ti-rpmsg-char
+Version: 0.6.3+git20231210+369ed24-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Installed-Size: 38
+Depends: libti-rpmsg-char (= 0.6.3+git20231210+369ed24-1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/t/ti-rpmsg-char/libti-rpmsg-char-dbgsym_0.6.3+git20231210+369ed24-1_arm64.deb
+Size: 22840
+SHA256: be28fcd77ae9325d24d119538868601bf8ae64d53c84e303f0198325024a7af7
+SHA1: 9a62587ab76de11c03af848e3c7e0755e8c069cb
+MD5sum: 1d5f5f2d76e4279d0e402c57eb0e73ad
+Description: debug symbols for libti-rpmsg-char
+Build-Ids: 81f3c1f3622619e75a282dfca1668ddc61177571
+
+Package: libti-rpmsg-char-dev
+Source: ti-rpmsg-char
+Version: 0.6.3+git20231210+369ed24-1
+Architecture: arm64
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Installed-Size: 65
+Depends: libti-rpmsg-char
+Homepage: https://git.ti.com/cgit/rpmsg/ti-rpmsg-char
+Priority: optional
+Section: libdevel
+Filename: pool/main/t/ti-rpmsg-char/libti-rpmsg-char-dev_0.6.3+git20231210+369ed24-1_arm64.deb
+Size: 12840
+SHA256: 5b29b2cc21fc47ce03eafcd1e7e74d908a58a5bd103ff056657db26eea010908
+SHA1: 7a357d103d3d9fa58d7c533fb36610fbd8d93024
+MD5sum: 2bf3741c6fdcb016304292f61317e779
+Description: RPMSG-char Utility Library
+ ti-rpmsg-char is a library designed to provide Linux applications an easy means
+ to open and identify rpmsg character devices created by the Linux kernel
+ rpmsg-char driver using the virio-rpmsg-bus transport back-end.
+ .
+ This package contains development files for libti-rpmsg-char.
+
 Package: libwayland-egl1-mesa
 Source: mesa
 Version: 22.3.5+git20230331+54fd9d7dea0-1

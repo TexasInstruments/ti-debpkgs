@@ -1,7 +1,7 @@
 Origin: ti-debpkgs
 Label: ti-debpkgs
 Codename: stable
-Date: Fri, 08 Dec 2023 15:09:14 UTC
+Date: Sun, 10 Dec 2023 16:07:30 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free
 Description: Apt repository for Texas Instruments
@@ -12,11 +12,11 @@ MD5Sum:
  7fd376c7621381dc9dbc8d071a7c79d7 3984 main/binary-amd64/Packages
  0959847960b00415603cbb3e52f472f4 999 main/binary-amd64/Packages.gz
  2c6fcd74823f6f964b310818f61157f3 123 main/binary-amd64/Release
- 605e24d51651c86a63ae44c47522e1a2 42703 main/binary-arm64/Packages
- 70fca1b39a7e947d7f15b36f2407189d 10310 main/binary-arm64/Packages.gz
+ df282b5836361f9cb47f05f1140e477b 45093 main/binary-arm64/Packages
+ f67957c264032fcf37440732746b3e6b 10926 main/binary-arm64/Packages.gz
  228444ed8db3f04c52ec989d228e5ed2 123 main/binary-arm64/Release
- f7f164af9682b53901cd2612466b3532 3300 main/source/Sources
- 315f1f328e6a9f3f50338e7af4c58835 1143 main/source/Sources.gz
+ 7e56be909a24de39aa18426338aed93e 4806 main/source/Sources
+ b5ba963e2c3d3c77ce05ccd08ebf8616 1562 main/source/Sources.gz
  c8b3c743c4fa9e284ff5d87ca4f7efb2 124 main/source/Release
  d41d8cd98f00b204e9800998ecf8427e 0 contrib/binary-i386/Packages
  7029066c27ac6f5ef18d660d5741979a 20 contrib/binary-i386/Packages.gz
@@ -49,11 +49,11 @@ SHA1:
  1705155f9ac6ea19f9d4e02c1f9b2dd90ecf72ed 3984 main/binary-amd64/Packages
  535c991008507edb66f4cb50039f3b06c29d9646 999 main/binary-amd64/Packages.gz
  1ea883a1bd831115d0eaff8a29fa48b8495d7b78 123 main/binary-amd64/Release
- 69086eeefabf5a8be4fd6799aa8448a7b7f2260f 42703 main/binary-arm64/Packages
- 4e081ce390af0967e016b01ebba99b1c56b77ccd 10310 main/binary-arm64/Packages.gz
+ 62668897b3a52868c6dab039c56dbca811333a0e 45093 main/binary-arm64/Packages
+ 568ea5809321a6a907c8656c08ae1f15e4737871 10926 main/binary-arm64/Packages.gz
  517aec9b0fa2d9bb286352911f41b588d0e1c8b0 123 main/binary-arm64/Release
- e6d15d50537385b5c05fbd2f1c800a93d432b31c 3300 main/source/Sources
- 6094dc8f9cfd9293959d84643541d858697af3c0 1143 main/source/Sources.gz
+ c217d8f2bc0c1b5d8164928126783c371e3dceeb 4806 main/source/Sources
+ d8792d38c32a683ec979da9bd94d166a96fcd853 1562 main/source/Sources.gz
  1a6a600a67db476c852c0850377502fcba975a99 124 main/source/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 contrib/binary-i386/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 contrib/binary-i386/Packages.gz
@@ -86,11 +86,11 @@ SHA256:
  677a046d4cbbd950cbf4b2ed42f1d7365011c0ea5dc3576924f5d79a2d6a120e 3984 main/binary-amd64/Packages
  b3757e012f9c61ea1e5c77639bfd0fa4da9ff78bff92055f42b86de8be25fc7f 999 main/binary-amd64/Packages.gz
  5a16594b5c2def0cfa79c51177a8845f60510f3a6319bae9e409f3c8c38a28f3 123 main/binary-amd64/Release
- 3ea79c502f4d1a37857a47e6bbfafc89082ef8bf831b3c014b83f39f41a9ad88 42703 main/binary-arm64/Packages
- 7ad8a2de90bcd6dee02aa6ec8e04a9742e218c7be1c4c9b1f4ea90b2f6dd45f5 10310 main/binary-arm64/Packages.gz
+ f4a251379581575c29f7be8d458880a309b77858177ad477a00bd21d22c112e8 45093 main/binary-arm64/Packages
+ 7cc291254dcf2f564979bff285feec6903560a945d5296b6aa01190fb512e871 10926 main/binary-arm64/Packages.gz
  8a48fe07b14d83e27f37c1e316c300b4d0a3c96288acd35a5685e1164f77730e 123 main/binary-arm64/Release
- b4bf2f53dc40bada9a49ee43e1ceeaac8159733551101742122aebd0c07d1a0a 3300 main/source/Sources
- 644e9995504f7989a5bca5a8e9ea7b872dd0ec69b6a63556c21128e3eb5f8f38 1143 main/source/Sources.gz
+ 00f19949b5e3c7e2b52d9a64fc9570914a53d6cc510122d8502285ecb08ad40c 4806 main/source/Sources
+ 0d79a6568a20189b8c3c755f06e6da8885fa9e4625d5ff979cd71d62463460d5 1562 main/source/Sources.gz
  15da231b396defcc33cff994f628849daf084f845fe758f3bbf0b5841371daaa 124 main/source/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 contrib/binary-i386/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 contrib/binary-i386/Packages.gz
