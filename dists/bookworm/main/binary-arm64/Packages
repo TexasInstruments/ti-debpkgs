@@ -1085,3 +1085,40 @@ MD5sum: b67b862a80aeb3d321d05cce781d5a76
 Description: Imagination Rogue Kernel Mode Driver for Texas Instruments J784s4
  This set of modules provides the kernel mode graphical driver for IMG Rogue GPU on TI J784s4.
 
+Package: wl18xx-ti-utils
+Version: 8.8.2+git20231211+7325bf0-1
+Architecture: arm64
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Installed-Size: 376
+Depends: libc6 (>= 2.34), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7)
+Multi-Arch: foreign
+Homepage: https://git.ti.com/cgit/wlink8-wlan/18xx-ti-utils
+Priority: optional
+Section: utils
+Filename: pool/main/w/wl18xx-ti-utils/wl18xx-ti-utils_8.8.2+git20231211+7325bf0-1_arm64.deb
+Size: 61440
+SHA256: 33b522e2f4169890f700878499746e7048ed4103b91bc2dbdec39b0b6827788a
+SHA1: 51a1bc6abeb7408c5257027809bd40176429eb01
+MD5sum: acc7d0952f66e0084e5269e853d3a037
+Description: Configure TI's Wireless Drivers
+ Calibrator is used for performing transmission testing (TX) on WL18xx.
+ wlconf is used for configuring TI's wireless drivers.
+
+Package: wl18xx-ti-utils-dbgsym
+Source: wl18xx-ti-utils
+Version: 8.8.2+git20231211+7325bf0-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Installed-Size: 39
+Depends: wl18xx-ti-utils (= 8.8.2+git20231211+7325bf0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/w/wl18xx-ti-utils/wl18xx-ti-utils-dbgsym_8.8.2+git20231211+7325bf0-1_arm64.deb
+Size: 6468
+SHA256: e19a1f2bfe548056628ffff071fe6d85f1bc90642df3eb4904ebfa98277c7cc8
+SHA1: d80d1073b3415759e2bc2ac131e38a89a4b530a8
+MD5sum: d44a34259457bed6f99fc9d7f2504ee0
+Description: debug symbols for wl18xx-ti-utils
+Build-Ids: 013c8577b0261941bcdc4bbfd9dfb7eb2693ef4c 6b3551f821328c306fda5852cf644909b63518b9
+
