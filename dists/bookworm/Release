@@ -1,7 +1,7 @@
 Origin: ti-debpkgs
 Label: ti-debpkgs
 Codename: bookworm
-Date: Wed, 24 Jan 2024 09:45:06 UTC
+Date: Wed, 24 Jan 2024 09:50:10 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free
 Description: Apt repository for Texas Instruments
@@ -12,8 +12,8 @@ MD5Sum:
  7fd376c7621381dc9dbc8d071a7c79d7 3984 main/binary-amd64/Packages
  0959847960b00415603cbb3e52f472f4 999 main/binary-amd64/Packages.gz
  2c6fcd74823f6f964b310818f61157f3 123 main/binary-amd64/Release
- f0d9df471515ef5014dd2db41c0e1128 49448 main/binary-arm64/Packages
- ca61d8216b10330903a4ebbe621fdf1c 12111 main/binary-arm64/Packages.gz
+ 61d773b0ee349d4c8f201da7681c1ba1 51637 main/binary-arm64/Packages
+ 439444fe441bbd673e2a279fb5c1f2e9 12509 main/binary-arm64/Packages.gz
  228444ed8db3f04c52ec989d228e5ed2 123 main/binary-arm64/Release
  57f9c1ff7627ed7a9c4cea980330c8e3 7524 main/source/Sources
  f2f851bdb3f2a749ff2bab809eb0f655 2325 main/source/Sources.gz
@@ -49,8 +49,8 @@ SHA1:
  1705155f9ac6ea19f9d4e02c1f9b2dd90ecf72ed 3984 main/binary-amd64/Packages
  535c991008507edb66f4cb50039f3b06c29d9646 999 main/binary-amd64/Packages.gz
  1ea883a1bd831115d0eaff8a29fa48b8495d7b78 123 main/binary-amd64/Release
- c184c06f7b4b7a7404552c0ff9b84fe6e54d842c 49448 main/binary-arm64/Packages
- 8f3eccc6469ca31defe3a19955ce52f1726c7400 12111 main/binary-arm64/Packages.gz
+ 1d31cfd375f62354da0d9d076d8174377830a554 51637 main/binary-arm64/Packages
+ 3f8f601300c628e24dc6260aa136d8b85d7b1a87 12509 main/binary-arm64/Packages.gz
  517aec9b0fa2d9bb286352911f41b588d0e1c8b0 123 main/binary-arm64/Release
  482df08f208e2fabb93a882d1f5e085630ed9c74 7524 main/source/Sources
  07ded33e621c0dafad3a08e32e79806f219ba539 2325 main/source/Sources.gz
@@ -86,8 +86,8 @@ SHA256:
  677a046d4cbbd950cbf4b2ed42f1d7365011c0ea5dc3576924f5d79a2d6a120e 3984 main/binary-amd64/Packages
  b3757e012f9c61ea1e5c77639bfd0fa4da9ff78bff92055f42b86de8be25fc7f 999 main/binary-amd64/Packages.gz
  5a16594b5c2def0cfa79c51177a8845f60510f3a6319bae9e409f3c8c38a28f3 123 main/binary-amd64/Release
- fa6a631f16bff47646c36c10f61e585e7f632b9d27d6f3089c4b2ceed7ddf005 49448 main/binary-arm64/Packages
- 530041bc35683429dc30478b10a79f8153e2de031df8f1b6200971399c1120c4 12111 main/binary-arm64/Packages.gz
+ eff262a19dfa137f9d28a983376b735e7896aae33d8d23b8011d73cc66d6ee3d 51637 main/binary-arm64/Packages
+ 604a162f20de1f9ac153aeae44d51738ec28462314e1533ab2fcf608092d8b23 12509 main/binary-arm64/Packages.gz
  8a48fe07b14d83e27f37c1e316c300b4d0a3c96288acd35a5685e1164f77730e 123 main/binary-arm64/Release
  909cfbbffc922fe9b4db73666f1929117ccc38a81e4a92deb1598a74b3411b81 7524 main/source/Sources
  a330a900071e5aa601009a4338cc96511724815e8c24efd3dd98b12ebc51cce0 2325 main/source/Sources.gz
