@@ -556,6 +556,30 @@ Description: Mesa Off-screen rendering extension -- development files
  .
  For more information on OSmesa see the libosmesa6 package.
 
+Package: libpru-pssp-dev
+Source: pru-pssp
+Version: 6.3.0+git20240205+d09576fa-1
+Architecture: arm64
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Installed-Size: 1442
+Multi-Arch: foreign
+Homepage: https://git.ti.com/cgit/pru-software-support-package/pru-software-support-package
+Priority: optional
+Section: libs
+Filename: pool/main/p/pru-pssp/libpru-pssp-dev_6.3.0+git20240205+d09576fa-1_arm64.deb
+Size: 60832
+SHA256: 0926649d054b998de9f131efdc079f7705cc889cf20df05c0ea423012c98fab8
+SHA1: f0b9ca2a517bdb5a8b4f563b12bcde92d566c2b8
+MD5sum: e5266684bb3b01291cfe68716b03fa19
+Description: Development files for PRU-PSSP v6.1.0
+ The PRU Software Support Package (PSSP) is an add-on package that provides a
+ framework and examples for developing software for the Programmable Real-time
+ Unit  sub-system and Industrial Communication Sub-System (PRU-ICSS) in the
+ supported TI processors.  The PRU-ICSS achieves deterministic, real-time
+ processing, direct access to I/Os and meets ultra-low-latency requirements.
+ .
+ This package contains development files for PRU-PSSP.
+
 Package: libti-rpmsg-char
 Source: ti-rpmsg-char
 Version: 0.6.3+git20231210+369ed24-1
@@ -961,6 +985,27 @@ SHA1: 68084d317fa55d2756c838a03ff156975618f564
 MD5sum: 5d3dde9c8948fea332e093e95582490b
 Description: debug symbols for mesa-vulkan-drivers
 Build-Ids: 064c021c77450b50b4f8a4a22748760adef1a03b 33506803d6875b3d2a0967cecaa32ebdca0fe920 588953f622919580922b0ce269ff6b06a8c7cd9d 79ed8778225961a54ae87b827bd721fbaf191922 81a93c913bf382dcda126468e26266fba002630a b9c78436085b3c6afd976d9404beaf0c447ab815
+
+Package: pru-pssp
+Version: 6.3.0+git20240205+d09576fa-1
+Architecture: arm64
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Installed-Size: 205
+Multi-Arch: foreign
+Homepage: https://git.ti.com/cgit/pru-software-support-package/pru-software-support-package
+Priority: optional
+Section: libs
+Filename: pool/main/p/pru-pssp/pru-pssp_6.3.0+git20240205+d09576fa-1_arm64.deb
+Size: 20464
+SHA256: e0c2933af3c762663f00fd8ca89befb16d33f955f84b277781b6f53be8a706c4
+SHA1: 82971fc2f3291af1c6d7ad40d86e49177e0ca07f
+MD5sum: 7da0369364733343c36447d401f3f4c3
+Description: Programmable Real-time Unit (PRU) Software Support Package v6.1.0
+ The PRU Software Support Package (PSSP) is an add-on package that provides a
+ framework and examples for developing software for the Programmable Real-time
+ Unit  sub-system and Industrial Communication Sub-System (PRU-ICSS) in the
+ supported TI processors.  The PRU-ICSS achieves deterministic, real-time
+ processing, direct access to I/Os and meets ultra-low-latency requirements.
 
 Package: ti-img-rogue-driver-am62-dkms
 Source: ti-img-rogue-driver
