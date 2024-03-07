@@ -637,77 +637,20 @@ MD5sum: ace82855673c9c65617e9a308ac0b48d
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
-Package: linux-headers-6.1.46
-Source: linux-upstream
-Version: 6.1.46-2
-Architecture: arm64
-Maintainer: root <root@zephyr>
-Installed-Size: 49458
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.1.46_6.1.46-2_arm64.deb
-Size: 8182920
-SHA256: 4850c01edfe3ff5b1ed35141f2384ef5c8e34c18853485daeeaa39c0ceb9b267
-SHA1: af5e93e93650f52c43c05d08d89db53307989926
-MD5sum: 83fe4c89ed290f473dd6c3e1d297cf59
-Description: Linux kernel headers for 6.1.46 on arm64
- This package provides kernel header files for 6.1.46 on arm64
- .
- This is useful for people who need to build external modules
-
-Package: linux-headers-6.1.46-k3
-Source: linux-upstream
-Version: 6.1.46-k3-3
-Architecture: arm64
-Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
-Installed-Size: 49486
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.1.46-k3_6.1.46-k3-3_arm64.deb
-Size: 8185020
-SHA256: 3c286b463bb64c85667886de792ebdf78676c661914a62f4dfb026a64f9387fb
-SHA1: 6ac621f3e1a6604ede6632504ad65ce3cf7e13f9
-MD5sum: 32241f2c6584d26b56d3837fdc8db537
-Description: Linux kernel headers for 6.1.46-k3 on arm64
- This package provides kernel header files for 6.1.46-k3 on arm64
- .
- This is useful for people who need to build external modules
-
-Package: linux-headers-6.1.46-rt13-k3-rt
-Source: linux-upstream
-Version: 6.1.46-rt13-k3-rt-3
-Architecture: arm64
-Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
-Installed-Size: 49562
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.1.46-rt13-k3-rt_6.1.46-rt13-k3-rt-3_arm64.deb
-Size: 8183592
-SHA256: afdef00310408afe6d969357913fe20cab2ad205ad26d84a894b1e4013944bb7
-SHA1: af7c2ca7c2ab2cec2be089d05a81512b838e5d75
-MD5sum: 2fef509f6f46a83f275857672886a097
-Description: Linux kernel headers for 6.1.46-rt13-k3-rt on arm64
- This package provides kernel header files for 6.1.46-rt13-k3-rt on arm64
- .
- This is useful for people who need to build external modules
-
 Package: linux-headers-6.1.69-k3
 Source: linux-upstream
-Version: 6.1.69-k3-2
+Version: 6.1.69-k3-1
 Architecture: arm64
 Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
-Installed-Size: 49077
+Installed-Size: 49406
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.1.69-k3_6.1.69-k3-2_arm64.deb
-Size: 8452672
-SHA256: adf305f0fecf935adfed44ea19aadf85e5ee30130179e67e4b7578cc72c13e83
-SHA1: e94f5cb3b3732de4341bacfe25220d5ac37fdff5
-MD5sum: e0d674e50a13e1d1bb6c5b6855e9ecf6
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.69-k3_6.1.69-k3-1_arm64.deb
+Size: 8175404
+SHA256: bcf23488482cc2acf05f3dd790682ad2e579e34a0dac1dbbed9341b25224b138
+SHA1: 8b35dd9529aafc081c1c9a265a78e7f55b2c2343
+MD5sum: f61077f999266952d6da748d6ef1fab5
 Description: Linux kernel headers for 6.1.69-k3 on arm64
  This package provides kernel header files for 6.1.69-k3 on arm64
  .
@@ -718,160 +661,52 @@ Source: linux-upstream
 Version: 6.1.69-rt21-k3-rt-1
 Architecture: arm64
 Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
-Installed-Size: 49097
+Installed-Size: 49378
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-upstream/linux-headers-6.1.69-rt21-k3-rt_6.1.69-rt21-k3-rt-1_arm64.deb
-Size: 8445406
-SHA256: 61892cad628fe0af014dc528cfe96c08dfc86586173b208d746f6f87007e9381
-SHA1: e02e7ec85a53b795149140e6e6102651fae8abe8
-MD5sum: 1b47efbf51164010e690a446fa9e5602
+Size: 8167292
+SHA256: de571acaf148c966c92a44334c43db45c9c24ca090f32f4140a50d4c2806f753
+SHA1: 6e1f74bfcc749304533106bbe0aed00d9ed81fda
+MD5sum: 5448f083b4fd96d02dac8ee48e068cf9
 Description: Linux kernel headers for 6.1.69-rt21-k3-rt on arm64
  This package provides kernel header files for 6.1.69-rt21-k3-rt on arm64
  .
  This is useful for people who need to build external modules
 
-Package: linux-image-6.1.46
-Source: linux-upstream
-Version: 6.1.46-2
-Architecture: arm64
-Maintainer: root <root@zephyr>
-Installed-Size: 53308
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.1.46_6.1.46-2_arm64.deb
-Size: 17402660
-SHA256: caef7f3fbb7067ea1187aa9e08f227effcab192f7dde07dd95fbbb43a603d7b7
-SHA1: 38a04c3b4b0d3a671c26ade0923ecc0111a0f9f6
-MD5sum: 8d3017e263220d998cd91c58df9ffc71
-Description: Linux kernel, version 6.1.46
- This package contains the Linux kernel, modules and corresponding other
- files, version: 6.1.46.
-
-Package: linux-image-6.1.46-dbg
-Source: linux-upstream
-Version: 6.1.46-2
-Architecture: arm64
-Maintainer: root <root@zephyr>
-Installed-Size: 247216
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: debug
-Filename: pool/main/l/linux-upstream/linux-image-6.1.46-dbg_6.1.46-2_arm64.deb
-Size: 54982216
-SHA256: afc0861da8789e572a2bf1bbee05cb4b0bb4c7989d97fc0d9387b68e221a6650
-SHA1: 0d603726589e3deb714cf60e8b6bf965192ea8e1
-MD5sum: 9b7c8ee9ae06c6f89cf043b02271e567
-Description: Linux kernel debugging symbols for 6.1.46
- This package will come in handy if you need to debug the kernel. It provides
- all the necessary debug symbols for the kernel and its modules.
-
-Package: linux-image-6.1.46-k3
-Source: linux-upstream
-Version: 6.1.46-k3-3
-Architecture: arm64
-Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
-Installed-Size: 46617
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.1.46-k3_6.1.46-k3-3_arm64.deb
-Size: 15802412
-SHA256: ef178109ff8386b485442c761ef33777a73536a86b88336fd775428120c2c920
-SHA1: c2e05d0133436f39008e1c5b9b1960af106c8f65
-MD5sum: 7b27995b7f40a8a1bb5146cb643b7cb7
-Description: Linux kernel, version 6.1.46-k3
- This package contains the Linux kernel, modules and corresponding other
- files, version: 6.1.46-k3.
-
-Package: linux-image-6.1.46-k3-dbg
-Source: linux-upstream
-Version: 6.1.46-k3-3
-Architecture: arm64
-Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
-Installed-Size: 220826
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: debug
-Filename: pool/main/l/linux-upstream/linux-image-6.1.46-k3-dbg_6.1.46-k3-3_arm64.deb
-Size: 50223216
-SHA256: ce3866db57b998eaa3f1f34fd68ad9df89b23b99ea21d419834d238c33c83c84
-SHA1: b99e984ee722ec5768b18dcf65f245a5a5838e3d
-MD5sum: 3282d8bfd04254550cc0de66af3b6928
-Description: Linux kernel debugging symbols for 6.1.46-k3
- This package will come in handy if you need to debug the kernel. It provides
- all the necessary debug symbols for the kernel and its modules.
-
-Package: linux-image-6.1.46-rt13-k3-rt
-Source: linux-upstream
-Version: 6.1.46-rt13-k3-rt-3
-Architecture: arm64
-Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
-Installed-Size: 45542
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.1.46-rt13-k3-rt_6.1.46-rt13-k3-rt-3_arm64.deb
-Size: 15373680
-SHA256: 41b201b10b6888b93cce47c8b46074910a0cc5d8299677ee53e9846cd171fda9
-SHA1: d737095ea044408b0d248194484bfc4162d7fdaf
-MD5sum: 4ce0829973ed44237b38f8544c61fa0a
-Description: Linux kernel, version 6.1.46-rt13-k3-rt
- This package contains the Linux kernel, modules and corresponding other
- files, version: 6.1.46-rt13-k3-rt.
-
-Package: linux-image-6.1.46-rt13-k3-rt-dbg
-Source: linux-upstream
-Version: 6.1.46-rt13-k3-rt-3
-Architecture: arm64
-Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
-Installed-Size: 212863
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: debug
-Filename: pool/main/l/linux-upstream/linux-image-6.1.46-rt13-k3-rt-dbg_6.1.46-rt13-k3-rt-3_arm64.deb
-Size: 48609040
-SHA256: 261285f5b8f13a333c118b6632596784cf7a340e8efca7a60db2753d947c98ad
-SHA1: 19d5b03034d0b7e24a8f8694afec2d66579b66fa
-MD5sum: 6719586de83dd85ec4eaf054723bf452
-Description: Linux kernel debugging symbols for 6.1.46-rt13-k3-rt
- This package will come in handy if you need to debug the kernel. It provides
- all the necessary debug symbols for the kernel and its modules.
-
 Package: linux-image-6.1.69-k3
 Source: linux-upstream
-Version: 6.1.69-k3-2
+Version: 6.1.69-k3-1
 Architecture: arm64
 Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
-Installed-Size: 46635
+Installed-Size: 42788
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.1.69-k3_6.1.69-k3-2_arm64.deb
-Size: 16961482
-SHA256: ebfa20ff7b4e8a4277f01614591b7260de9684835dffc76797609e38a8590661
-SHA1: 7a119919574c986eac69a760607e9d5144380572
-MD5sum: 137d539ef67ad5ed8f6f22698d0211c8
+Filename: pool/main/l/linux-upstream/linux-image-6.1.69-k3_6.1.69-k3-1_arm64.deb
+Size: 14636660
+SHA256: e9451a12e6ef0c5669ec90a1bf402df6e26f7b420258ef80daa4b3565e8f6aff
+SHA1: 3bfd6bc5b15f6b2f2fb810846686647500dee0be
+MD5sum: 8a5d934b5ee9e0729b7151f4a99a1010
 Description: Linux kernel, version 6.1.69-k3
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.69-k3.
 
 Package: linux-image-6.1.69-k3-dbg
 Source: linux-upstream
-Version: 6.1.69-k3-2
+Version: 6.1.69-k3-1
 Architecture: arm64
 Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
-Installed-Size: 220792
+Installed-Size: 199712
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: debug
-Filename: pool/main/l/linux-upstream/linux-image-6.1.69-k3-dbg_6.1.69-k3-2_arm64.deb
-Size: 55699336
-SHA256: ac09a005df80a56ac25f7f54654a81d7cdf9f2f197b1f41e5a389776210d2d7b
-SHA1: 10be342e456ffcc07b1520441db65efa9a94d6cd
-MD5sum: 1e38cffd1d16604cac2ff12e1c83a1c1
+Filename: pool/main/l/linux-upstream/linux-image-6.1.69-k3-dbg_6.1.69-k3-1_arm64.deb
+Size: 46102232
+SHA256: f882fe1f917e61a1068a17d94a10242d3ef09702fd50524974c4fd223dff2563
+SHA1: 94b64ddc334e4010f0061bbc29d2da915b01c94e
+MD5sum: c49952a1432f78c6f96c9558c34b4e63
 Description: Linux kernel debugging symbols for 6.1.69-k3
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
@@ -881,15 +716,15 @@ Source: linux-upstream
 Version: 6.1.69-rt21-k3-rt-1
 Architecture: arm64
 Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
-Installed-Size: 42815
+Installed-Size: 39131
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-upstream/linux-image-6.1.69-rt21-k3-rt_6.1.69-rt21-k3-rt-1_arm64.deb
-Size: 14809156
-SHA256: 9f1752f984bb76b43bb443cc3c9ab52dd9547bb6beb2abceedc7791cc1c3949d
-SHA1: 9caf1ce434810096f7918cc6dae461b872035aed
-MD5sum: 65265080d46f8e171742a0d118ca1754
+Size: 12604804
+SHA256: 14f030fa45b1704399236d8baf0163399e6ec9849a617e5000af9253420f90cf
+SHA1: caf8c4a5fd662559e1e926e32148fee1f3343c70
+MD5sum: c0d817630a944abd87ca0f5c21f5e0ed
 Description: Linux kernel, version 6.1.69-rt21-k3-rt
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.69-rt21-k3-rt.
@@ -899,15 +734,15 @@ Source: linux-upstream
 Version: 6.1.69-rt21-k3-rt-1
 Architecture: arm64
 Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
-Installed-Size: 201055
+Installed-Size: 180675
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: debug
 Filename: pool/main/l/linux-upstream/linux-image-6.1.69-rt21-k3-rt-dbg_6.1.69-rt21-k3-rt-1_arm64.deb
-Size: 50386908
-SHA256: 1695ac4286341c7ec98c21856ff598da8010b94e1185062cd6d527fd6af6c0c2
-SHA1: 727018e6004c0c67974804577a2c889565d4f2c0
-MD5sum: e2c91ced7f274ea03dd0af11d1e794fb
+Size: 41493740
+SHA256: e65011f236b1e2c9f2183276b0ae6b68adccd5f5e208c6f49ff565440c81ce96
+SHA1: 52429ea07d8c31e033a38374a6cc8959e5aaa7d6
+MD5sum: bde18a27dc2997618e79ef04c042dcf9
 Description: Linux kernel debugging symbols for 6.1.69-rt21-k3-rt
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
@@ -924,10 +759,10 @@ Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
 Filename: pool/main/l/linux-upstream/linux-libc-dev_6.1.69-rt21-k3-rt-1_arm64.deb
-Size: 1292600
-SHA256: cdf9674d2c37a54de11106d62c472d21b36b1f96246122bad9f92b01af6b3104
-SHA1: 4471d731ccda5ba9822376c7bc67a8388923d0c9
-MD5sum: ac820524cc8545045be17a9cca554034
+Size: 1252192
+SHA256: d39bdf28a001ceefe729663cd99fcc6eec6bdb783f62728cb95e3a5d6eeaf217
+SHA1: 4091c05ea5b506e2e9948d8d6eba2cbbefbb234f
+MD5sum: 44424f0d8ac7c997ddcd97763f4344f1
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
