@@ -2,7 +2,7 @@ Format: 3.0 (quilt)
 Source: ti-img-rogue-driver
 Binary: ti-img-rogue-driver-am62-dkms, ti-img-rogue-driver-am62p-dkms, ti-img-rogue-driver-j721e-dkms, ti-img-rogue-driver-j721s2-dkms, ti-img-rogue-driver-j784s4-dkms
 Architecture: all
-Version: 23.3.6512818+git20240214+c89c1ef-1
+Version: 23.3.6512818+git20240320+2f409b4d-1
 Maintainer: Andrew Davis <afd@ti.com>
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-driver
 Standards-Version: 4.5.0
@@ -15,11 +15,11 @@ Package-List:
  ti-img-rogue-driver-j721s2-dkms deb kernel optional arch=all
  ti-img-rogue-driver-j784s4-dkms deb kernel optional arch=all
 Checksums-Sha1:
- fcba581423dc6953810fba9ec3c703e56c7e6d49 2800095 ti-img-rogue-driver_23.3.6512818+git20240214+c89c1ef.orig.tar.gz
- 5a883221b0b35e9992765257e52e14288bd853b7 4512 ti-img-rogue-driver_23.3.6512818+git20240214+c89c1ef-1.debian.tar.xz
+ 589609299b4e8dd420dc68cd71d0e8dd1942776e 2813438 ti-img-rogue-driver_23.3.6512818+git20240320+2f409b4d.orig.tar.gz
+ e40dd278423c46da47b3b14afc6a3b653530b50b 4560 ti-img-rogue-driver_23.3.6512818+git20240320+2f409b4d-1.debian.tar.xz
 Checksums-Sha256:
- 422d03aca52dca41f92517817f4d8808e6831de8f5b249a18d848f2f75744952 2800095 ti-img-rogue-driver_23.3.6512818+git20240214+c89c1ef.orig.tar.gz
- f8d8fcb1178c9f0fa8a9df56e9b9b67d72bf594e9ba7a0ebe71bc145f5c48d1e 4512 ti-img-rogue-driver_23.3.6512818+git20240214+c89c1ef-1.debian.tar.xz
+ 5bd3694df09730158730f848b15e4237bfc6d3b956f12ea1c5f042a0332b949b 2813438 ti-img-rogue-driver_23.3.6512818+git20240320+2f409b4d.orig.tar.gz
+ f428d28b143af21dc517b9019076cf7a893b9b03301bcb765ecdee06be463fa1 4560 ti-img-rogue-driver_23.3.6512818+git20240320+2f409b4d-1.debian.tar.xz
 Files:
- 47990a41c801d1b555728118e1cb8b24 2800095 ti-img-rogue-driver_23.3.6512818+git20240214+c89c1ef.orig.tar.gz
- e7f6b8882df35fdabdf461e8fe265485 4512 ti-img-rogue-driver_23.3.6512818+git20240214+c89c1ef-1.debian.tar.xz
+ cf33259b81ddfa41c3fb3e0752eb67a1 2813438 ti-img-rogue-driver_23.3.6512818+git20240320+2f409b4d.orig.tar.gz
+ 453d444188c52937a6ad9090cffcd2ff 4560 ti-img-rogue-driver_23.3.6512818+git20240320+2f409b4d-1.debian.tar.xz
