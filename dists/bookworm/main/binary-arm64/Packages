@@ -661,7 +661,7 @@ MD5sum: ace82855673c9c65617e9a308ac0b48d
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
-Package: linux-headers-6.1.80-k3
+Package: linux-headers-6.1.83-k3
 Source: ti-linux-kernel
 Version: 09.02.00.010-1
 Architecture: arm64
@@ -670,17 +670,17 @@ Installed-Size: 49431
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/t/ti-linux-kernel/linux-headers-6.1.80-k3_09.02.00.010-1_arm64.deb
-Size: 8180504
-SHA256: 9e37e3487a6829c265bc9cdeb784f7dad9527a62761446f6cf203687e5bf62f5
-SHA1: 63f20cf2c3d597793e2d2a94db06b10bb2e46ee7
-MD5sum: a395390f71c536c1ef621915e5e7c01c
-Description: Linux kernel headers for 6.1.80-k3 on arm64
- This package provides kernel header files for 6.1.80-k3 on arm64
+Filename: pool/main/t/ti-linux-kernel/linux-headers-6.1.83-k3_09.02.00.010-1_arm64.deb
+Size: 8180064
+SHA256: c8eb1961657416e4479548631c4a98e11f4d7a3a4ca58612a67567d85fefad8e
+SHA1: 1aecefa8168697ae4de292af7bef2fd6e786a24f
+MD5sum: ac99e62cb2dabb0f15921ef5e8c1fe90
+Description: Linux kernel headers for 6.1.83-k3 on arm64
+ This package provides kernel header files for 6.1.83-k3 on arm64
  .
  This is useful for people who need to build external modules
 
-Package: linux-headers-6.1.80-k3-rt
+Package: linux-headers-6.1.83-k3-rt
 Source: ti-linux-kernel-rt
 Version: 09.02.00.010-rt-1
 Architecture: arm64
@@ -689,17 +689,17 @@ Installed-Size: 49352
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/t/ti-linux-kernel-rt/linux-headers-6.1.80-k3-rt_09.02.00.010-rt-1_arm64.deb
-Size: 8169184
-SHA256: 761cdf3c4d50ecee7a6e430cc2eda54180a416dc6d17e592406822cdecb9307c
-SHA1: 6be1344852c03fb0bcc64c8a702b24bdf560c2d8
-MD5sum: 059508b6dde575dc83fdc91a79625c09
-Description: Linux kernel headers for 6.1.80-k3-rt on arm64
- This package provides kernel header files for 6.1.80-k3-rt on arm64
+Filename: pool/main/t/ti-linux-kernel-rt/linux-headers-6.1.83-k3-rt_09.02.00.010-rt-1_arm64.deb
+Size: 8168784
+SHA256: 9c776088b3dfe9c962ab0a57f2031ec586b5e1361dfde1eb229d5fccb0d84d88
+SHA1: 04c1a5c6b67f02bb2f74b1fea1a260683edb154e
+MD5sum: 9b88567ad65b0cfe9ed261d5d25399c6
+Description: Linux kernel headers for 6.1.83-k3-rt on arm64
+ This package provides kernel header files for 6.1.83-k3-rt on arm64
  .
  This is useful for people who need to build external modules
 
-Package: linux-image-6.1.80-k3
+Package: linux-image-6.1.83-k3
 Source: ti-linux-kernel
 Version: 09.02.00.010-1
 Architecture: arm64
@@ -708,34 +708,34 @@ Installed-Size: 42935
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/t/ti-linux-kernel/linux-image-6.1.80-k3_09.02.00.010-1_arm64.deb
-Size: 14662836
-SHA256: 63a0958fdaa9d9f0edc574f90b25f2d38083664387fbb769d58999a73a564245
-SHA1: 3f67c84aa2a0e031b61dafdf3439d6b882f379df
-MD5sum: 9afb7997363e6ab27af907fa516582ad
-Description: Linux kernel, version 6.1.80-k3
+Filename: pool/main/t/ti-linux-kernel/linux-image-6.1.83-k3_09.02.00.010-1_arm64.deb
+Size: 14665252
+SHA256: 91353d63ec4263df86dbbdb357dae8b76390396aa5a8e9f95658c2ee88049d67
+SHA1: a6e36669f27a1ce06e4e863d0b4cd51956787b32
+MD5sum: 2f15b43aac2308e4951a80a3e8aae7dd
+Description: Linux kernel, version 6.1.83-k3
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.1.80-k3.
+ files, version: 6.1.83-k3.
 
-Package: linux-image-6.1.80-k3-dbg
+Package: linux-image-6.1.83-k3-dbg
 Source: ti-linux-kernel
 Version: 09.02.00.010-1
 Architecture: arm64
 Maintainer: Andrew Davis <afd@ti.com>
-Installed-Size: 200121
+Installed-Size: 199992
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: debug
-Filename: pool/main/t/ti-linux-kernel/linux-image-6.1.80-k3-dbg_09.02.00.010-1_arm64.deb
-Size: 46195576
-SHA256: 62da0019470e9071d257faf5a66dcd7e2629cd8a3d87fb6eb4da445ee032b485
-SHA1: 5f8ccab25a9e0b60d91d44a1ab290cf6940d7784
-MD5sum: 2b59f042950cf2560ce7dec6c7aed1d2
-Description: Linux kernel debugging symbols for 6.1.80-k3
+Filename: pool/main/t/ti-linux-kernel/linux-image-6.1.83-k3-dbg_09.02.00.010-1_arm64.deb
+Size: 46181960
+SHA256: 73a78e424b4bc340130d6823a4eaab0af38b8ceb014e5821d26dc14f428fdccd
+SHA1: 0d51c5586cad0d00a6f991799a2b8374d0634abe
+MD5sum: d92eed4512d86f54357d1cd6690b75c3
+Description: Linux kernel debugging symbols for 6.1.83-k3
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
 
-Package: linux-image-6.1.80-k3-rt
+Package: linux-image-6.1.83-k3-rt
 Source: ti-linux-kernel-rt
 Version: 09.02.00.010-rt-1
 Architecture: arm64
@@ -744,30 +744,30 @@ Installed-Size: 39273
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/t/ti-linux-kernel-rt/linux-image-6.1.80-k3-rt_09.02.00.010-rt-1_arm64.deb
-Size: 12627940
-SHA256: 33e1eb8455510b2813b9f9c39ac5af3209ebb7e1703dd8680434bd9971c6067b
-SHA1: 1c33bbb8de826c663f3f6527ee010e57f0ba82c8
-MD5sum: e9ac86aab15eef28d102f56f853a1fce
-Description: Linux kernel, version 6.1.80-k3-rt
+Filename: pool/main/t/ti-linux-kernel-rt/linux-image-6.1.83-k3-rt_09.02.00.010-rt-1_arm64.deb
+Size: 12626672
+SHA256: 6fd517113131661f38f9b0d3d1f054f4469f0032d030ff1d8da569b863d7808e
+SHA1: a8721d8e85895dc2a3d981287882ca4a04b6b484
+MD5sum: 1f3f14c94c341d2dc8602d01427be199
+Description: Linux kernel, version 6.1.83-k3-rt
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.1.80-k3-rt.
+ files, version: 6.1.83-k3-rt.
 
-Package: linux-image-6.1.80-k3-rt-dbg
+Package: linux-image-6.1.83-k3-rt-dbg
 Source: ti-linux-kernel-rt
 Version: 09.02.00.010-rt-1
 Architecture: arm64
 Maintainer: Andrew Davis <afd@ti.com>
-Installed-Size: 181151
+Installed-Size: 181008
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: debug
-Filename: pool/main/t/ti-linux-kernel-rt/linux-image-6.1.80-k3-rt-dbg_09.02.00.010-rt-1_arm64.deb
-Size: 41537812
-SHA256: aee87ddb55d703b42d8c037faf6d77a14d10568e892ddcf935873f4b2f4eaefc
-SHA1: 6e5bafb783129a7e1da8f7a08b348a5d9b399a8f
-MD5sum: 3968b2006ccabe11ebdd9c132d423949
-Description: Linux kernel debugging symbols for 6.1.80-k3-rt
+Filename: pool/main/t/ti-linux-kernel-rt/linux-image-6.1.83-k3-rt-dbg_09.02.00.010-rt-1_arm64.deb
+Size: 41543440
+SHA256: 600ae8c7b42c3766935f6e451b32a4c8aeb86a9baba270cb0648a6f96761c5d7
+SHA1: 256b4d8ebd2668bdab84eb23884c5b267cf38730
+MD5sum: c42787f001deaa5a8326109f06e108ea
+Description: Linux kernel debugging symbols for 6.1.83-k3-rt
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
 
@@ -783,10 +783,10 @@ Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
 Filename: pool/main/t/ti-linux-kernel-rt/linux-libc-dev_09.02.00.010-rt-1_arm64.deb
-Size: 1252652
-SHA256: bb6bd02cb3175dea390a4831b1bc522909759b661a53b378a1642c604be0061a
-SHA1: 04211a52f1b92d6200ebf4e93828c3e502b7946c
-MD5sum: f78b5e8e9a58095106239aca7e90f651
+Size: 1252540
+SHA256: 9036a9c439945d195bf0569491d16b539b9bf13f46ba2a9ed6a44c4ece7bd499
+SHA1: 484873b99b4c154cfae83143d586cb36eb53d1a3
+MD5sum: 905aa0664350de2a60adc92db57613cc
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
