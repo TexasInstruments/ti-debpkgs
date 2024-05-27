@@ -662,131 +662,131 @@ Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
 Package: linux-headers-6.1.80-k3
-Source: linux-upstream
-Version: 6.1.80-k3-1
+Source: ti-linux-kernel
+Version: 09.02.00.010-1
 Architecture: arm64
-Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
-Installed-Size: 49435
+Maintainer: Andrew Davis <afd@ti.com>
+Installed-Size: 49431
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.1.80-k3_6.1.80-k3-1_arm64.deb
-Size: 8182824
-SHA256: 65cfba3ffa0b2fbd80cc0e8e55655be508667669690a28613c07163829de690d
-SHA1: 435d399230c2255033300b692638794ec30c4ea6
-MD5sum: 67a80eeaa3965f1b42045e83bf0889b6
+Filename: pool/main/t/ti-linux-kernel/linux-headers-6.1.80-k3_09.02.00.010-1_arm64.deb
+Size: 8180504
+SHA256: 9e37e3487a6829c265bc9cdeb784f7dad9527a62761446f6cf203687e5bf62f5
+SHA1: 63f20cf2c3d597793e2d2a94db06b10bb2e46ee7
+MD5sum: a395390f71c536c1ef621915e5e7c01c
 Description: Linux kernel headers for 6.1.80-k3 on arm64
  This package provides kernel header files for 6.1.80-k3 on arm64
  .
  This is useful for people who need to build external modules
 
-Package: linux-headers-6.1.80-rt26-k3-rt
-Source: linux-upstream
-Version: 6.1.80-rt26-k3-rt-1
+Package: linux-headers-6.1.80-k3-rt
+Source: ti-linux-kernel-rt
+Version: 09.02.00.010-rt-1
 Architecture: arm64
-Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
-Installed-Size: 49409
+Maintainer: Andrew Davis <afd@ti.com>
+Installed-Size: 49352
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.1.80-rt26-k3-rt_6.1.80-rt26-k3-rt-1_arm64.deb
-Size: 8171100
-SHA256: 095ab75afce1c70fd48180aed2252bed826fe8ea34b09e31c28cb39580c0c0c4
-SHA1: c851c451d97ddc785c9226a715872d49cfa49fd2
-MD5sum: 318bb0d48fdbda006baa28e148f41c62
-Description: Linux kernel headers for 6.1.80-rt26-k3-rt on arm64
- This package provides kernel header files for 6.1.80-rt26-k3-rt on arm64
+Filename: pool/main/t/ti-linux-kernel-rt/linux-headers-6.1.80-k3-rt_09.02.00.010-rt-1_arm64.deb
+Size: 8169184
+SHA256: 761cdf3c4d50ecee7a6e430cc2eda54180a416dc6d17e592406822cdecb9307c
+SHA1: 6be1344852c03fb0bcc64c8a702b24bdf560c2d8
+MD5sum: 059508b6dde575dc83fdc91a79625c09
+Description: Linux kernel headers for 6.1.80-k3-rt on arm64
+ This package provides kernel header files for 6.1.80-k3-rt on arm64
  .
  This is useful for people who need to build external modules
 
 Package: linux-image-6.1.80-k3
-Source: linux-upstream
-Version: 6.1.80-k3-1
+Source: ti-linux-kernel
+Version: 09.02.00.010-1
 Architecture: arm64
-Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
-Installed-Size: 42893
+Maintainer: Andrew Davis <afd@ti.com>
+Installed-Size: 42935
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.1.80-k3_6.1.80-k3-1_arm64.deb
-Size: 14660816
-SHA256: a7b4cb7f82b08b64d983779eedc5b6d97aa7a9c9bec5acead9bbe1c7e922f3c3
-SHA1: d07f5ca094b5e1f394e61e3f31c50dca0a1b1a2e
-MD5sum: 36b7b1c9fca286aecd8b5f0299aa2a8d
+Filename: pool/main/t/ti-linux-kernel/linux-image-6.1.80-k3_09.02.00.010-1_arm64.deb
+Size: 14662836
+SHA256: 63a0958fdaa9d9f0edc574f90b25f2d38083664387fbb769d58999a73a564245
+SHA1: 3f67c84aa2a0e031b61dafdf3439d6b882f379df
+MD5sum: 9afb7997363e6ab27af907fa516582ad
 Description: Linux kernel, version 6.1.80-k3
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.80-k3.
 
 Package: linux-image-6.1.80-k3-dbg
-Source: linux-upstream
-Version: 6.1.80-k3-1
+Source: ti-linux-kernel
+Version: 09.02.00.010-1
 Architecture: arm64
-Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
-Installed-Size: 200027
+Maintainer: Andrew Davis <afd@ti.com>
+Installed-Size: 200121
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: debug
-Filename: pool/main/l/linux-upstream/linux-image-6.1.80-k3-dbg_6.1.80-k3-1_arm64.deb
-Size: 46173804
-SHA256: aa7c23a8a6e26acbf6f7f8ed959dbaaf59cee1018d06e932cdd3cf803b9d4539
-SHA1: 08b7eb4117a43ba46cbcf9b06bffe8a034fcd706
-MD5sum: 5225270ea591d755b92a4cda2a83f32d
+Filename: pool/main/t/ti-linux-kernel/linux-image-6.1.80-k3-dbg_09.02.00.010-1_arm64.deb
+Size: 46195576
+SHA256: 62da0019470e9071d257faf5a66dcd7e2629cd8a3d87fb6eb4da445ee032b485
+SHA1: 5f8ccab25a9e0b60d91d44a1ab290cf6940d7784
+MD5sum: 2b59f042950cf2560ce7dec6c7aed1d2
 Description: Linux kernel debugging symbols for 6.1.80-k3
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
 
-Package: linux-image-6.1.80-rt26-k3-rt
-Source: linux-upstream
-Version: 6.1.80-rt26-k3-rt-1
+Package: linux-image-6.1.80-k3-rt
+Source: ti-linux-kernel-rt
+Version: 09.02.00.010-rt-1
 Architecture: arm64
-Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
-Installed-Size: 39239
+Maintainer: Andrew Davis <afd@ti.com>
+Installed-Size: 39273
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.1.80-rt26-k3-rt_6.1.80-rt26-k3-rt-1_arm64.deb
-Size: 12620240
-SHA256: 2d4bae4e66a4e13c177ce50fdca31f97cf6131b620f072869b310975c2d5b10b
-SHA1: 29c519eace3e99e4c98ac0e361d22f7e9295d62c
-MD5sum: 3597dc2b478f94eba4a013fa5cdb6994
-Description: Linux kernel, version 6.1.80-rt26-k3-rt
+Filename: pool/main/t/ti-linux-kernel-rt/linux-image-6.1.80-k3-rt_09.02.00.010-rt-1_arm64.deb
+Size: 12627940
+SHA256: 33e1eb8455510b2813b9f9c39ac5af3209ebb7e1703dd8680434bd9971c6067b
+SHA1: 1c33bbb8de826c663f3f6527ee010e57f0ba82c8
+MD5sum: e9ac86aab15eef28d102f56f853a1fce
+Description: Linux kernel, version 6.1.80-k3-rt
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.1.80-rt26-k3-rt.
+ files, version: 6.1.80-k3-rt.
 
-Package: linux-image-6.1.80-rt26-k3-rt-dbg
-Source: linux-upstream
-Version: 6.1.80-rt26-k3-rt-1
+Package: linux-image-6.1.80-k3-rt-dbg
+Source: ti-linux-kernel-rt
+Version: 09.02.00.010-rt-1
 Architecture: arm64
-Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
-Installed-Size: 180978
+Maintainer: Andrew Davis <afd@ti.com>
+Installed-Size: 181151
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: debug
-Filename: pool/main/l/linux-upstream/linux-image-6.1.80-rt26-k3-rt-dbg_6.1.80-rt26-k3-rt-1_arm64.deb
-Size: 41519040
-SHA256: c17a02efaf3ffa54e2f7fb024604675f5b729b663abb3a5cc954a9154b7023ba
-SHA1: fc5234b9b6f968301d487f6b15418fe82aefa6b4
-MD5sum: 27dbf9fe64010d23875dd27c306a688b
-Description: Linux kernel debugging symbols for 6.1.80-rt26-k3-rt
+Filename: pool/main/t/ti-linux-kernel-rt/linux-image-6.1.80-k3-rt-dbg_09.02.00.010-rt-1_arm64.deb
+Size: 41537812
+SHA256: aee87ddb55d703b42d8c037faf6d77a14d10568e892ddcf935873f4b2f4eaefc
+SHA1: 6e5bafb783129a7e1da8f7a08b348a5d9b399a8f
+MD5sum: 3968b2006ccabe11ebdd9c132d423949
+Description: Linux kernel debugging symbols for 6.1.80-k3-rt
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
 
 Package: linux-libc-dev
-Source: linux-upstream
-Version: 6.1.80-rt26-k3-rt-1
+Source: ti-linux-kernel-rt
+Version: 09.02.00.010-rt-1
 Architecture: arm64
-Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
-Installed-Size: 6502
+Maintainer: Andrew Davis <afd@ti.com>
+Installed-Size: 6503
 Provides: linux-kernel-headers
 Multi-Arch: same
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-upstream/linux-libc-dev_6.1.80-rt26-k3-rt-1_arm64.deb
-Size: 1252188
-SHA256: 17bb1a61fec4fab7939feb1f4d33d458f5804e676bb8d8569e561a007d121f0b
-SHA1: 6242bfd3746ab8d0a652c0d260360644d65df9ca
-MD5sum: 8cc4af86919b048aaecd4096deb7be7a
+Filename: pool/main/t/ti-linux-kernel-rt/linux-libc-dev_09.02.00.010-rt-1_arm64.deb
+Size: 1252652
+SHA256: bb6bd02cb3175dea390a4831b1bc522909759b661a53b378a1642c604be0061a
+SHA1: 04211a52f1b92d6200ebf4e93828c3e502b7946c
+MD5sum: f78b5e8e9a58095106239aca7e90f651
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
