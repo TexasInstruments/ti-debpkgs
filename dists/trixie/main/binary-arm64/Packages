@@ -537,6 +537,81 @@ MD5sum: ddf93b7125bfc5c6bc76852507a760b6
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
+Package: linux-headers-6.6.32-k3
+Source: linux-upstream
+Version: 6.6.32-1
+Architecture: arm64
+Maintainer: root <root@1e2fe2ea52bd>
+Installed-Size: 51792
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.6.32-k3_6.6.32-1_arm64.deb
+Size: 8474260
+SHA256: eba5d7d8b8a2a7144720d7fae24036332c438982ca880229fd02dca29a56ba49
+SHA1: 58a083280fab3aa5237d4b0f377834887e72901a
+MD5sum: 33cc28fca757c5651b0402f657b20980
+Description: Linux kernel headers for 6.6.32-k3 on arm64
+ This package provides kernel header files for 6.6.32-k3 on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-6.6.32-k3
+Source: linux-upstream
+Version: 6.6.32-1
+Architecture: arm64
+Maintainer: root <root@1e2fe2ea52bd>
+Installed-Size: 46562
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.6.32-k3_6.6.32-1_arm64.deb
+Size: 15282880
+SHA256: df153c5056b5e97c3455a9698b888479ab1d33b0906720248ace343bd38f08c1
+SHA1: 9605b14030c205f62c43dc1927db3d7d397d0b05
+MD5sum: ecf20f2ec168ea0d007df38df5d06656
+Description: Linux kernel, version 6.6.32-k3
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.6.32-k3.
+
+Package: linux-image-6.6.32-k3-dbg
+Source: linux-upstream
+Version: 6.6.32-1
+Architecture: arm64
+Maintainer: root <root@1e2fe2ea52bd>
+Installed-Size: 212419
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: debug
+Filename: pool/main/l/linux-upstream/linux-image-6.6.32-k3-dbg_6.6.32-1_arm64.deb
+Size: 48353876
+SHA256: 5c69f3205b0f3e301d0a87eb27728fc9bdc5bd1b41880535273e40dbd8a0c0e6
+SHA1: ccb3cc24bf9b71a47e3237b2a631b84db5679918
+MD5sum: 4a83fe83c626130fd761fb635ff6fed4
+Description: Linux kernel debugging symbols for 6.6.32-k3
+ This package will come in handy if you need to debug the kernel. It provides
+ all the necessary debug symbols for the kernel and its modules.
+
+Package: linux-libc-dev
+Source: linux-upstream
+Version: 6.6.32-1
+Architecture: arm64
+Maintainer: root <root@1e2fe2ea52bd>
+Installed-Size: 6713
+Provides: linux-kernel-headers
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-upstream/linux-libc-dev_6.6.32-1_arm64.deb
+Size: 1295192
+SHA256: c0ed4b1944602c6cbf20cdc55ea5ddf75a547a157850c5a34a9feeb69e29763b
+SHA1: 8116d41a53aa5edcbaf999a3093f40d8e15774fe
+MD5sum: e658342e3a417f66812c835b7dc07c11
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
 Package: mesa-common-dev
 Source: mesa
 Version: 23.2.1+git20240304+b12290126ba-1
