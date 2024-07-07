@@ -1,0 +1,5 @@
+Component: contrib
+Origin: ti-debpkgs
+Label: ti-debpkgs
+Architecture: source
+Description: Apt repository for Texas Instruments

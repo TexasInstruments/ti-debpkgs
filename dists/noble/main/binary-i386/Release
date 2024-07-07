@@ -1,0 +1,5 @@
+Component: main
+Origin: ti-debpkgs
+Label: ti-debpkgs
+Architecture: i386
+Description: Apt repository for Texas Instruments
