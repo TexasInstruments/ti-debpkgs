@@ -8,6 +8,22 @@ SignWith: C0E7F6918BF682EE81CF99FB98124C7005D360BD
 
 Origin: ti-debpkgs
 Label: ti-debpkgs
+Codename: trixie
+Architectures: source i386 amd64 arm64
+Components: main contrib non-free
+Description: Apt repository for Texas Instruments
+SignWith: C0E7F6918BF682EE81CF99FB98124C7005D360BD
+
+Origin: ti-debpkgs
+Label: ti-debpkgs
+Codename: noble
+Architectures: source i386 amd64 arm64
+Components: main contrib non-free
+Description: Apt repository for Texas Instruments
+SignWith: C0E7F6918BF682EE81CF99FB98124C7005D360BD
+
+Origin: ti-debpkgs
+Label: ti-debpkgs
 Codename: bookworm
 Architectures: source i386 amd64 arm64
 Components: main contrib non-free
