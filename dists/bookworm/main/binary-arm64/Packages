@@ -592,10 +592,10 @@ Homepage: https://git.ti.com/cgit/rpmsg/ti-rpmsg-char
 Priority: optional
 Section: libs
 Filename: pool/main/t/ti-rpmsg-char/libti-rpmsg-char_0.6.6+git20240226+55a6f40-1_arm64.deb
-Size: 10212
-SHA256: 9326fe5aa4271cdcf76ff83da7c7783b5c282cfcedb30450cb3075a58125b4f3
-SHA1: 16d9cac5ca24e082024835b5dede4e427936ba1e
-MD5sum: d6d7cde8163dc0ced6eda1912b4fa4ee
+Size: 10140
+SHA256: 8a36ac0acead08a084613b0c2796029a492260cf5a9af9ddbad58049b20a070b
+SHA1: af8137478511ded0f36ee4e2191a0f6914d4fa54
+MD5sum: 604edfe36168240bb47a85a7fee15360
 Description: RPMSG-char Utility Library
  ti-rpmsg-char is a library designed to provide Linux applications an easy means
  to open and identify rpmsg character devices created by the Linux kernel
@@ -631,10 +631,10 @@ Homepage: https://git.ti.com/cgit/rpmsg/ti-rpmsg-char
 Priority: optional
 Section: libdevel
 Filename: pool/main/t/ti-rpmsg-char/libti-rpmsg-char-dev_0.6.6+git20240226+55a6f40-1_arm64.deb
-Size: 12956
-SHA256: 7072808d4195f83a7a407aa545bf822de0ff72ad19b894fb80f6df3c632e1abe
-SHA1: 5473cece0c98ebf70869ed47e29c4988f4ac7209
-MD5sum: df0625b99246f6d8a97a26556e65c857
+Size: 12888
+SHA256: b58534ed5f869b7e16bcc1d6616e1afff0da73a291827f10ba69b80363fe18c7
+SHA1: 97c975204d9f469a762b2d1e64bd12906499b3cc
+MD5sum: 488ea839be112dc332dc4b4101bb5d8a
 Description: RPMSG-char Utility Library
  ti-rpmsg-char is a library designed to provide Linux applications an easy means
  to open and identify rpmsg character devices created by the Linux kernel

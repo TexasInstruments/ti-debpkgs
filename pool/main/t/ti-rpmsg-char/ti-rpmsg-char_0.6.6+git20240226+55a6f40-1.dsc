@@ -11,11 +11,11 @@ Package-List:
  libti-rpmsg-char deb libs optional arch=any
  libti-rpmsg-char-dev deb libdevel optional arch=any
 Checksums-Sha1:
- 96a34775330cf80eb6c10ab32e977a09b53c8993 54114 ti-rpmsg-char_0.6.6+git20240226+55a6f40.orig.tar.gz
- 6d8c41fb9c29ecef88ece23f6e8836c5ea88810a 3020 ti-rpmsg-char_0.6.6+git20240226+55a6f40-1.debian.tar.xz
+ 148cc3c43b19e1cf27fae6b434c60aaa3cc7a10c 54114 ti-rpmsg-char_0.6.6+git20240226+55a6f40.orig.tar.gz
+ 140847049ad94a97777cbc145e6b3d49badcabd8 2968 ti-rpmsg-char_0.6.6+git20240226+55a6f40-1.debian.tar.xz
 Checksums-Sha256:
- f9052f4d433e265426304ad912b223f30ebe0b1f54539a9e7981f60ac774cb36 54114 ti-rpmsg-char_0.6.6+git20240226+55a6f40.orig.tar.gz
- 7ce2a53abade280921caa83dfe66e9c4d678ff9ae421125b8d2179756ed83eee 3020 ti-rpmsg-char_0.6.6+git20240226+55a6f40-1.debian.tar.xz
+ 4672abda037111801436de209f4d56d8dbdfb9d4d08eb637ae4d0bf4c5b91d20 54114 ti-rpmsg-char_0.6.6+git20240226+55a6f40.orig.tar.gz
+ 042e5402970f0b943b8c77f37ba1600de4afeb4b8e8962ee04015f04b0b1dab8 2968 ti-rpmsg-char_0.6.6+git20240226+55a6f40-1.debian.tar.xz
 Files:
- 414994fef291167f8a7d291f7c12c74a 54114 ti-rpmsg-char_0.6.6+git20240226+55a6f40.orig.tar.gz
- f30ed47f43c3e852c5bc7a0d3ef2384e 3020 ti-rpmsg-char_0.6.6+git20240226+55a6f40-1.debian.tar.xz
+ 5dce5c60f05e5cb77d4697c5326a0389 54114 ti-rpmsg-char_0.6.6+git20240226+55a6f40.orig.tar.gz
+ ae41f1e35c51eb31d5920ee0e0d27aa4 2968 ti-rpmsg-char_0.6.6+git20240226+55a6f40-1.debian.tar.xz
