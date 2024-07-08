@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: ti-debpkgs
 Label: ti-debpkgs
 Codename: noble
-Date: Sun, 07 Jul 2024 21:45:15 UTC
+Date: Mon, 08 Jul 2024 19:59:32 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free
 Description: Apt repository for Texas Instruments
@@ -15,11 +15,11 @@ MD5Sum:
  89aba0461cd2f4353e9e5a49a9eab7fe 4130 main/binary-amd64/Packages
  cc4c4c13ca5d3875ad5d5fb897a98a40 1019 main/binary-amd64/Packages.gz
  2c6fcd74823f6f964b310818f61157f3 123 main/binary-amd64/Release
- e527ba721e0ee94df6ad7287c460b0d5 40750 main/binary-arm64/Packages
- 55e9f1a784ebf16011d0be4f909f96f9 9896 main/binary-arm64/Packages.gz
+ abe9876b8492df4dffc665677e6aa408 42194 main/binary-arm64/Packages
+ 5ef33295e9c012b4cea518efa336c025 10394 main/binary-arm64/Packages.gz
  228444ed8db3f04c52ec989d228e5ed2 123 main/binary-arm64/Release
- bcb575f3096854a84178934ed3d4ddbc 3386 main/source/Sources
- 90f3366973c7ead279041f4fa25a51fa 1127 main/source/Sources.gz
+ 6bcdeef8ec3d4db227e5c664540c485b 4665 main/source/Sources
+ 5b4a1cc24fc975777242f0f111ded005 1502 main/source/Sources.gz
  c8b3c743c4fa9e284ff5d87ca4f7efb2 124 main/source/Release
  d41d8cd98f00b204e9800998ecf8427e 0 contrib/binary-i386/Packages
  7029066c27ac6f5ef18d660d5741979a 20 contrib/binary-i386/Packages.gz
@@ -52,11 +52,11 @@ SHA1:
  b0a11b63826925df573f8560ac83d0bda38f255b 4130 main/binary-amd64/Packages
  97c7f8f3462386d62e899f4703ee83ef649e8c4d 1019 main/binary-amd64/Packages.gz
  1ea883a1bd831115d0eaff8a29fa48b8495d7b78 123 main/binary-amd64/Release
- 0b3dfe8914891bc7c8b1ede9c5f6d150d78fae55 40750 main/binary-arm64/Packages
- 0557668321ac067db92bb92e65517cd8aa6b8901 9896 main/binary-arm64/Packages.gz
+ ddcbd871c0356b8d969bb5252af47839b840b355 42194 main/binary-arm64/Packages
+ 0dca04f6915a0098232b0b795eae3b8bd8a7785a 10394 main/binary-arm64/Packages.gz
  517aec9b0fa2d9bb286352911f41b588d0e1c8b0 123 main/binary-arm64/Release
- 9225598b6d804ecedf85c1f3f1bf1b5c3d7d1e2a 3386 main/source/Sources
- dcc99d260ca460612d7a45fde4e8c9b0ba96012b 1127 main/source/Sources.gz
+ 6c2e410523eddcbef420392844a0f6a32bd1c544 4665 main/source/Sources
+ 55cfa6351e39b093d4e0f6daf486886421a04174 1502 main/source/Sources.gz
  1a6a600a67db476c852c0850377502fcba975a99 124 main/source/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 contrib/binary-i386/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 contrib/binary-i386/Packages.gz
@@ -89,11 +89,11 @@ SHA256:
  a2d4dceb751425a462a8387d9e1f8ef93addc55ed492ef57910401a41bb74ef4 4130 main/binary-amd64/Packages
  bdf9ae8bde985049c7f58e5e206c2bd7bb644f16c0c579827c77c22589b3d2b1 1019 main/binary-amd64/Packages.gz
  5a16594b5c2def0cfa79c51177a8845f60510f3a6319bae9e409f3c8c38a28f3 123 main/binary-amd64/Release
- 191b793f31a359c3e97981886594fc575261fdbd67137f08a911b708f26a572f 40750 main/binary-arm64/Packages
- b6225c5777d40c27417c1b9de7a089d512c6b2f20dc7f73292ae36b81b797276 9896 main/binary-arm64/Packages.gz
+ 9f0ca83531ff256ac29dcd365d6eea45d36a4192c8f81b6143f7d41ef8412bb0 42194 main/binary-arm64/Packages
+ e9f716218f228bddf2d6fb28df9a4e0db9da90068b56697b24d03703736954d8 10394 main/binary-arm64/Packages.gz
  8a48fe07b14d83e27f37c1e316c300b4d0a3c96288acd35a5685e1164f77730e 123 main/binary-arm64/Release
- ea549fa88883940fef5b3994debae0106fda4d9b66e0336fcc172e7b0603ff2e 3386 main/source/Sources
- 59e45f76c71a534c13bde5c4ad50a58b33843b34e35ec88221f7bb4272d9966e 1127 main/source/Sources.gz
+ eb6e936097f0af202cb43901c43ac6d9a0d44013aaf4034017cd002f2aaa3cce 4665 main/source/Sources
+ 83ec5d254975c65ef1a6ce3ea24b4cbd82b9e3a268ca5a297fd71671f23ef039 1502 main/source/Sources.gz
  15da231b396defcc33cff994f628849daf084f845fe758f3bbf0b5841371daaa 124 main/source/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 contrib/binary-i386/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 contrib/binary-i386/Packages.gz
@@ -121,17 +121,17 @@ SHA256:
  fbc2d4a3d4bb28ce90ecd90ebc3abd338502e89f8f94e7a9e9f727bb0f1b1a2e 128 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE21KzNjsY8ZPiWrwZg/qyh5xYF9oFAmaLDGwACgkQg/qyh5xY
-F9r6Cg//U2i9yc7Z+966lLz6erFrT7BndgiMTQsB7KxvW/k9x/2CT1XaKyuZ73AM
-kub6NWCU8cP/ubEw7CGYoHv5FQnQKKUJEAgLefPMwqzcoEZkAC7AXZCKWGFpXxFo
-8t35SquTzyNfydUeYnq2+mKueedvTKWjM+ho6yk6ivmHqtVFRT2lF5tcFOxK8qOt
-ML9l+w2d92jOtylbBW/9NEsdWAHhz396YNMuqM9BMoGnX8iU8mlLWYo0Zo8rZfyn
-Zl6wN/urJWvX3aZbvduVRP9ctTYLFF2yLEFnCegD1kqqBu+cUl9dFpdirxyqsZH7
-4986kkqScZNr8/H9RBPlMHf5Od/+KAEJ5hJnyQdLu/EWKxfbpFfQcTWut5lzuSAU
-ckT8FUIUtXX8LyG33qKH0B1t6u3nHUPj+UTMvcth5B7wuCNHWwwx7UrLZc8GFUmO
-dp3ElbA9446c6XEK9SoMph5L5IKlo8zqGEesyg+MXJoWil60QS/G9fbPqvY8C73o
-tWXZq8Wbif4GV3wiGPMLghb02lpwYCiPhBmPdSP6QekWMZITb2C3yKulGxbLLCtN
-GS8XY6s0nVzADcppkQa+NseUou9HBYiEoL3UyKQkokpb7WdwFNEueWSp+H93XMCC
-0b410rvPY3+fah7bGGXl4Q+coj1GPKgQkkfVlpwbH1UpOrlloGA=
-=trD5
+iQIzBAEBCgAdFiEE21KzNjsY8ZPiWrwZg/qyh5xYF9oFAmaMRSQACgkQg/qyh5xY
+F9oaCw/+M6TQgm1xGvz4h80Sjez/CxVxi1fa+SvxyEeNyAAgIaKDt5CsG1SBurfP
+K0dWTQHQKbZaBvgZE+kiOKNFORvQKzVPlSjOpgYHGtIfbpjlHiO0EIGYDPbokrAd
+iszIvYfNKOP+Z27hHKgsBhg79lsE0u32qQII+24zcz2kqA5oMEQvcaPR/8VzowAs
+tTEQuF23VS7THFAZVNhrZLBhwUe4Mx6uefUIDrVWT3VAo7OeB1lFl8L20wdvjzjz
+J31Yj0Rmcgo+d0iUtj8g82xGO9q/fd6tr4gywwHDtsRpUAt4/lK3j9Hqv6W+6Xm5
+wFD37/y3mSXhiR9HNVw0fQwgs5zLyqbzZ37by5PIVZbAuqz3qVYaTihgn3J9ir4U
+vH1T9p0iteJJDzdgBVZ4dRrTtty2k/gIPY1IgFw6+YJphpKSxdunGSqIcVI36o2n
+byoOcbWwIfo93/z+T7mr9ZOMNEIGXXumMUcG5EuMhpu87AQmE24TaRcaLDQCFZ8j
+8voNiTPMO+8NQCIKOsvA1898dTvnrDcZowgw3TPYHAep+ANU40HazPd6LjzCFE/e
+6hwfA2UgiV4zt37/NC6fbJUsTiauAgKCBbxnS+UGy6wW05p64gLqpkrSelV++plf
+M27QS/Xcq7Lh91VYRE5YvYX2vQIGgJhlGYnyAqo7k+ac7AGxPSc=
+=/qxe
 -----END PGP SIGNATURE-----

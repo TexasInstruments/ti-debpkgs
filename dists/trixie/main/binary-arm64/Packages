@@ -20,6 +20,44 @@ Description: Linux Kernel device for cryptographic accelerator access
  ciphers in kernel space from userspace, thus enabling the re-use of a hardware
  implementation of a cipher.
 
+Package: k3conf
+Version: 0.3+git20240306+85a7433-1
+Architecture: arm64
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Installed-Size: 3835
+Depends: libc6 (>= 2.34)
+Homepage: https://git.ti.com/cgit/k3conf/k3conf
+Priority: optional
+Section: devel
+Filename: pool/main/k/k3conf/k3conf_0.3+git20240306+85a7433-1_arm64.deb
+Size: 92752
+SHA256: 6b16119c5f3541f429f6c39e59cb3bbc7de26598484c51d6576c628ebca6b62e
+SHA1: f8af08ac449716545b7877a9db53e1874c6e8595
+MD5sum: c6d94b9ad74d07bfc18b75c8fcab29ed
+Description: Powerful Diagnostic Tool for Texas Instruments K3 based Processors
+ K3CONF is a Linux user-space application designed to provide a quick'n easy way
+ to dynamically diagnose Texas Instruments' K3 architecture based processors.
+ k3conf is intended to provide a similar experience to that of OMAPCONF that
+ runs on legacy TI platforms.
+
+Package: k3conf-dbgsym
+Source: k3conf
+Version: 0.3+git20240306+85a7433-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Installed-Size: 95
+Depends: k3conf (= 0.3+git20240306+85a7433-1)
+Priority: optional
+Section: debug
+Filename: pool/main/k/k3conf/k3conf-dbgsym_0.3+git20240306+85a7433-1_arm64.deb
+Size: 71108
+SHA256: 2167d8a68d811b92bb284c2e53b77f48e8049f88cd3bcaa10304df5207e67277
+SHA1: 71fad35744877e1cea150c86c5919ea98de7efce
+MD5sum: d69ca0262769c54c9d404d1aaf57886f
+Description: debug symbols for k3conf
+Build-Ids: 4a36e5d4b8d77d24f1eefbb30534b84baca6a73d
+
 Package: libd3dadapter9-mesa
 Source: mesa
 Version: 23.2.1+git20240304+b12290126ba-1
@@ -556,6 +594,25 @@ Description: Linux kernel headers for 6.6.32-k3 on arm64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-6.6.32-k3-rt
+Source: linux-upstream
+Version: 6.6.32-1
+Architecture: arm64
+Maintainer: root <root@1e2fe2ea52bd>
+Installed-Size: 51721
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.6.32-k3-rt_6.6.32-1_arm64.deb
+Size: 8466804
+SHA256: 74b4cfa2b4eda5f8de693ac4afb2f1a7905f800d063ea22cda47acee91596a10
+SHA1: cdeffba0931ed4b44b9524a9ee2ddc8c2de2643b
+MD5sum: 6cf8c470ed509570d9577c3f99357cdb
+Description: Linux kernel headers for 6.6.32-k3-rt on arm64
+ This package provides kernel header files for 6.6.32-k3-rt on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-6.6.32-k3
 Source: linux-upstream
 Version: 6.6.32-1
@@ -589,6 +646,42 @@ SHA256: 5c69f3205b0f3e301d0a87eb27728fc9bdc5bd1b41880535273e40dbd8a0c0e6
 SHA1: ccb3cc24bf9b71a47e3237b2a631b84db5679918
 MD5sum: 4a83fe83c626130fd761fb635ff6fed4
 Description: Linux kernel debugging symbols for 6.6.32-k3
+ This package will come in handy if you need to debug the kernel. It provides
+ all the necessary debug symbols for the kernel and its modules.
+
+Package: linux-image-6.6.32-k3-rt
+Source: linux-upstream
+Version: 6.6.32-1
+Architecture: arm64
+Maintainer: root <root@1e2fe2ea52bd>
+Installed-Size: 43174
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.6.32-k3-rt_6.6.32-1_arm64.deb
+Size: 13436672
+SHA256: 404cf173f31a86c8e133bb1c83492fb3529835b69faa0d5e9e1d3b629e35fac5
+SHA1: 63b881a96cfd540e74bd090bfec84d13c116809c
+MD5sum: ca9578c930df170aa77f632d4af03f6c
+Description: Linux kernel, version 6.6.32-k3-rt
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.6.32-k3-rt.
+
+Package: linux-image-6.6.32-k3-rt-dbg
+Source: linux-upstream
+Version: 6.6.32-1
+Architecture: arm64
+Maintainer: root <root@1e2fe2ea52bd>
+Installed-Size: 194387
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: debug
+Filename: pool/main/l/linux-upstream/linux-image-6.6.32-k3-rt-dbg_6.6.32-1_arm64.deb
+Size: 43958752
+SHA256: eac68f89addd0b3902088c8ef3816122304f16806e9bcd51ea59153471e8bb89
+SHA1: fa131562a6e3e813880b6f0d34f6a169394a9487
+MD5sum: a24dda368865ad62b797c33a416b8eaa
+Description: Linux kernel debugging symbols for 6.6.32-k3-rt
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
 

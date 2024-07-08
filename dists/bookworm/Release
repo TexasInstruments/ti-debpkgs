@@ -1,7 +1,7 @@
 Origin: ti-debpkgs
 Label: ti-debpkgs
 Codename: bookworm
-Date: Mon, 27 May 2024 18:00:50 UTC
+Date: Mon, 08 Jul 2024 19:59:15 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free
 Description: Apt repository for Texas Instruments
@@ -15,8 +15,8 @@ MD5Sum:
  dfa1d953c5cf6c77be870a57d273b3b2 47571 main/binary-arm64/Packages
  ed0c281ab8317096b9da9bab7a322ac0 11806 main/binary-arm64/Packages.gz
  228444ed8db3f04c52ec989d228e5ed2 123 main/binary-arm64/Release
- ba7a86bf1de1e63148f0d52dfd87ef38 8933 main/source/Sources
- 1185602687c27b21c32f1ec7b1c903a2 2694 main/source/Sources.gz
+ e1472a5741c8ddc70460ebdb47f5dc46 8933 main/source/Sources
+ 1833ba6dce92620186247cdd2b502666 2698 main/source/Sources.gz
  c8b3c743c4fa9e284ff5d87ca4f7efb2 124 main/source/Release
  d41d8cd98f00b204e9800998ecf8427e 0 contrib/binary-i386/Packages
  7029066c27ac6f5ef18d660d5741979a 20 contrib/binary-i386/Packages.gz
@@ -52,8 +52,8 @@ SHA1:
  73c51cf3fb85efc6a9ca4f88f27ae1c27c3dc18c 47571 main/binary-arm64/Packages
  b1aec01ee91828f869987942ee77d9a0bf410ab4 11806 main/binary-arm64/Packages.gz
  517aec9b0fa2d9bb286352911f41b588d0e1c8b0 123 main/binary-arm64/Release
- 6a31cdb6ab5b7f3ee7a8535f6a9351d37168dd28 8933 main/source/Sources
- 3e4af2c19dbf189f6ff1e56a759c526b7ad20f00 2694 main/source/Sources.gz
+ 002f1648c86c7b50cd138a294c0d76e9dd98f499 8933 main/source/Sources
+ 34cd259da05d901e7edd44b3ad87590d4972c772 2698 main/source/Sources.gz
  1a6a600a67db476c852c0850377502fcba975a99 124 main/source/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 contrib/binary-i386/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 contrib/binary-i386/Packages.gz
@@ -89,8 +89,8 @@ SHA256:
  d206eff788b9614627185402367d3b46b596d4f30073eeb5be2821b3343294a1 47571 main/binary-arm64/Packages
  68b3d7e02d73ee4c9481db53f251be745c5181916b74bef4f3bfbae7b2b667e8 11806 main/binary-arm64/Packages.gz
  8a48fe07b14d83e27f37c1e316c300b4d0a3c96288acd35a5685e1164f77730e 123 main/binary-arm64/Release
- 9469e5079f9b6d0789ece09fd549fc863c6692eabc7747086765cf5d0129b141 8933 main/source/Sources
- e05a85954192d9e6ab1d34c28f01391ea81321bad7ff7a46e7df7eda1dc43e31 2694 main/source/Sources.gz
+ 91b4e79364ca0a928784e4e6b225c5d20e169d8c6d748d114bd34464bbcbdd44 8933 main/source/Sources
+ 70dc14987d660169fd4541b788ac3326e639f2a6ae2b9d23a8e468c523cef823 2698 main/source/Sources.gz
  15da231b396defcc33cff994f628849daf084f845fe758f3bbf0b5841371daaa 124 main/source/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 contrib/binary-i386/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 contrib/binary-i386/Packages.gz
