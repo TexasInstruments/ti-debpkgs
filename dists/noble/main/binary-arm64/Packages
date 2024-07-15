@@ -1029,91 +1029,91 @@ Description: Programmable Real-time Unit (PRU) Software Support Package v6.1.0
 
 Package: ti-img-rogue-driver-am62-dkms
 Source: ti-img-rogue-driver
-Version: 24.1.6554834+git20240621+81e1890-1
+Version: 24.1.6554834+git20240708+707bb37-1
 Architecture: all
 Maintainer: Andrew Davis <afd@ti.com>
-Installed-Size: 17827
+Installed-Size: 17832
 Depends: dkms (>= 2.1.0.0), libc-dev | libc, ti-img-rogue-firmware-am62
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-driver
 Priority: optional
 Section: kernel
-Filename: pool/main/t/ti-img-rogue-driver/ti-img-rogue-driver-am62-dkms_24.1.6554834+git20240621+81e1890-1_all.deb
-Size: 1560372
-SHA256: 7eb59f83211fd6fc4f13e0d15a9affe9222daefe569cec002a1e32b02741adc8
-SHA1: 90436bb8081ee256c8bfbd7c86cb43b99a32935f
-MD5sum: 6c80f1a3b0f982ef77eab36e55dd961b
+Filename: pool/main/t/ti-img-rogue-driver/ti-img-rogue-driver-am62-dkms_24.1.6554834+git20240708+707bb37-1_all.deb
+Size: 1560564
+SHA256: a3f1e77baf721b38ed48ebfb5a34872b1a91abab6031f6344327d3c98981e79e
+SHA1: 466acdb10b7546f6febe3add2e4ed0563c2fe130
+MD5sum: a5901ab6ca01abce2b40e57d6615fd10
 Description: Imagination Rogue Kernel Mode Driver for Texas Instruments AM62
  This set of modules provides the kernel mode graphical driver for IMG Rogue GPU on TI AM62.
 
 Package: ti-img-rogue-driver-am62p-dkms
 Source: ti-img-rogue-driver
-Version: 24.1.6554834+git20240621+81e1890-1
+Version: 24.1.6554834+git20240708+707bb37-1
 Architecture: all
 Maintainer: Andrew Davis <afd@ti.com>
-Installed-Size: 17827
+Installed-Size: 17832
 Depends: dkms (>= 2.1.0.0), libc-dev | libc, ti-img-rogue-firmware-am62p
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-driver
 Priority: optional
 Section: kernel
-Filename: pool/main/t/ti-img-rogue-driver/ti-img-rogue-driver-am62p-dkms_24.1.6554834+git20240621+81e1890-1_all.deb
-Size: 1559948
-SHA256: 91e2901eb9e73c7017155c6ffa516d0a7c782abc37549416d27d6571e54b1b59
-SHA1: 8a6224511b0dce90f9dfb1658fdc492d02edb0a0
-MD5sum: 1db0b6226f3af8a9740b362df55720a4
+Filename: pool/main/t/ti-img-rogue-driver/ti-img-rogue-driver-am62p-dkms_24.1.6554834+git20240708+707bb37-1_all.deb
+Size: 1560516
+SHA256: cad96c6d84e675a74dc071642f4fa90ec4ebf66c6c23c13301fbfe8874cfcd98
+SHA1: 1406a03eb7c4065f1e92fd5052dc55ce982a7b87
+MD5sum: e8fb2551227c5910a4af68b9ae49877f
 Description: Imagination Rogue Kernel Mode Driver for Texas Instruments AM62P
  This set of modules provides the kernel mode graphical driver for IMG Rogue GPU on TI AM62P.
 
 Package: ti-img-rogue-driver-j721e-dkms
 Source: ti-img-rogue-driver
-Version: 24.1.6554834+git20240621+81e1890-1
+Version: 24.1.6554834+git20240708+707bb37-1
 Architecture: all
 Maintainer: Andrew Davis <afd@ti.com>
-Installed-Size: 17827
+Installed-Size: 17832
 Depends: dkms (>= 2.1.0.0), libc-dev | libc, ti-img-rogue-firmware-j721e
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-driver
 Priority: optional
 Section: kernel
-Filename: pool/main/t/ti-img-rogue-driver/ti-img-rogue-driver-j721e-dkms_24.1.6554834+git20240621+81e1890-1_all.deb
-Size: 1559624
-SHA256: a0f43b885d73c807382d4f352ecc5d1deb9693cb55dc0923ad100ffb0013be6d
-SHA1: 68b64f807b50ef06be6f3cb8bcdd453a2c785eb8
-MD5sum: 35564247e6493dd7f9ebd5c965940c15
+Filename: pool/main/t/ti-img-rogue-driver/ti-img-rogue-driver-j721e-dkms_24.1.6554834+git20240708+707bb37-1_all.deb
+Size: 1560808
+SHA256: 7df1a66ae7cf97b51a1e30d4b266e8fe04969c5a3eedc1fca23024f8c280d98f
+SHA1: f95c90b6356424407186f497bc11efb69adecc74
+MD5sum: 4451ef29fbbf191af0a0e4356ebb949d
 Description: Imagination Rogue Kernel Mode Driver for Texas Instruments J721e
  This set of modules provides the kernel mode graphical driver for IMG Rogue GPU on TI J721e.
 
 Package: ti-img-rogue-driver-j721s2-dkms
 Source: ti-img-rogue-driver
-Version: 24.1.6554834+git20240621+81e1890-1
+Version: 24.1.6554834+git20240708+707bb37-1
 Architecture: all
 Maintainer: Andrew Davis <afd@ti.com>
-Installed-Size: 17827
+Installed-Size: 17832
 Depends: dkms (>= 2.1.0.0), libc-dev | libc, ti-img-rogue-firmware-j721s2
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-driver
 Priority: optional
 Section: kernel
-Filename: pool/main/t/ti-img-rogue-driver/ti-img-rogue-driver-j721s2-dkms_24.1.6554834+git20240621+81e1890-1_all.deb
-Size: 1559800
-SHA256: bc920c9d3ef288f052359924112075203aefc3210045ce4752e83dd5a40b3cfe
-SHA1: d957b2c516954b31bf0844bc5061838dbe507b5e
-MD5sum: f5ba84cef2c212f5353ca97b1ad96480
+Filename: pool/main/t/ti-img-rogue-driver/ti-img-rogue-driver-j721s2-dkms_24.1.6554834+git20240708+707bb37-1_all.deb
+Size: 1560564
+SHA256: 995b6cfa650d430896f7bffb288292da951853d46ba01e46b87cf2a9e302e657
+SHA1: 7576d5cb70b6af46e90664171a7ab3cce1c9db31
+MD5sum: 9f2fa855f7c0d353e2da70d1cabd3646
 Description: Imagination Rogue Kernel Mode Driver for Texas Instruments J721s2
  This set of modules provides the kernel mode graphical driver for IMG Rogue GPU on TI J721s2.
 
 Package: ti-img-rogue-driver-j784s4-dkms
 Source: ti-img-rogue-driver
-Version: 24.1.6554834+git20240621+81e1890-1
+Version: 24.1.6554834+git20240708+707bb37-1
 Architecture: all
 Maintainer: Andrew Davis <afd@ti.com>
-Installed-Size: 17827
+Installed-Size: 17832
 Depends: dkms (>= 2.1.0.0), libc-dev | libc, ti-img-rogue-firmware-j784s4
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-driver
 Priority: optional
 Section: kernel
-Filename: pool/main/t/ti-img-rogue-driver/ti-img-rogue-driver-j784s4-dkms_24.1.6554834+git20240621+81e1890-1_all.deb
-Size: 1559824
-SHA256: ed5d10a64ef38986f0b89fd93b45edccf8d631dec09ee04f59e9e7b97300c91f
-SHA1: 81497be745138aaa82f2210833b76d705c6f532a
-MD5sum: 202e8b2e67d98a81200964628133ac20
+Filename: pool/main/t/ti-img-rogue-driver/ti-img-rogue-driver-j784s4-dkms_24.1.6554834+git20240708+707bb37-1_all.deb
+Size: 1560468
+SHA256: 661a667131ac1cff85b7ec61d3b039a39e61ff5f42e9693620b309f155bc8570
+SHA1: 2cf00413a76cdbbef0b9dc3f3b48c624bf21c9c5
+MD5sum: 5360eb0e7a897692caf83c087b9ba48e
 Description: Imagination Rogue Kernel Mode Driver for Texas Instruments J784s4
  This set of modules provides the kernel mode graphical driver for IMG Rogue GPU on TI J784s4.
 
