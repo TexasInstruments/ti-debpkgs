@@ -1,19 +1,19 @@
 Package: cryptodev-linux-dkms
 Source: cryptodev-linux
-Version: 1.13+git20240703+157a624-2
+Version: 1.14+git20240719+135cbff-1
 Architecture: arm64
 Maintainer: Suhaas Joshi <s-joshi@ti.com>
-Installed-Size: 298
+Installed-Size: 299
 Depends: dkms (>= 2.1.0.0)
 Multi-Arch: foreign
 Homepage: http://cryptodev-linux.org
 Priority: optional
 Section: kernel
-Filename: pool/main/c/cryptodev-linux/cryptodev-linux-dkms_1.13+git20240703+157a624-2_arm64.deb
-Size: 40168
-SHA256: 06ec84dd80add9b7e60d28d0573798592d4ff7647f7e23135dc9dfb319826981
-SHA1: 840296377acef2b6174c387f2356cbb4d036f5e7
-MD5sum: e6a50786c88b2c3b734d7be650fa1db3
+Filename: pool/main/c/cryptodev-linux/cryptodev-linux-dkms_1.14+git20240719+135cbff-1_arm64.deb
+Size: 40236
+SHA256: 4d8e95b9322f8d43498bae9afe7c91d0264e220db0476a8055a1b5de577bac20
+SHA1: 3596595e3bc41ae8fd99ec32c29ff3c4f8d55f6f
+MD5sum: 27341fa95d15b03d9b61bddea08363af
 Description: Linux Kernel device for cryptographic accelerator access
  Cryptodev-linux is a Linux-kernel device that allows user-space access to
  hardware cryptographic accelerators. The main idea is to access existing
