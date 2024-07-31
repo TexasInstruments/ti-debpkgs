@@ -1,7 +1,7 @@
 Origin: ti-debpkgs
 Label: ti-debpkgs
 Codename: trixie
-Date: Wed, 31 Jul 2024 13:40:12 UTC
+Date: Wed, 31 Jul 2024 14:01:32 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free
 Description: Apt repository for Texas Instruments
@@ -12,8 +12,8 @@ MD5Sum:
  582fba7481462ad09a373d5e620f1f04 4130 main/binary-amd64/Packages
  b31c3085683f114d665bda8c335df0b8 1021 main/binary-amd64/Packages.gz
  2c6fcd74823f6f964b310818f61157f3 123 main/binary-amd64/Release
- 4d2db58287a9f3048d7e6f34478a0281 46745 main/binary-arm64/Packages
- 2d670c4c495e3a326e648293ace85abc 11491 main/binary-arm64/Packages.gz
+ 54d045f6b1785fc86055a915ffcf1af5 46745 main/binary-arm64/Packages
+ 724b164d7a1856deb20b0c592e965fda 11489 main/binary-arm64/Packages.gz
  228444ed8db3f04c52ec989d228e5ed2 123 main/binary-arm64/Release
  fd85eedbd2f2b5939e670be3f7d32013 7581 main/source/Sources
  8206bc77a0c6b2297833485905cf73cc 2287 main/source/Sources.gz
@@ -49,8 +49,8 @@ SHA1:
  d14c4a1bf95ba2a40eee3855c84ecc091d7576fe 4130 main/binary-amd64/Packages
  02f67b034501da087307c0be8919698740b37e8f 1021 main/binary-amd64/Packages.gz
  1ea883a1bd831115d0eaff8a29fa48b8495d7b78 123 main/binary-amd64/Release
- d4127d03b4399cfc7bf7f7de785a00bb73670a80 46745 main/binary-arm64/Packages
- 2ca296e34b83e1ceb49480b70b22c070947b3f53 11491 main/binary-arm64/Packages.gz
+ a1af50d455d3e075974144b2d7f0a739ddd67b2c 46745 main/binary-arm64/Packages
+ b77b79354f1da76c2c8121265a2a9113a482c870 11489 main/binary-arm64/Packages.gz
  517aec9b0fa2d9bb286352911f41b588d0e1c8b0 123 main/binary-arm64/Release
  92247a6eb736b4a1386977c35eb66cc12125c5b0 7581 main/source/Sources
  0804d8bea6d36b5bbbb9acb9990432c5ac3028ad 2287 main/source/Sources.gz
@@ -86,8 +86,8 @@ SHA256:
  1a5cef9d1adcad9a1b561126aa5a99fa67903f1b59ce09197926809d04596ba0 4130 main/binary-amd64/Packages
  e8436268c365a9e06e9d6de0ddb80fd4d0bc6c45b49a3c6f9c6f23b74d8a18c1 1021 main/binary-amd64/Packages.gz
  5a16594b5c2def0cfa79c51177a8845f60510f3a6319bae9e409f3c8c38a28f3 123 main/binary-amd64/Release
- 9314155a6a2f4634282205f945f40ae45b9267e1ba65dc705914854e8432a4c7 46745 main/binary-arm64/Packages
- 85a92328b1096828a1f966ff9d268b56bd6312c34b8903754080a58fe196ef99 11491 main/binary-arm64/Packages.gz
+ 18717a65a95eba830e0b873047dfbea864c6be6403664406052e6629d8069727 46745 main/binary-arm64/Packages
+ 172f6d4fc5101f6f87a66932b09ca31ec870f120e15759b304bdd531f4eabc94 11489 main/binary-arm64/Packages.gz
  8a48fe07b14d83e27f37c1e316c300b4d0a3c96288acd35a5685e1164f77730e 123 main/binary-arm64/Release
  ef8c05ca4d6d25a78bb9975911aac56c720e7317b5307135a1c3f1fc4ff05a5c 7581 main/source/Sources
  5acb892645611896556d611cb6ec04dd95f61c24ddbc70279888f0fe17a534c0 2287 main/source/Sources.gz
