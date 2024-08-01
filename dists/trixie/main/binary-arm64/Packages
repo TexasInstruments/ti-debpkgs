@@ -10,10 +10,10 @@ Homepage: http://cryptodev-linux.org
 Priority: optional
 Section: kernel
 Filename: pool/main/c/cryptodev-linux/cryptodev-linux-dkms_1.14+git20240719+135cbff-1_arm64.deb
-Size: 40236
-SHA256: 4d8e95b9322f8d43498bae9afe7c91d0264e220db0476a8055a1b5de577bac20
-SHA1: 3596595e3bc41ae8fd99ec32c29ff3c4f8d55f6f
-MD5sum: 27341fa95d15b03d9b61bddea08363af
+Size: 40224
+SHA256: 26599e5bb50ef34eda8eca7d16f5b5e6290ba9956cc8d7d9c3101cd1a5155f61
+SHA1: 7f3cd2d8d5b6f7f9b78a2ad99acdea5ed9fcf95d
+MD5sum: 5273e7e4e44d5070c3a6748557e87943
 Description: Linux Kernel device for cryptographic accelerator access
  Cryptodev-linux is a Linux-kernel device that allows user-space access to
  hardware cryptographic accelerators. The main idea is to access existing

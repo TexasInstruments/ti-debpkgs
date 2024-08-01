@@ -10,11 +10,11 @@ Build-Depends: debhelper-compat (= 13), dh-sequence-dkms
 Package-List:
  cryptodev-linux-dkms deb kernel optional arch=arm64
 Checksums-Sha1:
- 590d5e6b50fa899b83eb32bc204a73b3ac073874 59496 cryptodev-linux_1.14+git20240719+135cbff.orig.tar.gz
- 1af427c9e7b5d386ebffa44ebf929daa3c58ccb3 3196 cryptodev-linux_1.14+git20240719+135cbff-1.debian.tar.xz
+ 90f655b18f09bb2942ffba689bec4b6b8f75247b 59496 cryptodev-linux_1.14+git20240719+135cbff.orig.tar.gz
+ fbc82a8f764827ed74adf1666d8c2bd55d806c2e 3196 cryptodev-linux_1.14+git20240719+135cbff-1.debian.tar.xz
 Checksums-Sha256:
- d406bfa24d036d134ae23b5a56ce1c7eb73939970ce585699c2edf15071585ea 59496 cryptodev-linux_1.14+git20240719+135cbff.orig.tar.gz
- e2cb428de903beef324828d7350cc7af1b9912157cb90ab1da29bd0b9bdaa46e 3196 cryptodev-linux_1.14+git20240719+135cbff-1.debian.tar.xz
+ 81abde58d0fd2a3067c62c61198b882e29d61605e8ba39e221ba498fba88caee 59496 cryptodev-linux_1.14+git20240719+135cbff.orig.tar.gz
+ f8c1ecd8cb38be7b9d1008bf68c629cf1b87a971fb43164025d862441da46aaf 3196 cryptodev-linux_1.14+git20240719+135cbff-1.debian.tar.xz
 Files:
- 3c8bbe029221d2adf073615a9ed5efef 59496 cryptodev-linux_1.14+git20240719+135cbff.orig.tar.gz
- bb82f9b3e655e8a148f4ad5cf0506e65 3196 cryptodev-linux_1.14+git20240719+135cbff-1.debian.tar.xz
+ 6188f914e100076e89a51dda7c2fd517 59496 cryptodev-linux_1.14+git20240719+135cbff.orig.tar.gz
+ b4962cf5be9cd58aa1f5c09baa3503e4 3196 cryptodev-linux_1.14+git20240719+135cbff-1.debian.tar.xz
