@@ -60,20 +60,20 @@ Build-Ids: 4666a0b1d0a31c5b7356032b88b46ab1fa7ad93c
 
 Package: libd3dadapter9-mesa
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 19849
-Depends: libc6 (>= 2.34), libdrm-amdgpu1 (>= 2.4.110), libdrm-nouveau2 (>= 2.4.66), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.89), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.0), libllvm15, libsensors5 (>= 1:3.5.0), libstdc++6 (>= 11), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4), libudev1
+Installed-Size: 8000
+Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.119), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.0), libllvm17t64, libsensors5 (>= 1:3.5.0), libstdc++6 (>= 11), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4), libudev1
 Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/libd3dadapter9-mesa_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 5308940
-SHA256: 855e669b862178353bce807961f8f645362ad4d03945a24f5922e594880e8be5
-SHA1: b3fdbcd19aa5f656f398353f64b57928c9e4d129
-MD5sum: 4edf9b9833a514895d66918c5f0da125
+Filename: pool/main/m/mesa/libd3dadapter9-mesa_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 1625964
+SHA256: 08cba7ecae9cdd8beb18269acd7ab86bf0db738dae406f5189413ab59c0a5bc9
+SHA1: 7e68f4370e3803e3968093e11cb77afb071782be
+MD5sum: 21ebcefbc7c8afce8b3b4305c94899bc
 Description: state-tracker for Direct3D9
  This package contains a Gallium3D state tracker that implements the Direct3D9
  API.  Combined with the gallium-nine branch of Wine, programs using D3D9 can
@@ -81,39 +81,39 @@ Description: state-tracker for Direct3D9
 
 Package: libd3dadapter9-mesa-dbgsym
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 42853
-Depends: libd3dadapter9-mesa (= 23.2.1+git20240304+b12290126ba-1)
+Installed-Size: 10007
+Depends: libd3dadapter9-mesa (= 23.2.1+git20241108+0e75e7ded36-1)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/m/mesa/libd3dadapter9-mesa-dbgsym_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 41356984
-SHA256: a266a3fecd8e351c9563a98f1fcd4cab59a874e149b3a65bd8b01a4adfd68d9c
-SHA1: ca48cf25ca9d0cb590d83ee990091c31abc6514c
-MD5sum: adeb5a25739dc61326128084b3d80962
+Filename: pool/main/m/mesa/libd3dadapter9-mesa-dbgsym_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 9328428
+SHA256: 7d0f5dba99fb0ce366493c9b45a6127e4c88782de0a9da218e8c1d9dcfbc510c
+SHA1: 82271d41a3d8708a0f37f1c4612c6657fa86dcf8
+MD5sum: 51acb98145ec5c46677b81f03401c550
 Description: debug symbols for libd3dadapter9-mesa
-Build-Ids: aadf733f784920c3621be9bd509add966ff2cabd
+Build-Ids: f91935ddd862d8b16014db8f7c3d16f8e9b47ba8
 
 Package: libd3dadapter9-mesa-dev
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 60
-Depends: libd3dadapter9-mesa (= 23.2.1+git20240304+b12290126ba-1), libudev1
+Depends: libd3dadapter9-mesa (= 23.2.1+git20241108+0e75e7ded36-1), libudev1
 Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/m/mesa/libd3dadapter9-mesa-dev_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 18724
-SHA256: 33e995b41470d7cd3de1ed0e41d1ebb6050e03e462c49ee5a551b48d68589830
-SHA1: 164c55d4021d67c6d6321d3ce637871553150868
-MD5sum: 355aa3c059697657a436de3dc0c26543
+Filename: pool/main/m/mesa/libd3dadapter9-mesa-dev_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 18740
+SHA256: 8241fce1615aa13b518655f5ff5c96589a1a0e5f7a69aa8a7be0060cedb24ff1
+SHA1: c22b77a0637bfc8b342fe5616da47672043fb993
+MD5sum: cbfd3262affce93a976cf45242422930
 Description: state-tracker for Direct3D9 -- development files
  This package contains a Gallium3D state tracker that implements the Direct3D9
  API.  Combined with the gallium-nine branch of Wine, programs using D3D9 can
@@ -123,21 +123,21 @@ Description: state-tracker for Direct3D9 -- development files
 
 Package: libegl-mesa0
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 369
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.109), libexpat1 (>= 2.0.1), libgbm1 (= 23.2.1+git20240304+b12290126ba-1), libglapi-mesa (= 23.2.1+git20240304+b12290126ba-1), libwayland-client0 (>= 1.20.0), libwayland-server0 (>= 1.15.0), libx11-xcb1 (>= 2:1.8.4), libxcb-dri2-0 (>= 1.8), libxcb-dri3-0 (>= 1.13), libxcb-present0, libxcb-randr0 (>= 1.3), libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxshmfence1
+Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.119), libexpat1 (>= 2.0.1), libgbm1 (= 23.2.1+git20241108+0e75e7ded36-1), libglapi-mesa (= 23.2.1+git20241108+0e75e7ded36-1), libwayland-client0 (>= 1.20.0), libwayland-server0 (>= 1.15.0), libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb-dri3-0 (>= 1.13), libxcb-present0, libxcb-randr0 (>= 1.3), libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxshmfence1
 Provides: libegl-vendor
 Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/libegl-mesa0_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 111496
-SHA256: f180940f94fb92eb860d7f615964ee26d7ac2b8850f6a55847b6ecabc4fbac13
-SHA1: caf106cee2c88cc145f20f10fdaa48c0b9d0ad61
-MD5sum: 5c46fb42e7db599d7fb83dec38fa2d4c
+Filename: pool/main/m/mesa/libegl-mesa0_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 112448
+SHA256: 482139a9fc090197156aad5a146f0ff04eb219476cb705baaf39b26364d3b63e
+SHA1: 793dbf4b2cc29d2954ca02751048d87a83dd9833
+MD5sum: 46ac40d68dd6458049dbf014348c8073
 Description: free implementation of the EGL API -- Mesa vendor library
  This package contains the EGL native platform graphics interface library.
  EGL provides a platform-agnostic mechanism for creating rendering surfaces
@@ -147,22 +147,22 @@ Description: free implementation of the EGL API -- Mesa vendor library
 
 Package: libegl-mesa0-dbgsym
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 612
-Depends: libegl-mesa0 (= 23.2.1+git20240304+b12290126ba-1)
+Installed-Size: 613
+Depends: libegl-mesa0 (= 23.2.1+git20241108+0e75e7ded36-1)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/m/mesa/libegl-mesa0-dbgsym_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 550464
-SHA256: c3b31b50c1ea42c40fb907d9d7f51e4c00082ae34600efe269fca1f3c5cde341
-SHA1: 8180d9cf6c202617f9974a4792cfdf865032048d
-MD5sum: 849821c050ffbcac9e1ded465923547b
+Filename: pool/main/m/mesa/libegl-mesa0-dbgsym_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 551472
+SHA256: 6e91be65b8ec6db59b411e406e69131604a7b4d6b8cc466d0ba4bf7013e6f971
+SHA1: 9db3d739908888ec3cd769931ebfbb8547f12dd4
+MD5sum: eded25beb6119558b2f2e141dc9257b2
 Description: debug symbols for libegl-mesa0
-Build-Ids: d60989acbbb3942944052bab6a48434ed05b3dfe
+Build-Ids: f3ad60f821c35f15f5dec010e7f8ad363043179e
 
 Package: libegl1-mesa
 Source: mesa
@@ -185,7 +185,7 @@ Description: transitional dummy package
 
 Package: libegl1-mesa-dev
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 58
@@ -194,11 +194,11 @@ Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/m/mesa/libegl1-mesa-dev_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 18848
-SHA256: 55cc235421116f69619766be9dd57e39ef33aa67005d777959ec1b4972bb1aa3
-SHA1: 353ccd4a58f14bae8f6899ed92464f61e0b10e30
-MD5sum: 8358d7e2338d291893947f38681be05a
+Filename: pool/main/m/mesa/libegl1-mesa-dev_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 18856
+SHA256: 0e89aef871580339b321067d0ca2b50f5a3ea873a19c73cb6c0192929eabfc37
+SHA1: 3b9642ba1a147b0d71dbd39c3cdd213620a5d112
+MD5sum: b3199dff087d511cadfe1d75521645b8
 Description: free implementation of the EGL API -- development files
  This package contains the development environment required for compiling
  programs against EGL native platform graphics interface library.
@@ -210,20 +210,20 @@ Description: free implementation of the EGL API -- development files
 
 Package: libgbm-dev
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 58
-Depends: libgbm1 (= 23.2.1+git20240304+b12290126ba-1)
+Depends: libgbm1 (= 23.2.1+git20241108+0e75e7ded36-1)
 Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/m/mesa/libgbm-dev_23.2.1+git20240304+b12290126ba-1_arm64.deb
+Filename: pool/main/m/mesa/libgbm-dev_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
 Size: 18852
-SHA256: 8b5aa4194db804041bfad309e4bac31c66567ba268488905b4a8ac50aca134ea
-SHA1: bc1fb2b108ec7266619dd50fafd40c1fe02adbbd
-MD5sum: 3e77c9abf5ddc9b2736d43873ece046a
+SHA256: d72796dd152c6d5caff2cc700ebefea0c67bb1027058b312c8cb7652efcb1d36
+SHA1: 8d0d792424e480b84b596240785a0708f7e23b70
+MD5sum: 38ec7936fdf4d6bbb4f4be30bb82da1c
 Description: generic buffer management API -- development files
  This package contains the GBM buffer management library.  It provides a
  mechanism for allocating buffers for graphics rendering tied to Mesa.
@@ -235,20 +235,20 @@ Description: generic buffer management API -- development files
 
 Package: libgbm1
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 111
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.75), libexpat1 (>= 2.0.1), libwayland-server0 (>= 1.15.0), libxcb-randr0
+Installed-Size: 112
+Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.119), libexpat1 (>= 2.0.1), libwayland-server0 (>= 1.15.0), libxcb-randr0
 Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/libgbm1_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 39040
-SHA256: 88c6190cadb4004be1e739e1349332f6cddd3297e040880157b306a166339e22
-SHA1: 35b7e870504cc6a56c44dc5c3dac6ef50a0c063c
-MD5sum: e5c7d1fdf13cc0e8f7cb4ab8d1432ebd
+Filename: pool/main/m/mesa/libgbm1_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 39228
+SHA256: 0f6229bf7f0380199110347a7e4e72b54ea40db5b0a3d28c456b233007abe87a
+SHA1: e03293f191c10194d28baf31bacad79cf9828302
+MD5sum: 42ae9bca72287d3bca7faf793dd14dd1
 Description: generic buffer management API -- runtime
  This package contains the GBM buffer management library.  It provides a
  mechanism for allocating buffers for graphics rendering tied to Mesa.
@@ -257,26 +257,26 @@ Description: generic buffer management API -- runtime
 
 Package: libgbm1-dbgsym
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 177
-Depends: libgbm1 (= 23.2.1+git20240304+b12290126ba-1)
+Installed-Size: 178
+Depends: libgbm1 (= 23.2.1+git20241108+0e75e7ded36-1)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/m/mesa/libgbm1-dbgsym_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 154932
-SHA256: 893077dacdfaccdf3597c58c8b2952d5df5b43ad3c8b40f10e99891175fd087b
-SHA1: f3844cff2ad9f757d02d2e61680f9a3089db83bd
-MD5sum: f3404741558b21e67214809e65784e38
+Filename: pool/main/m/mesa/libgbm1-dbgsym_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 155256
+SHA256: 82e65524818a654992f2c11889f98b87285b22ed6daee91341adaeeccaad163f
+SHA1: 1ff9547e4c04055bf5c127c59b4a11a20c42f411
+MD5sum: bdc8effa3f9a1d3c02586f9e9c459bf4
 Description: debug symbols for libgbm1
-Build-Ids: bad14a89f171cfed6e5a7d549afa040ba0319550
+Build-Ids: 456badbb27ca1fcebf05bf38f0213c3c7b191539
 
 Package: libgl1-mesa-dev
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 34
@@ -285,30 +285,30 @@ Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/m/mesa/libgl1-mesa-dev_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 14800
-SHA256: f9b83059544e95e40b11c8ffcce7ee1eb4abc5f3e46b49c74dd85df1bce1e835
-SHA1: 063e24963d35511bdbfd982232b1a3d5484e26ef
-MD5sum: 327eb254c696e3fc4c0533d657a725df
+Filename: pool/main/m/mesa/libgl1-mesa-dev_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 14816
+SHA256: 438186ef43290cb4facb9b6e6efa41cdaea2347fe8387754ad38606471bcb55f
+SHA1: 24da4a2120434e723b2a300020c021575084e448
+MD5sum: 1ca8debb2aad43b39bff9d373669b8ea
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
 Package: libgl1-mesa-dri
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 25600
-Depends: libc6 (>= 2.34), libdrm-amdgpu1 (>= 2.4.110), libdrm-nouveau2 (>= 2.4.66), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.89), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.0), libglapi-mesa (= 23.2.1+git20240304+b12290126ba-1), libllvm15, libsensors5 (>= 1:3.5.0), libstdc++6 (>= 11), libxcb-dri3-0 (>= 1.13), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4)
+Installed-Size: 13943
+Depends: libvulkan1, libc6 (>= 2.38), libdrm2 (>= 2.4.119), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.0), libglapi-mesa (= 23.2.1+git20241108+0e75e7ded36-1), libllvm17t64, libsensors5 (>= 1:3.5.0), libstdc++6 (>= 11), libxcb-dri3-0 (>= 1.13), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
 Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/libgl1-mesa-dri_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 6726752
-SHA256: e4af3cd1079c6863f2f54fe9f415609ea3fa5f870ed6cd7d8ec1a06b70654253
-SHA1: a6c1fda9edc6098b2310ed9e15a33c01dde2f330
-MD5sum: c2998dc04b8ab9a7efd76f244112960d
+Filename: pool/main/m/mesa/libgl1-mesa-dri_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 3082564
+SHA256: 11a373cf0ec8f55d84e9ab358e6d7ecb9a407d9b766c15dfe91b87149dbb31a0
+SHA1: d357662a19fb98580e2ece950836f8c29e35ecca
+MD5sum: 82ba9a37f7f01fed8683e997f08486fa
 Description: free implementation of the OpenGL API -- DRI modules
  This version of Mesa provides GLX and DRI capabilities: it is capable of
  both direct and indirect rendering.  For direct rendering, it can use DRI
@@ -322,22 +322,22 @@ Description: free implementation of the OpenGL API -- DRI modules
 
 Package: libgl1-mesa-dri-dbgsym
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 52066
-Depends: libgl1-mesa-dri (= 23.2.1+git20240304+b12290126ba-1)
+Installed-Size: 19421
+Depends: libgl1-mesa-dri (= 23.2.1+git20241108+0e75e7ded36-1)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/m/mesa/libgl1-mesa-dri-dbgsym_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 49828500
-SHA256: 211d808e57329c9050e349e072b402705a24b8fd0f804917e5dcba443ffd8e29
-SHA1: e6bcc53602d8b706dd3c0b84576ca9d790bd486a
-MD5sum: 731fb942634cc461ef3e985b8fef6d9a
+Filename: pool/main/m/mesa/libgl1-mesa-dri-dbgsym_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 17984292
+SHA256: 2f7cd08c2e01bc3d3f28944d2fb6facc451c3385819df225935593c2d3d7eedc
+SHA1: 37ec436236b3df6d4bb0f5bb9ebecbc5fe731598
+MD5sum: dfdab2525b76c58299cdcc70a413ca90
 Description: debug symbols for libgl1-mesa-dri
-Build-Ids: ce56683589b300c45b1a24d822002a8fcfd067a9
+Build-Ids: 8fce060524794f5177169f5cba3ea6950eb880d8
 
 Package: libgl1-mesa-glx
 Source: mesa
@@ -360,7 +360,7 @@ Description: transitional dummy package
 
 Package: libglapi-mesa
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 365
@@ -369,11 +369,11 @@ Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/libglapi-mesa_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 44596
-SHA256: 38c4c770b07fc18125f25c3b89677dbd28f7e0dc973eb73120312f76a43b7ec9
-SHA1: 04bdf1c77d7b9a2bb487a88126f7ad6ba426de13
-MD5sum: 4c78f3b76b43d2fe5742e8f90529c659
+Filename: pool/main/m/mesa/libglapi-mesa_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 44676
+SHA256: 50f53197d87941854480734530b5f5eef8213d6926e474808eb6068db1a41a3e
+SHA1: f26877f531265b7d7d86cfae2b1bbc74ec890946
+MD5sum: 7cc90f7e1824e5394d7f05f73aaadbec
 Description: free implementation of the GL API -- shared library
  The Mesa GL API module is responsible for dispatching all the gl*
  functions. It is intended to be mainly used by both the libgles1-mesa
@@ -381,22 +381,22 @@ Description: free implementation of the GL API -- shared library
 
 Package: libglapi-mesa-dbgsym
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 297
-Depends: libglapi-mesa (= 23.2.1+git20240304+b12290126ba-1)
+Installed-Size: 298
+Depends: libglapi-mesa (= 23.2.1+git20241108+0e75e7ded36-1)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/m/mesa/libglapi-mesa-dbgsym_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 155172
-SHA256: d9ca42b70b2ff2a4132551e92aee2413ca92a1286c87c0950f9ddcede085194f
-SHA1: 3ad7dc5ec8b309780153b47ddfc5909e0f9b6d25
-MD5sum: 847ff462ef77596f4eb13e436289b238
+Filename: pool/main/m/mesa/libglapi-mesa-dbgsym_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 156796
+SHA256: b38d1159a2665a3abb268d5680b9dd8088ca10638a194431cbe05100f7c01c58
+SHA1: 9c1fcff658b081c402af070fd6078a4f92956e40
+MD5sum: 1f8a2fc6b65cc04d947fe4a50617bce3
 Description: debug symbols for libglapi-mesa
-Build-Ids: 63e1d36f57851a121121e3da702e5613201f68d7
+Build-Ids: 4cc08ce393114490822f06c13c57d5c9882db34e
 
 Package: libgles2-mesa
 Source: mesa
@@ -419,7 +419,7 @@ Description: transitional dummy package
 
 Package: libgles2-mesa-dev
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 34
@@ -428,32 +428,32 @@ Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/m/mesa/libgles2-mesa-dev_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 14800
-SHA256: 8b984167b20591e31c3a90ec5f17c9ed32321393fdf34cd787ef9eff9a4f4686
-SHA1: 2a97c8105cafafde91c6b44dcf697f93ecda8889
-MD5sum: deefc9f639ae70e1c3bb470c92c309b1
+Filename: pool/main/m/mesa/libgles2-mesa-dev_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 14812
+SHA256: 35825aa13e671f1d6f02abd3318bfd1f2e22d0ca96e551b105a17db0ba8d5dbe
+SHA1: 4806e45972c6316da3a5984edd6b0984acc61baa
+MD5sum: 87847afd6fbb4a2ffebd2ef2368b0997
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
 Package: libglx-mesa0
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 591
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.75), libexpat1 (>= 2.0.1), libglapi-mesa (= 23.2.1+git20240304+b12290126ba-1), libx11-6 (>= 2:1.4.99.1), libx11-xcb1 (>= 2:1.8.4), libxcb-dri2-0 (>= 1.8), libxcb-dri3-0 (>= 1.13), libxcb-glx0 (>= 1.8), libxcb-present0, libxcb-randr0, libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxext6, libxfixes3, libxshmfence1, libxxf86vm1, libgl1-mesa-dri
+Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.119), libexpat1 (>= 2.0.1), libglapi-mesa (= 23.2.1+git20241108+0e75e7ded36-1), libx11-6 (>= 2:1.4.99.1), libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb-dri3-0 (>= 1.13), libxcb-glx0 (>= 1.8), libxcb-present0, libxcb-randr0, libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxext6, libxfixes3, libxshmfence1, libxxf86vm1, libgl1-mesa-dri
 Breaks: glx-diversions (<< 0.8.4~), libopengl-perl (<< 0.6704+dfsg-2)
 Provides: libglx-vendor
 Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/libglx-mesa0_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 145752
-SHA256: 63327e8c81ebe63e147c82e9a1b5ee4c30122f20d297d9e4dadd00b256ccc644
-SHA1: 4ff2e10855ef9eac97e9879febb31bc71f705be1
-MD5sum: 39b018291fe3e32bd861bc515e341b63
+Filename: pool/main/m/mesa/libglx-mesa0_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 146852
+SHA256: 1bcd90df481a8734a5ed5877158f26f150a46daa12d52a7afb454a9ced265c26
+SHA1: 80d2b27342c7fdc8004ec4f88974c50518e43b75
+MD5sum: e37864fdad137d9607efa3ac49581203
 Description: free implementation of the OpenGL API -- GLX vendor library
  Mesa is a 3-D graphics library with an API which is very similar to
  that of OpenGL.  To the extent that Mesa utilizes the OpenGL command
@@ -471,39 +471,39 @@ Description: free implementation of the OpenGL API -- GLX vendor library
 
 Package: libglx-mesa0-dbgsym
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 871
-Depends: libglx-mesa0 (= 23.2.1+git20240304+b12290126ba-1)
+Installed-Size: 873
+Depends: libglx-mesa0 (= 23.2.1+git20241108+0e75e7ded36-1)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/m/mesa/libglx-mesa0-dbgsym_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 713172
-SHA256: 3c999186d07d642705556ce511adefa4b2b523270cfe5eef6e576569d8e2cb6f
-SHA1: f5a1e5c93b173f23a96d775e465889f672bc9386
-MD5sum: 7a9b5444f57c5781328b1659fcb88738
+Filename: pool/main/m/mesa/libglx-mesa0-dbgsym_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 715304
+SHA256: dbb5f21d0290bff8afd09117e545e78d04112d5611ccefeb6baa13b039140539
+SHA1: 54c3cb23f5562ea7cb1f4f9509b8f81a845eecea
+MD5sum: b5a0c1f8f37bad8b942326ea845f3789
 Description: debug symbols for libglx-mesa0
-Build-Ids: 9371cc879ae67b5b6868b79cb41ef00bf32d1c54
+Build-Ids: c222284f2b3ed64c51693d92b883cb1f90e3ab8f
 
 Package: libosmesa6
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 11706
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.25), libgcc-s1 (>= 3.0), libglapi-mesa (= 23.2.1+git20240304+b12290126ba-1), libllvm15, libstdc++6 (>= 11), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4)
+Installed-Size: 11962
+Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.119), libgcc-s1 (>= 3.0), libglapi-mesa (= 23.2.1+git20241108+0e75e7ded36-1), libllvm17t64, libstdc++6 (>= 11), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
 Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/libosmesa6_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 2568548
-SHA256: ab30893e2406c868482ad889c198a30e0126c55c1f25e814bbdea901086eae57
-SHA1: 4bff543e8f1fa1e429bd89f173b4767f11ee440c
-MD5sum: 7dba0c4bda56811f80ea93860e2c23eb
+Filename: pool/main/m/mesa/libosmesa6_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 2574560
+SHA256: 241bc83d2e03fc95a7db4448296d5df0475fb6f3c87fbb8896669bca79995fa5
+SHA1: 51efeb50b758335921c1c1d156b29cdb9d2ea122
+MD5sum: ccda90672436f922eea7ad66f017532f
 Description: Mesa Off-screen rendering extension
  OSmesa is a Mesa extension that allows programs to render to an
  off-screen buffer using the OpenGL API without having to create a
@@ -514,30 +514,30 @@ Description: Mesa Off-screen rendering extension
 
 Package: libosmesa6-dbgsym
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 16499
-Depends: libosmesa6 (= 23.2.1+git20240304+b12290126ba-1)
+Installed-Size: 16565
+Depends: libosmesa6 (= 23.2.1+git20241108+0e75e7ded36-1)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/m/mesa/libosmesa6-dbgsym_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 15294176
-SHA256: 415405414f9054f17158fe0639d600104a9b7ca3160d06555a148d158335b2bd
-SHA1: 0621abed4f6c842e917fd99167cdd7eef56ef613
-MD5sum: 3830c42184942afd8af77bfbc96d5fe8
+Filename: pool/main/m/mesa/libosmesa6-dbgsym_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 15363208
+SHA256: 691d0917c47996edc53af5529ccfbace5568eb5e86fda17e340190cbf3f306a1
+SHA1: 879b22313ffd07cba34b8a1adcfe74fa35489ef3
+MD5sum: cf02861858d8e91d69b57d144a2ebf7b
 Description: debug symbols for libosmesa6
-Build-Ids: 5b35e328f4176427baaf602838943efa1796f8c2
+Build-Ids: 899031e5d9330197fbc634d09bb9df98d4daf075
 
 Package: libosmesa6-dev
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 52
-Depends: libosmesa6 (= 23.2.1+git20240304+b12290126ba-1), mesa-common-dev (= 23.2.1+git20240304+b12290126ba-1) | libgl-dev
+Depends: libosmesa6 (= 23.2.1+git20241108+0e75e7ded36-1), mesa-common-dev (= 23.2.1+git20241108+0e75e7ded36-1) | libgl-dev
 Conflicts: libosmesa-dev
 Replaces: libosmesa-dev
 Provides: libosmesa-dev
@@ -545,11 +545,11 @@ Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/m/mesa/libosmesa6-dev_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 18140
-SHA256: 70d234a3f30deffc6434267d17995cd821337650c34c1ea0f03007fa3fa12a74
-SHA1: 3a988be6f4d85e818f7b045d3d875fbdbc054b82
-MD5sum: 92d17adfed782c2d4efb36cdff164794
+Filename: pool/main/m/mesa/libosmesa6-dev_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 18160
+SHA256: 0e1aae5fb89fd2b761aa1a85a2265a533c7f47184356fa616e42d51aab2db8b7
+SHA1: 576738d220080acbb957231ea830a07317ed4a90
+MD5sum: 382b7cb0895abe412549ca3aa39aaf69
 Description: Mesa Off-screen rendering extension -- development files
  This package provides the required environment for developing programs
  that use the off-screen rendering extension of Mesa.
@@ -793,7 +793,7 @@ Description: Linux support headers for userspace development
 
 Package: mesa-common-dev
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 2834
@@ -804,11 +804,11 @@ Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/m/mesa/mesa-common-dev_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 2218868
-SHA256: ac35ff9bd7e5b20cdc17f7e427b24aa20350a88faab9bbe4da0ed388a0754559
-SHA1: c80bd97ecfc365571a83b73b1c7e84979752f045
-MD5sum: e687f63a09675ad42fd4161512ea87ff
+Filename: pool/main/m/mesa/mesa-common-dev_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 2218896
+SHA256: 28038abb869bfa960acccd333b1b48e3e753ecc7a1b52629372231d791da0011
+SHA1: a7f452281d0e2918e43a2fd63c8af804ce1e9803
+MD5sum: 749490f8163161684492781b97032507
 Description: Developer documentation for Mesa
  This package includes the specifications for the Mesa-specific OpenGL
  extensions, the complete set of release notes and the development header
@@ -816,20 +816,19 @@ Description: Developer documentation for Mesa
 
 Package: mesa-drm-shim
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 849
-Depends: libc6 (>= 2.34)
+Installed-Size: 34
 Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/mesa-drm-shim_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 82720
-SHA256: 0b5b49d9eeb98b8606dbcbb51d62143cd196a5a7327db9e671f5b389e5d3e6cf
-SHA1: 517b4222c72fb31495a28024e50b7eee531d1d2c
-MD5sum: c13725d2499e46cee632402f5a420b35
+Filename: pool/main/m/mesa/mesa-drm-shim_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 14836
+SHA256: c4054da0efbe188f6240b17b06505a6f7a24e82c5b48e016dfb821bd18a5b824
+SHA1: 79314896c5b2b17dae3731ec951690cd53544e51
+MD5sum: a3ca432114c20905f7e28f091ed43466
 Description: DRM shim libraries
  This package provides drm-shim libraries which can be used for testing DRM drivers when
  none exists on the host
@@ -855,34 +854,53 @@ Build-Ids: 126433216d42078873255a02401e38c17a25d9de 1b5e9bb2d5874f39828c5d0c6eaf
 
 Package: mesa-opencl-icd
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 85667
-Depends: libclc-15, ocl-icd-libopencl1 | libopencl1, libc6 (>= 2.34), libclang-cpp15 (>= 1:15.0.6), libdrm-amdgpu1 (>= 2.4.110), libdrm-nouveau2 (>= 2.4.66), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.89), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc-s1 (>= 4.2), libllvm15, libllvmspirvlib15, libsensors5 (>= 1:3.1.0), libstdc++6 (>= 12), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4)
+Installed-Size: 12734
+Depends: libclc-17, ocl-icd-libopencl1 | libopencl1, libc6 (>= 2.38), libclang-cpp17t64 (>= 1:17.0.6), libdrm2 (>= 2.4.119), libexpat1 (>= 2.0.1), libgcc-s1 (>= 4.2), libllvm17t64, libllvmspirvlib17, libstdc++6 (>= 11), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
 Provides: opencl-icd
 Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/mesa-opencl-icd_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 15255324
-SHA256: 29b8312a850db40582244d201bb96c5ed2e75d1e54eed3751f4ac9fe9f09f840
-SHA1: 0f4518615dd8324d2f31ee6ead9eef252003f4d0
-MD5sum: d6d3ad0c60cd1194c4cb2b0320c476d6
+Filename: pool/main/m/mesa/mesa-opencl-icd_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 2779296
+SHA256: ebc89e058401eb06b06f3ded8cdca23269b6d5654b07050ee0777eac62988a74
+SHA1: 35ce4002f1d15f54335c7b877c453199cee056ad
+MD5sum: ec11458118aa586b0d9fc9a06eaaffc3
 Description: free implementation of the OpenCL API -- ICD runtime
  This package contains the mesa implementation of the OpenCL (Open Compute
  Language) library, which is intended for use with an ICD loader. OpenCL
  provides a standardized interface for computational analysis on graphical
  processing units.
 
-Package: mesa-va-drivers
+Package: mesa-opencl-icd-dbgsym
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
+Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 13087
-Depends: libc6 (>= 2.34), libdrm-amdgpu1 (>= 2.4.110), libdrm-nouveau2 (>= 2.4.66), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.75), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.0), libllvm15, libstdc++6 (>= 11), libx11-xcb1 (>= 2:1.8.4), libxcb-dri2-0 (>= 1.8), libxcb-dri3-0, libxcb-present0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxshmfence1, libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4)
+Installed-Size: 14709
+Depends: mesa-opencl-icd (= 23.2.1+git20241108+0e75e7ded36-1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/m/mesa/mesa-opencl-icd-dbgsym_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 12344924
+SHA256: aad7a3ab7e7713c4b6ab82d188d5539ae0374035443370860bdeaea6dce04e73
+SHA1: 96e4061ba360a4c5083f0c9b82ffb33961c8f877
+MD5sum: 1532f38f42702781651ffc01dc57c6d3
+Description: debug symbols for mesa-opencl-icd
+Build-Ids: 9bebc5db331f7a810c54b39b648341044e4e54c9
+
+Package: mesa-va-drivers
+Source: mesa
+Version: 23.2.1+git20241108+0e75e7ded36-1
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 5166
+Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.119), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.0), libstdc++6 (>= 5), libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb-dri3-0, libxcb-present0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxshmfence1, libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
 Enhances: libva2
 Breaks: vdpau-va-driver (<< 0.7.4-5)
 Replaces: vdpau-va-driver (<< 0.7.4-5)
@@ -891,11 +909,11 @@ Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/mesa-va-drivers_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 3239236
-SHA256: 54017049cdbb37d40989859563b468c0cb823a6ff3dfcb0e01b4274d9823a221
-SHA1: cd7f7e8a19f370691899b48aadf944f36cba69b5
-MD5sum: 13a238674c3022510093464a689bb9fb
+Filename: pool/main/m/mesa/mesa-va-drivers_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 711144
+SHA256: 6ed5c33069961e9408861c864460f683be8f79e4765d3aa490f850a4311a5167
+SHA1: 1a75fd6043f0e2cd7bb32097d53b264758602f83
+MD5sum: 0a8ca87efcf105ab39d9cfdb5fb0e5dc
 Description: Mesa VA-API video acceleration drivers
  These libraries provide the Video Acceleration API (VA-API) for Unix.
  They provide accelerated video playback (incl. H.264) and video
@@ -905,41 +923,41 @@ Description: Mesa VA-API video acceleration drivers
 
 Package: mesa-va-drivers-dbgsym
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 29526
-Depends: mesa-va-drivers (= 23.2.1+git20240304+b12290126ba-1)
+Installed-Size: 4503
+Depends: mesa-va-drivers (= 23.2.1+git20241108+0e75e7ded36-1)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/m/mesa/mesa-va-drivers-dbgsym_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 28641340
-SHA256: 2deeeed132cdd2c73e0fc15ef3d70f70c09f5f1ecfa90000a5d8b62edc72a651
-SHA1: 8d321ef08cc9fa2273eabc7535ed22b57b4b8cef
-MD5sum: 00fad30344d1c371378b0be91a8d2ff3
+Filename: pool/main/m/mesa/mesa-va-drivers-dbgsym_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 4107532
+SHA256: 97cb7266d0964bb6d2934f7c1c1d1ef50a701f131669222dc2e76caf2719bdf5
+SHA1: 8f0dab74af89926e8e58d7b4836b8c7d793baab8
+MD5sum: fd13c7c67a2c1ef8626125fcfd3cb61e
 Description: debug symbols for mesa-va-drivers
-Build-Ids: 7dd4cea7eb603e540f285ea83fe2298f0a76fc8d
+Build-Ids: e037b39463d72f2932251fe7be0926196f80c1f7
 
 Package: mesa-vdpau-drivers
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 13037
-Depends: libvdpau1, libc6 (>= 2.34), libdrm-amdgpu1 (>= 2.4.110), libdrm-nouveau2 (>= 2.4.66), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.75), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.0), libllvm15, libstdc++6 (>= 11), libx11-xcb1 (>= 2:1.8.4), libxcb-dri2-0 (>= 1.8), libxcb-dri3-0, libxcb-present0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxshmfence1, libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4)
+Installed-Size: 5106
+Depends: libvdpau1, libc6 (>= 2.38), libdrm2 (>= 2.4.119), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.0), libstdc++6 (>= 5), libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb-dri3-0, libxcb-present0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxshmfence1, libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
 Enhances: libvdpau1
 Provides: vdpau-driver
 Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/mesa-vdpau-drivers_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 3221640
-SHA256: 81b08a275f912c9dc35fffaf182e7ec67fd579fc7c27df378e982f4bd67c7874
-SHA1: 7d0e25c4b7116d482120f005034f19a17769a034
-MD5sum: 0a9041fd9ad86020c6ed40fc530e60b9
+Filename: pool/main/m/mesa/mesa-vdpau-drivers_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 693648
+SHA256: 4a6d5e27eff36b69e692b6fb3e686994ccf978942affbfc635cb69593468836a
+SHA1: d618d33cc0143a25aee0276f57d80860a92e7895
+MD5sum: 9e0f093a18b705bd1b974de43c7ea33d
 Description: Mesa VDPAU video acceleration drivers
  These libraries provide the Video Decode and Presentation API for Unix.
  They provide accelerated video playback (incl. H.264) and video
@@ -949,62 +967,62 @@ Description: Mesa VDPAU video acceleration drivers
 
 Package: mesa-vdpau-drivers-dbgsym
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 29433
-Depends: mesa-vdpau-drivers (= 23.2.1+git20240304+b12290126ba-1)
+Installed-Size: 4402
+Depends: mesa-vdpau-drivers (= 23.2.1+git20241108+0e75e7ded36-1)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/m/mesa/mesa-vdpau-drivers-dbgsym_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 28554428
-SHA256: 02f87350c936fbe45839851badd8f07d9b047bf32b70a65bce3e0cd7c74b83de
-SHA1: d4d001e7830913f42397ffb01a2c8eb05a61acbb
-MD5sum: 53c27129d1e30c7cb87bc79e8abfefcc
+Filename: pool/main/m/mesa/mesa-vdpau-drivers-dbgsym_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 4010416
+SHA256: 20442909f9a1d7300209ac30a5e77a6e290ca2f282c56910f808009512a11075
+SHA1: b599c229ce5aa5a83c0506ae8137cdf69b8d3f00
+MD5sum: 4d3f8c46600f4d5ee8a176a1962f6046
 Description: debug symbols for mesa-vdpau-drivers
-Build-Ids: ac31a2ff17b345f145cf6784e6121359a775211c
+Build-Ids: 4c76d720a9113aaad98b0476101d09f051c7b98c
 
 Package: mesa-vulkan-drivers
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 27243
-Depends: libvulkan1, python3:any | python3-minimal:any, libc6 (>= 2.34), libdrm-amdgpu1 (>= 2.4.110), libdrm2 (>= 2.4.99), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.0), libllvm15, libstdc++6 (>= 11), libwayland-client0 (>= 1.20.0), libx11-xcb1 (>= 2:1.8.4), libxcb-dri3-0 (>= 1.13), libxcb-present0, libxcb-randr0 (>= 1.13), libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxshmfence1, libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4)
+Installed-Size: 12713
+Depends: libvulkan1, python3:any, libc6 (>= 2.38), libdrm2 (>= 2.4.119), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.0), libllvm17t64, libstdc++6 (>= 11), libwayland-client0 (>= 1.20.0), libx11-xcb1, libxcb-dri3-0 (>= 1.13), libxcb-present0, libxcb-randr0 (>= 1.13), libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxshmfence1, libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
 Provides: vulkan-icd
 Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/mesa-vulkan-drivers_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 4373556
-SHA256: dfd264d449e1ea397248ae97c5fa72ab49b9e5ec7845346aded95f18a1e081f9
-SHA1: 8e2a69c9bba72899f7cdc740c90ad94c7f11bd0f
-MD5sum: d11b8b6c6d68d27be3b83e272e570cb9
+Filename: pool/main/m/mesa/mesa-vulkan-drivers_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 2115248
+SHA256: d7ac354f4c2cb4e81713cd879dae157436f03ccb76294104458fac30f2da5b42
+SHA1: 7f91bccc138cd9cac2e66d428edd84bc2aef4faa
+MD5sum: d3571532bd868ff8e132c520a83c8b9a
 Description: Mesa Vulkan graphics drivers
  Vulkan is a low-overhead 3D graphics and compute API. This package
  includes Vulkan drivers provided by the Mesa project.
 
 Package: mesa-vulkan-drivers-dbgsym
 Source: mesa
-Version: 23.2.1+git20240304+b12290126ba-1
+Version: 23.2.1+git20241108+0e75e7ded36-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 39027
-Depends: mesa-vulkan-drivers (= 23.2.1+git20240304+b12290126ba-1)
+Installed-Size: 20802
+Depends: mesa-vulkan-drivers (= 23.2.1+git20241108+0e75e7ded36-1)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/m/mesa/mesa-vulkan-drivers-dbgsym_23.2.1+git20240304+b12290126ba-1_arm64.deb
-Size: 36570620
-SHA256: 09901666b8badfb7465b3f0e1f9311792bf71feba02f41f8ee7a4035642cf9f0
-SHA1: 723e2757ff1a132d8f19cc8cd5b19e44839800bd
-MD5sum: 219ca0ae5a3e1ac36522ad6d98a1067e
+Filename: pool/main/m/mesa/mesa-vulkan-drivers-dbgsym_23.2.1+git20241108+0e75e7ded36-1_arm64.deb
+Size: 19289664
+SHA256: e064a9af15affc571d1fa3c9827f93b87a67c57f0d1596a58fc19f8ab704c5b3
+SHA1: ae02fe2e5bae47b712f336214710dd0564a123ff
+MD5sum: 81ed0c39be5e2f94eafed885a8d98e45
 Description: debug symbols for mesa-vulkan-drivers
-Build-Ids: 1ef5ac707c4cd7f96413f7e46c59bddff5333fa4 50b4171ff1a49b43a2bd099ccdc196dcfd5ce967 848c02dfce927eb5f9aecc5cfd830f54c15780c1 c6f7eeb300d5f2693ef7665f1472b0d4916a6616 dc31cc53b6f0cb9dfb76c0f1c732c5dd15447ed6 f1ef1592d5b42b00c687deb44c3f66be07d7ecc9
+Build-Ids: 2bbbdd9afa13c9f327e8dc0db3a60598b338a375 73556444755a5c75718a2bfc78402f9a9e707954 bff52d81708b27e1b8c21c73453d87f05b3f6433 c5ffe6cfd2c642f7192cef945a7a255ae2804329 d9e86a0f20c5a77bbc89cab023feb90f9a7ac9c7
 
 Package: pru-pssp
 Version: 6.4.0+git20240415+f3e3996-1
