@@ -661,132 +661,132 @@ MD5sum: ddf93b7125bfc5c6bc76852507a760b6
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
-Package: linux-headers-6.6.32-k3
+Package: linux-headers-6.6.44-k3
 Source: linux-upstream
-Version: 6.6.32-1
+Version: 6.6.44-1
 Architecture: arm64
-Maintainer: trixie <trixie@debian>
-Installed-Size: 51792
+Maintainer: root <root@77e3525b03b8>
+Installed-Size: 52116
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.6.32-k3_6.6.32-1_arm64.deb
-Size: 8473280
-SHA256: 63008b2471a8a0f2d2781ec3e5ac19883680ef1f8404292af8edac4cbe2078c6
-SHA1: bb3d9485381564a64748d95419070bd6cf0f2016
-MD5sum: e34451c7894dc9d20e28973c8fc5bed9
-Description: Linux kernel headers for 6.6.32-k3 on arm64
- This package provides kernel header files for 6.6.32-k3 on arm64
+Filename: pool/main/l/linux-upstream/linux-headers-6.6.44-k3_6.6.44-1_arm64.deb
+Size: 8493740
+SHA256: e5fe02eba9c04803b62199d67db05b6a1ead365aeef3c300132758f7bc41c886
+SHA1: b1ec5bf4dcebd3b45df8a6ba551f2d0c6bdebc88
+MD5sum: 3caa9291335a9dbc46d18234e4141b74
+Description: Linux kernel headers for 6.6.44-k3 on arm64
+ This package provides kernel header files for 6.6.44-k3 on arm64
  .
  This is useful for people who need to build external modules
 
-Package: linux-headers-6.6.32-k3-rt
+Package: linux-headers-6.6.44-k3-rt
 Source: linux-upstream
-Version: 6.6.32-1
+Version: 6.6.44-1
 Architecture: arm64
-Maintainer: trixie <trixie@debian>
-Installed-Size: 51718
+Maintainer: root <root@638d716eed44>
+Installed-Size: 52042
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.6.32-k3-rt_6.6.32-1_arm64.deb
-Size: 8465480
-SHA256: 0041ef1004858d97c3421f20e067b9635dfb2d18e30e7a2b1528f52e9535089b
-SHA1: 0ea94f8226f5cdc183d1d23bb35d5510c12b4745
-MD5sum: f46c67e36341322e78b6d0af8a448128
-Description: Linux kernel headers for 6.6.32-k3-rt on arm64
- This package provides kernel header files for 6.6.32-k3-rt on arm64
+Filename: pool/main/l/linux-upstream/linux-headers-6.6.44-k3-rt_6.6.44-1_arm64.deb
+Size: 8485460
+SHA256: aff043a12a65f41e4d33ed0ef4b561a3573091c2e6413e7ea7ec9ead86bf9601
+SHA1: b8b5da8e05612f21325fb1a896197ae8b0d38c20
+MD5sum: f7f589e3696fb72e3941b17960bedc13
+Description: Linux kernel headers for 6.6.44-k3-rt on arm64
+ This package provides kernel header files for 6.6.44-k3-rt on arm64
  .
  This is useful for people who need to build external modules
 
-Package: linux-image-6.6.32-k3
+Package: linux-image-6.6.44-k3
 Source: linux-upstream
-Version: 6.6.32-1
+Version: 6.6.44-1
 Architecture: arm64
-Maintainer: trixie <trixie@debian>
-Installed-Size: 47142
+Maintainer: root <root@77e3525b03b8>
+Installed-Size: 47530
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.6.32-k3_6.6.32-1_arm64.deb
-Size: 15371956
-SHA256: 9e33a78e6c49d94956a007f04c648e8be0403c7a1d487e5a6439a9ef9d7a4450
-SHA1: 54e9359d2dad16729f23185d17c7148475e2d925
-MD5sum: a4a09f9e540162d99389b2297bd1498e
-Description: Linux kernel, version 6.6.32-k3
+Filename: pool/main/l/linux-upstream/linux-image-6.6.44-k3_6.6.44-1_arm64.deb
+Size: 15724864
+SHA256: 73cdd5534361b02c8d17c08fda7a97720dd773ea172834cacc2c745be313cdcb
+SHA1: 9863ac23db070997ad6158e06404b203ea908268
+MD5sum: a1cec3b9a0ec9f107755146c27401319
+Description: Linux kernel, version 6.6.44-k3
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.6.32-k3.
+ files, version: 6.6.44-k3.
 
-Package: linux-image-6.6.32-k3-dbg
+Package: linux-image-6.6.44-k3-dbg
 Source: linux-upstream
-Version: 6.6.32-1
+Version: 6.6.44-1
 Architecture: arm64
-Maintainer: trixie <trixie@debian>
-Installed-Size: 214093
+Maintainer: root <root@77e3525b03b8>
+Installed-Size: 221768
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: debug
-Filename: pool/main/l/linux-upstream/linux-image-6.6.32-k3-dbg_6.6.32-1_arm64.deb
-Size: 48657572
-SHA256: 6735d7171582d21a2d82974588b0b33759f64d0418bf7fdc9a973fe0b8cee786
-SHA1: dd32621d53f91c4c51636202bec673c8ef377bf6
-MD5sum: 89d0db57b19ee07b2d7ae4fc71ac161c
-Description: Linux kernel debugging symbols for 6.6.32-k3
+Filename: pool/main/l/linux-upstream/linux-image-6.6.44-k3-dbg_6.6.44-1_arm64.deb
+Size: 50130932
+SHA256: de713fc4128606df3461b6009c5a2632d495b4c0091d6527940fa08b577839df
+SHA1: 3fe2ce17ff4b9d18bd7c6a24e3cbaec98832cc98
+MD5sum: 919fdcc13eb951e625e8a15e63ec5a24
+Description: Linux kernel debugging symbols for 6.6.44-k3
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
 
-Package: linux-image-6.6.32-k3-rt
+Package: linux-image-6.6.44-k3-rt
 Source: linux-upstream
-Version: 6.6.32-1
+Version: 6.6.44-1
 Architecture: arm64
-Maintainer: trixie <trixie@debian>
-Installed-Size: 43125
+Maintainer: root <root@638d716eed44>
+Installed-Size: 43353
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.6.32-k3-rt_6.6.32-1_arm64.deb
-Size: 13255164
-SHA256: d620c9cb4c682ff75e734f254a0fb91a3f73c8975316c3540cf5055a7f487559
-SHA1: 2efa19125b6b6c450acc9211e453648514364bfb
-MD5sum: e69dd89d1d1e1eb34039ed7f84176942
-Description: Linux kernel, version 6.6.32-k3-rt
+Filename: pool/main/l/linux-upstream/linux-image-6.6.44-k3-rt_6.6.44-1_arm64.deb
+Size: 13499056
+SHA256: f01d98de301566823d958b465739e186afca0bb75b5f35abd3f3cb94854ff8e2
+SHA1: 655faf97a3c8d29442cde3fd1a37edb4efc4d1d5
+MD5sum: 9a3fe386f1538135e4611c8e7925daad
+Description: Linux kernel, version 6.6.44-k3-rt
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.6.32-k3-rt.
+ files, version: 6.6.44-k3-rt.
 
-Package: linux-image-6.6.32-k3-rt-dbg
+Package: linux-image-6.6.44-k3-rt-dbg
 Source: linux-upstream
-Version: 6.6.32-1
+Version: 6.6.44-1
 Architecture: arm64
-Maintainer: trixie <trixie@debian>
-Installed-Size: 194304
+Maintainer: root <root@638d716eed44>
+Installed-Size: 201407
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: debug
-Filename: pool/main/l/linux-upstream/linux-image-6.6.32-k3-rt-dbg_6.6.32-1_arm64.deb
-Size: 43889872
-SHA256: 9b781d2d7bd8894d99c47fda396edcb506069a6b4c8a7ec60b6ccdb6f37e8810
-SHA1: a13ea5e6072c202b230a27ce3092913302fa2084
-MD5sum: 30425837493cfa1e313949b4f92d31f5
-Description: Linux kernel debugging symbols for 6.6.32-k3-rt
+Filename: pool/main/l/linux-upstream/linux-image-6.6.44-k3-rt-dbg_6.6.44-1_arm64.deb
+Size: 45283644
+SHA256: 1e7e03a2b3458002c3e54bfa4b6c2092afe20600cc8de56b5b860544ee28357f
+SHA1: 5ced7d65734292d4a9586a8d1c439b963281a3e2
+MD5sum: e13ea96ffb66dab8c0feb1151bfc60b7
+Description: Linux kernel debugging symbols for 6.6.44-k3-rt
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
 
 Package: linux-libc-dev
 Source: linux-upstream
-Version: 6.6.32-1
+Version: 6.6.44-1
 Architecture: arm64
-Maintainer: trixie <trixie@debian>
-Installed-Size: 6713
+Maintainer: root <root@638d716eed44>
+Installed-Size: 6714
 Provides: linux-kernel-headers
 Multi-Arch: same
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-upstream/linux-libc-dev_6.6.32-1_arm64.deb
-Size: 1295304
-SHA256: 54db504fb15ea870562e70b8cf9ea367156d2ac0919c5d3bab100b59fd8a5791
-SHA1: 4e54d92bd8180f5ef13dc79dfc32f6ce14d1daa1
-MD5sum: 8890e2b8abcab1426bafd3087d5a1df8
+Filename: pool/main/l/linux-upstream/linux-libc-dev_6.6.44-1_arm64.deb
+Size: 1295696
+SHA256: eaf8867f2a9d3bc60dacccde4914a77ac9cbfe43bd8d16d2e125b07e98d1c508
+SHA1: 7c868151fc92d57bc7f893db7713e23b89d927ab
+MD5sum: ba4a288fb5b3687dc37630cf380ef54c
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
