@@ -1,3 +1,20 @@
+Package: cc33xx-target-scripts
+Version: 1.0+git20241017+4371c93e-1
+Architecture: all
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Installed-Size: 201
+Homepage: https://www.ti.com/tool/CC33XX-SOFTWARE
+Priority: optional
+Section: utils
+Filename: pool/main/c/cc33xx-target-scripts/cc33xx-target-scripts_1.0+git20241017+4371c93e-1_all.deb
+Size: 37672
+SHA256: b50364662ba4364b4f8f1760ddad503cf0450a29907e4b19b14ec9a97dee3ec6
+SHA1: 0ffb672b0d929590acb05bfb4e023e8cd7e3465d
+MD5sum: a922a6d0cfbe24b2f8a03c2cb3fcefe3
+Description: Tool to Control and Configure cc33xx WLAN Devices
+ cc33xx-target-scripts installs scripts and configs required to control and
+ configure cc33xx WLAN devices.
+
 Package: cryptodev-linux-dkms
 Source: cryptodev-linux
 Version: 1.14+git20240719+135cbff-1
