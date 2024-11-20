@@ -35,6 +35,42 @@ MD5sum: c8f67f2754dceaf6f5dde916aa9c8765
 Description: debug symbols for cc33calibrator
 Build-Ids: b2164ed8e22c19d830fbaf2cd94be5d29f08b6ff
 
+Package: cc33conf
+Version: 1.7.0.120+git20241031+34e2cf44-1
+Architecture: arm64
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Installed-Size: 257
+Depends: libc6 (>= 2.34)
+Homepage: https://www.ti.com/tool/CC33XX-SOFTWARE
+Priority: optional
+Section: utils
+Filename: pool/main/c/cc33conf/cc33conf_1.7.0.120+git20241031+34e2cf44-1_arm64.deb
+Size: 27088
+SHA256: 0cfb1e2c53f4a56c855cac350a312e83d60ebd1baa5fa565e4ed5cbc54b3fa5c
+SHA1: 8a6e39dc9023db12472ce109ac54109f7730a18f
+MD5sum: b386fb10e441368e3a4d2a47f5c5e869
+Description: Tool to Configure CC33xx WLAN Devices
+ cc33conf is a tool provided by TI to configure CC33xx WLAN devices. It can be
+ used to change RF parameters and other features of target.
+
+Package: cc33conf-dbgsym
+Source: cc33conf
+Version: 1.7.0.120+git20241031+34e2cf44-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Installed-Size: 50
+Depends: cc33conf (= 1.7.0.120+git20241031+34e2cf44-1)
+Priority: optional
+Section: debug
+Filename: pool/main/c/cc33conf/cc33conf-dbgsym_1.7.0.120+git20241031+34e2cf44-1_arm64.deb
+Size: 31948
+SHA256: 7edb54e886101baa5a7dce965231f80bbea24c81cde5a439e403574f716d6394
+SHA1: 87b4274044c518b3021f2215a5d42e22bb54f1c9
+MD5sum: 7b18628a934f3b3b87c21ef32dab06bc
+Description: debug symbols for cc33conf
+Build-Ids: 3bf6c49d158ce079eea505791870ce44486a4260
+
 Package: cc33xx-target-scripts
 Version: 1.0+git20241017+4371c93e-1
 Architecture: all
