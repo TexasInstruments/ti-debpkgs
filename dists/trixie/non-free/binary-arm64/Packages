@@ -1,3 +1,20 @@
+Package: cc33xx-fw
+Version: 1.7.0.120-1+git20241018+988ded3a-1
+Architecture: all
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Installed-Size: 585
+Multi-Arch: foreign
+Homepage: https://git.ti.com/git/cc33xx-wlan/cc33xx-fw
+Priority: optional
+Section: non-free
+Filename: pool/non-free/c/cc33xx-fw/cc33xx-fw_1.7.0.120-1+git20241018+988ded3a-1_all.deb
+Size: 385036
+SHA256: 2215d1a10f5af61c9a39cef2d9913157a400491ce9a54d01b322ea1cd228c036
+SHA1: d3a545cf6beb596f7373fe8f6eb8f9c838b60267
+MD5sum: ca93328884507adede9a043c36aec965
+Description: Firmware for Running Wifi Drivers
+ Firmware and binaries for running wifi drivers.
+
 Package: firmware-cnm-wave
 Source: ti-linux-firmware
 Version: 10.01.08-1
