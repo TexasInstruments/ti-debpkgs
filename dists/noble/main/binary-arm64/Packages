@@ -1,3 +1,40 @@
+Package: cc33calibrator
+Version: 1.0.0.50+git20241031+34e2cf44-1
+Architecture: arm64
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Installed-Size: 83
+Depends: libc6 (>= 2.34), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libnl-3-dev
+Homepage: https://www.ti.com/tool/CC33XX-SOFTWARE
+Priority: optional
+Section: utils
+Filename: pool/main/c/cc33calibrator/cc33calibrator_1.0.0.50+git20241031+34e2cf44-1_arm64.deb
+Size: 20188
+SHA256: 563305b29d83b139ad262df5e844d1241463be1df5e6596a0c11da7190510321
+SHA1: 84a0efad81eabd1b057eace98bfa85c2d06ff82c
+MD5sum: b53c609c91f52898de829277ac8a097b
+Description: Tool to Configure CC33xx WLAN Devices
+ cc33calibrator is a tool provided by TI to manually control radio frontend of
+ the cc33xx device. This tool can also be used for the production line testing
+ of the radio.
+
+Package: cc33calibrator-dbgsym
+Source: cc33calibrator
+Version: 1.0.0.50+git20241031+34e2cf44-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Installed-Size: 80
+Depends: cc33calibrator (= 1.0.0.50+git20241031+34e2cf44-1)
+Priority: optional
+Section: debug
+Filename: pool/main/c/cc33calibrator/cc33calibrator-dbgsym_1.0.0.50+git20241031+34e2cf44-1_arm64.deb
+Size: 60320
+SHA256: 596ead983540893417a46fe601e1e37aaf299b8f23ec000fe8bf5418302684ac
+SHA1: 9d3977772fb2b8c43ac9cd08c733520e5165cbeb
+MD5sum: c8f67f2754dceaf6f5dde916aa9c8765
+Description: debug symbols for cc33calibrator
+Build-Ids: b2164ed8e22c19d830fbaf2cd94be5d29f08b6ff
+
 Package: cc33xx-target-scripts
 Version: 1.0+git20241017+4371c93e-1
 Architecture: all
