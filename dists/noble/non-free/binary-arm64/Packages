@@ -17,24 +17,24 @@ Description: Firmware for Running Wifi Drivers
 
 Package: firmware-cnm-wave
 Source: ti-linux-firmware
-Version: 10.01.08-1
+Version: 10.01.09-1
 Architecture: all
 Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
 Installed-Size: 987
 Homepage: https://git.ti.com/cgit/processor-firmware/ti-linux-firmware
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-linux-firmware/firmware-cnm-wave_10.01.08-1_all.deb
-Size: 142644
-SHA256: 4a2b8e3806292541f23a6cbc3c4002dbc48a2b2ea4eaeec89f74c43f958074ac
-SHA1: acc4cbc44de7379abaf7f4b82088e9a6bb222abd
-MD5sum: 4c73ae4fcc6b70bbcf5e136afdd37adc
+Filename: pool/non-free/t/ti-linux-firmware/firmware-cnm-wave_10.01.09-1_all.deb
+Size: 142672
+SHA256: 129d7ad98175ebca5e7b05da1156359401548f34161b11a3ca3ec6dd68e9b8a5
+SHA1: c347c77f97f25d75e1af4aa381dd89f35151d09c
+MD5sum: a1e70107361ec9b5132dd26225155289
 Description: Chips&Media codec firmware for TI Platforms
  cnm wave521C combined decoder and encoder firmware for TI platforms
 
 Package: firmware-ti-ipc-am62
 Source: ti-linux-firmware
-Version: 10.01.08-1
+Version: 10.01.09-1
 Architecture: all
 Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
 Installed-Size: 65
@@ -44,17 +44,17 @@ Provides: firmware-ti-ipc
 Homepage: https://git.ti.com/cgit/processor-firmware/ti-linux-firmware
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-am62_10.01.08-1_all.deb
-Size: 30712
-SHA256: 0a25710796ae87a5c62375723271f7b41aff7b376f4b67413d9799ce1721eaf1
-SHA1: 27635c3a075379759ed1ea4b2f9d2fdda86fdade
-MD5sum: 39650072fecd55403c044a19c31b73c9
+Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-am62_10.01.09-1_all.deb
+Size: 30724
+SHA256: 87bd0bae59a8a83d38f14ecb0d53a3e6f860c46f0e26f3b7eb353280e0921f19
+SHA1: 0dca39071c478578b1b2109cbaea3a9a38ed716b
+MD5sum: f42303d60940047c71073915d9e86f98
 Description: TI IPC firmware for AM62
  This package provides TI IPC firmwares for remoteprocs on AM62
 
 Package: firmware-ti-ipc-am62a
 Source: ti-linux-firmware
-Version: 10.01.08-1
+Version: 10.01.09-1
 Architecture: all
 Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
 Installed-Size: 8260
@@ -64,17 +64,17 @@ Provides: firmware-ti-ipc
 Homepage: https://git.ti.com/cgit/processor-firmware/ti-linux-firmware
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-am62a_10.01.08-1_all.deb
-Size: 88300
-SHA256: 0f11e53c8db71cf0aba838ed0c26995852f5bc1c1bb219bfc00d93fe947bea55
-SHA1: 0c68f8b0091d3e1b2b9495963795931169112eb4
-MD5sum: 785327141d9b553a5ef1ca6017eac969
+Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-am62a_10.01.09-1_all.deb
+Size: 88304
+SHA256: 3bbb4a36c781ebcc09b22d4775e9eba78973bff8580dda45f53b45e6deea9469
+SHA1: 8557188348f675e9331cf44177a4cebbb2187e7c
+MD5sum: ed29c7c5573dfe29bb5d07b7c0a8b3f0
 Description: TI IPC firmware for AM62A
  This package provides TI IPC firmwares for remoteprocs on AM62A
 
 Package: firmware-ti-ipc-am62p
 Source: ti-linux-firmware
-Version: 10.01.08-1
+Version: 10.01.09-1
 Architecture: all
 Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
 Installed-Size: 68
@@ -84,17 +84,17 @@ Provides: firmware-ti-ipc
 Homepage: https://git.ti.com/cgit/processor-firmware/ti-linux-firmware
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-am62p_10.01.08-1_all.deb
-Size: 34328
-SHA256: 31e15d7a70e41eeea4a4ee036aa1cf55c62cec69801d96086bee0d53a99409b5
-SHA1: 881b691da727c58dadfe4c0ba4df17acf322b166
-MD5sum: 591f4e889609ec20b03e4fed310a2adc
+Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-am62p_10.01.09-1_all.deb
+Size: 34332
+SHA256: 52e401c8de343f1403c9118b69146edbdebc5b32b2159307621a0f4cf41ae638
+SHA1: 8333c068f988984a5a5d911102639dd948e039fb
+MD5sum: 3997bb15d602a3d6911329246ffbd8bb
 Description: TI IPC firmware for AM62P
  This package provides TI IPC firmwares for remoteprocs on AM62P
 
 Package: firmware-ti-ipc-am64
 Source: ti-linux-firmware
-Version: 10.01.08-1
+Version: 10.01.09-1
 Architecture: all
 Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
 Installed-Size: 467
@@ -104,17 +104,17 @@ Provides: firmware-ti-ipc
 Homepage: https://git.ti.com/cgit/processor-firmware/ti-linux-firmware
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-am64_10.01.08-1_all.deb
-Size: 70608
-SHA256: 78caf7961a9d4b959bbd29ee3c7cf856a36f192a1b7fb831f8f491c15773daa1
-SHA1: 81ed13df6190c60e8de496c8dcbd0344e5510c5c
-MD5sum: c2fe6e1415e1d1541a3bb491a03dd5c6
+Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-am64_10.01.09-1_all.deb
+Size: 70544
+SHA256: 3c1f5ef39366ee2826f4f6e97b3211435121385314c86192d20b5a33de0f5a72
+SHA1: 18a33eb04b909fb332d07e50934dbb7ee91ac59e
+MD5sum: 928e005a2a15e2faf8c5dae658c29bc1
 Description: TI IPC firmware for AM64
  This package provides TI IPC firmwares for remoteprocs on AM64
 
 Package: firmware-ti-ipc-j721e
 Source: ti-linux-firmware
-Version: 10.01.08-1
+Version: 10.01.09-1
 Architecture: all
 Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
 Installed-Size: 10994
@@ -124,17 +124,17 @@ Provides: firmware-ti-ipc
 Homepage: https://git.ti.com/cgit/processor-firmware/ti-linux-firmware
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-j721e_10.01.08-1_all.deb
-Size: 199088
-SHA256: 5871c16561ff217490f06b7dae26a946b6ae11f191270fe1eeff4c2e6d90a834
-SHA1: 917da42539c5e09afd203384d0d4273c46e6ae8b
-MD5sum: 38f5b4f708523548d83848f97dc6e1c8
+Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-j721e_10.01.09-1_all.deb
+Size: 198644
+SHA256: 89089c4c217ef69070eeff46b3a26fbaa12bad23088f03f4f4a1b53bf79addd3
+SHA1: 55265d8a1b11dfb727a2d5b4914a6a487ccfc60f
+MD5sum: fc4341e9d9344b0a14e4ed4a850333ca
 Description: TI IPC firmware for J721E
  This package provides TI IPC firmwares for remoteprocs on J721E
 
 Package: firmware-ti-ipc-j721s2
 Source: ti-linux-firmware
-Version: 10.01.08-1
+Version: 10.01.09-1
 Architecture: all
 Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
 Installed-Size: 20890
@@ -144,17 +144,17 @@ Provides: firmware-ti-ipc
 Homepage: https://git.ti.com/cgit/processor-firmware/ti-linux-firmware
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-j721s2_10.01.08-1_all.deb
-Size: 182628
-SHA256: 003d1a73f43ea2b64216cc81c1cb4b05bb8f76204f01f90f1d5be5533460e47e
-SHA1: 32f90223f69adc23e6073efaa54068f014b2580f
-MD5sum: 696dbe697abb9f0228724117e2f6f136
+Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-j721s2_10.01.09-1_all.deb
+Size: 182204
+SHA256: 1cef24ec956773f4d1b83cec005614276b6479ca3ba34d2ff6d382ac19055f3b
+SHA1: edc27063a52482429690c8ff2a96e0a2a24c3aeb
+MD5sum: 52708181dcb98c000b6603ac96f762cf
 Description: TI IPC firmware for J721S2
  This package provides TI IPC firmwares for remoteprocs on J721S2
 
 Package: firmware-ti-ipc-j784s4
 Source: ti-linux-firmware
-Version: 10.01.08-1
+Version: 10.01.09-1
 Architecture: all
 Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
 Installed-Size: 41564
@@ -164,62 +164,62 @@ Provides: firmware-ti-ipc
 Homepage: https://git.ti.com/cgit/processor-firmware/ti-linux-firmware
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-j784s4_10.01.08-1_all.deb
-Size: 324804
-SHA256: 50daafc1bad806e5e2191b7cdf733105ccb33447c004bf9dc6d326371dee34d6
-SHA1: 6315ea0e754afc5d59a5b9e59fbcd80023acf1a4
-MD5sum: e2a4c0a9ede01e8f3c7d4b89006af64a
+Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-j784s4_10.01.09-1_all.deb
+Size: 324580
+SHA256: 36e06252907cd0f9f8f977234b8fb76aa06a24afcdeee0bb15ece823738ec9c5
+SHA1: e614450adb6cc169d5638d9573d547c34529f6bb
+MD5sum: b1a5b1473dbd4418b5e03cd65c7df3f3
 Description: TI IPC firmware for J784S4
  This package provides TI IPC firmwares for remoteprocs on J784S4
 
 Package: firmware-ti-prueth-am64
 Source: ti-linux-firmware
-Version: 10.01.08-1
+Version: 10.01.09-1
 Architecture: all
 Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
 Installed-Size: 229
 Homepage: https://git.ti.com/cgit/processor-firmware/ti-linux-firmware
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-prueth-am64_10.01.08-1_all.deb
-Size: 23892
-SHA256: 983aede2ba4a7491b2a44fec51f6d341fef38d3d38bbaa6ca5f1d0a2ccacc072
-SHA1: d8ad513d4251ca13a3f6a2491caa256d251baf7d
-MD5sum: 68d7703b525fcb3adb8f3d7d8e2c8d1d
+Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-prueth-am64_10.01.09-1_all.deb
+Size: 23880
+SHA256: 2d464030ae336cb5e415fca045087b5eacc80680691826bf7487d2605e8f63e0
+SHA1: 6edb0835f0c070da11c799bfc0325f79f71517c9
+MD5sum: bca2056624fb2210bc2506097655f6c2
 Description: PRU Ethernet firmware for AM64
  This package provides PRU Ethernet firmware for AM64
 
 Package: firmware-ti-pruhsr-am64
 Source: ti-linux-firmware
-Version: 10.01.08-1
+Version: 10.01.09-1
 Architecture: all
 Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
 Installed-Size: 236
 Homepage: https://git.ti.com/cgit/processor-firmware/ti-linux-firmware
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-pruhsr-am64_10.01.08-1_all.deb
-Size: 25100
-SHA256: fe2d6560fb42e3f4fd3480b4c3c57723af476b3aa04db1c42c1319500cad8f35
-SHA1: eacbaa3ce26d7dc8f77367016d7b846e097af134
-MD5sum: 62917c298b02a7782f954c102d66c1b9
+Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-pruhsr-am64_10.01.09-1_all.deb
+Size: 25032
+SHA256: 08f47c9da63dc4a29133f775451c286d7f9689a9ca48f5ef44de6d963e4de9b8
+SHA1: 8c864a2007f40711c8407e610a0d03356a22b341
+MD5sum: 1d6952e71fe8678567eb2ac9cf01bb3c
 Description: PRU HSR firmware for AM64
  This package provides PRU HSR firmware for AM64
 
 Package: firmware-ti-prusw-am64
 Source: ti-linux-firmware
-Version: 10.01.08-1
+Version: 10.01.09-1
 Architecture: all
 Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
 Installed-Size: 245
 Homepage: https://git.ti.com/cgit/processor-firmware/ti-linux-firmware
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-prusw-am64_10.01.08-1_all.deb
-Size: 25872
-SHA256: e10f6db19e377a29e5b9a6a8de86b06c4a07dd4e3f22f5e1b2ff3af6cbcabc21
-SHA1: 34c6bfc86b072df2d5429e42e772017ace38899b
-MD5sum: a1e4fd74c31a6395e04649b6cf27e19f
+Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-prusw-am64_10.01.09-1_all.deb
+Size: 25860
+SHA256: f2d87defe0ce8a664ade1ccd5a079a2d1b5eaed60d70760a5ac83dcbc51d38b4
+SHA1: b2a19c3649dd51c93d9e76d80b09fde828046c7a
+MD5sum: 35b0f8a5c743604dfc3168ff09538a0c
 Description: PRU Ethernet Switch firmware for AM64
  This package provides PRU Ethernet Switch firmware for AM64
 
