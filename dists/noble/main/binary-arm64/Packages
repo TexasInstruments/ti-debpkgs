@@ -1130,3 +1130,40 @@ MD5sum: ec49f9b578a610c76c6e9f974804be0c
 Description: Imagination Rogue Kernel Mode Driver for Texas Instruments J784s4
  This set of modules provides the kernel mode graphical driver for IMG Rogue GPU on TI J784s4.
 
+Package: ti-lvgl-demo
+Version: 1.0+git20250106+7a62cb1af27-1
+Architecture: arm64
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Installed-Size: 40444
+Depends: libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libmosquitto1 (>= 1.1), libstdc++6 (>= 14)
+Homepage: https://github.com/texasinstruments/ti-lvgl-demo
+Priority: optional
+Section: embedded
+Filename: pool/main/t/ti-lvgl-demo/ti-lvgl-demo_1.0+git20250106+7a62cb1af27-1_arm64.deb
+Size: 18791064
+SHA256: 71cefd9ce3a65ee2803a219939132694450b5d2418164d116f1e3c12ec49c71d
+SHA1: 0f12b2551179c11674e33a1c867740bf05b46550
+MD5sum: e1b5842919b55c42ad3d21673910418c
+Description: High Resolution OOB Demo for TI Platforms
+ ti-lvgl-demo is a high resolution OOB demo for TI platforms.
+ It outputs its graphics directly to the framebuffer, thus can
+ be used even on devices that lack a GPU.
+
+Package: ti-lvgl-demo-dbgsym
+Source: ti-lvgl-demo
+Version: 1.0+git20250106+7a62cb1af27-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Installed-Size: 9920
+Depends: ti-lvgl-demo (= 1.0+git20250106+7a62cb1af27-1)
+Priority: optional
+Section: debug
+Filename: pool/main/t/ti-lvgl-demo/ti-lvgl-demo-dbgsym_1.0+git20250106+7a62cb1af27-1_arm64.deb
+Size: 2879628
+SHA256: 13be8593f6d9eb6b3953ba513ace6d7bcd99e23e5b39a0828565bc05a9bb68a8
+SHA1: 7fc4dbf79b349ce29b0c6ccfb9aa65c4ca89491b
+MD5sum: eb56d9d5a22f3fbcc5f891721161a293
+Description: debug symbols for ti-lvgl-demo
+Build-Ids: 50dd82cd265b7590fc47359c799747657666815e
+
