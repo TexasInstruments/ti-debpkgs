@@ -675,132 +675,132 @@ Description: RPMSG-char Utility Library
  .
  This package contains development files for libti-rpmsg-char.
 
-Package: linux-headers-6.12.17-00771-gc85877d40f8e
+Package: linux-headers-6.12.24-k3
 Source: linux-upstream
-Version: 6.12.17-00771-gc85877d40f8e-1
+Version: 6.12.24-gb0afb35642d7-1
 Architecture: arm64
-Maintainer: Suhaas Joshi <s-joshi@ti.com>
-Installed-Size: 50314
+Maintainer: suhaas <suhaas@debian>
+Installed-Size: 50333
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.12.17-00771-gc85877d40f8e_6.12.17-00771-gc85877d40f8e-1_arm64.deb
-Size: 8354916
-SHA256: ca365577996cfd494b96cbbd172b4ece34f04c441c3a6328f99a569fb792c1a7
-SHA1: 3cedb00785147aca6d9bda1f9a957e53694a78af
-MD5sum: 7eba0e4ef35631c5b3eeffecc1596a45
-Description: Linux kernel headers for 6.12.17-00771-gc85877d40f8e on arm64
- This package provides kernel header files for 6.12.17-00771-gc85877d40f8e on arm64
+Filename: pool/main/l/linux-upstream/linux-headers-6.12.24-k3_6.12.24-gb0afb35642d7-1_arm64.deb
+Size: 8352504
+SHA256: d1639d7e5db097d78fad448cc547024f3cf4bf51501d3e6ada2abc80014a7497
+SHA1: d213b03d5541256b143307029035c462b53ee428
+MD5sum: 5a02a0659f8c8be3a990ef01a2abe7a4
+Description: Linux kernel headers for 6.12.24-k3 on arm64
+ This package provides kernel header files for 6.12.24-k3 on arm64
  .
  This is useful for people who need to build external modules
 
-Package: linux-headers-6.12.17rt-00771-gc85877d40f8e
+Package: linux-headers-6.12.24-k3-rt
 Source: linux-upstream
-Version: 6.12.17-k3-rt
+Version: 6.12.24-gb0afb35642d7-1
 Architecture: arm64
-Maintainer: Suhaas Joshi <s-joshi@ti.com>
-Installed-Size: 50314
+Maintainer: suhaas <suhaas@debian>
+Installed-Size: 49925
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.12.17rt-00771-gc85877d40f8e_6.12.17-k3-rt_arm64.deb
-Size: 8357368
-SHA256: c5ffae66d13f87d581154a141bf5e65d001afa9e1c0504906dae3df6248c474e
-SHA1: bf8ec767cb5662d956d36d27988fbf670112fb64
-MD5sum: c910f178c44b864c6afca52a4fe52cd4
-Description: Linux kernel headers for 6.12.17rt-00771-gc85877d40f8e on arm64
- This package provides kernel header files for 6.12.17rt-00771-gc85877d40f8e on arm64
+Filename: pool/main/l/linux-upstream/linux-headers-6.12.24-k3-rt_6.12.24-gb0afb35642d7-1_arm64.deb
+Size: 8329824
+SHA256: d323276a81982c88ce854e7d31b3ba5613309a8a2765209f4dd93e901b1a121e
+SHA1: 9485031e23528a3e57b72a19714307848bc580d6
+MD5sum: ee4a08c19c8610d323ee2329d02224a3
+Description: Linux kernel headers for 6.12.24-k3-rt on arm64
+ This package provides kernel header files for 6.12.24-k3-rt on arm64
  .
  This is useful for people who need to build external modules
 
-Package: linux-image-6.12.17-00771-gc85877d40f8e
+Package: linux-image-6.12.24-k3
 Source: linux-upstream
-Version: 6.12.17-00771-gc85877d40f8e-1
+Version: 6.12.24-gb0afb35642d7-1
 Architecture: arm64
-Maintainer: Suhaas Joshi <s-joshi@ti.com>
-Installed-Size: 50953
+Maintainer: suhaas <suhaas@debian>
+Installed-Size: 51047
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.12.17-00771-gc85877d40f8e_6.12.17-00771-gc85877d40f8e-1_arm64.deb
-Size: 16423032
-SHA256: 418d861c5da549c971369a6929fbddd73eb504faff22eed70e0a6883ce41e09a
-SHA1: a4ab62d9a77824a4a029960b00707eb893bc9009
-MD5sum: 83838b7b9acdc5a1513950cdd8e6b34b
-Description: Linux kernel, version 6.12.17-00771-gc85877d40f8e
+Filename: pool/main/l/linux-upstream/linux-image-6.12.24-k3_6.12.24-gb0afb35642d7-1_arm64.deb
+Size: 16458896
+SHA256: 76d101801f58c379d06eab92e4c836e2776643f8ff1883c8077dc36abd626305
+SHA1: 702d7d091d6f0ff7e236b529e15bcee76dfdaa04
+MD5sum: d46b24b61bb096673fc4b8c48b842aed
+Description: Linux kernel, version 6.12.24-k3
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.12.17-00771-gc85877d40f8e.
+ files, version: 6.12.24-k3.
 
-Package: linux-image-6.12.17-00771-gc85877d40f8e-dbg
+Package: linux-image-6.12.24-k3-dbg
 Source: linux-upstream
-Version: 6.12.17-00771-gc85877d40f8e-1
+Version: 6.12.24-gb0afb35642d7-1
 Architecture: arm64
-Maintainer: Suhaas Joshi <s-joshi@ti.com>
-Installed-Size: 234603
+Maintainer: suhaas <suhaas@debian>
+Installed-Size: 235103
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: debug
-Filename: pool/main/l/linux-upstream/linux-image-6.12.17-00771-gc85877d40f8e-dbg_6.12.17-00771-gc85877d40f8e-1_arm64.deb
-Size: 52957820
-SHA256: 3dfbd38696f135bda774ba9f249f1b487b9cc55dfb5b0d8ceb2453ec0e8ca8a1
-SHA1: e3296f517f2d1a8c174d05edf76d288148658e87
-MD5sum: f1406aca30912bd6b7b16696fe43714b
-Description: Linux kernel debugging symbols for 6.12.17-00771-gc85877d40f8e
+Filename: pool/main/l/linux-upstream/linux-image-6.12.24-k3-dbg_6.12.24-gb0afb35642d7-1_arm64.deb
+Size: 53056044
+SHA256: 03a773b2b9a5eac848f07288948d5adc6ca6c3fd47e597dc8d7d5f2b49734969
+SHA1: 54623bd997e913642fae6aa4b2dd15c7ded66cb5
+MD5sum: fcc7e4b1d85c7d0248cfd50893321be9
+Description: Linux kernel debugging symbols for 6.12.24-k3
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
 
-Package: linux-image-6.12.17rt-00771-gc85877d40f8e
+Package: linux-image-6.12.24-k3-rt
 Source: linux-upstream
-Version: 6.12.17-k3-rt
+Version: 6.12.24-gb0afb35642d7-1
 Architecture: arm64
-Maintainer: Suhaas Joshi <s-joshi@ti.com>
-Installed-Size: 50955
+Maintainer: suhaas <suhaas@debian>
+Installed-Size: 45927
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.12.17rt-00771-gc85877d40f8e_6.12.17-k3-rt_arm64.deb
-Size: 16423092
-SHA256: 2e5d1502b9aa07065529a49970e4fd182557752009ad08d604502276e9c989dd
-SHA1: e668f28a5ae4043eb56de72b9dbdc4704b444089
-MD5sum: 316c3bcf3bb207598ba79f891b151d3b
-Description: Linux kernel, version 6.12.17rt-00771-gc85877d40f8e
+Filename: pool/main/l/linux-upstream/linux-image-6.12.24-k3-rt_6.12.24-gb0afb35642d7-1_arm64.deb
+Size: 13752412
+SHA256: afed27c5d7c6d8086db4a407642ec89f6d3e55abe9957028311313125e7ae19a
+SHA1: f940b41998a4ea011556e598c84c5db8b3140cee
+MD5sum: d0808f4fe26aec4072ee8a46215a2c56
+Description: Linux kernel, version 6.12.24-k3-rt
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.12.17rt-00771-gc85877d40f8e.
+ files, version: 6.12.24-k3-rt.
 
-Package: linux-image-6.12.17rt-00771-gc85877d40f8e-dbg
+Package: linux-image-6.12.24-k3-rt-dbg
 Source: linux-upstream
-Version: 6.12.17-k3-rt
+Version: 6.12.24-gb0afb35642d7-1
 Architecture: arm64
-Maintainer: Suhaas Joshi <s-joshi@ti.com>
-Installed-Size: 234618
+Maintainer: suhaas <suhaas@debian>
+Installed-Size: 207356
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: debug
-Filename: pool/main/l/linux-upstream/linux-image-6.12.17rt-00771-gc85877d40f8e-dbg_6.12.17-k3-rt_arm64.deb
-Size: 52948968
-SHA256: fb079a494b184b40f2608207326b3ff764035cd648cb745a934097bd455b483f
-SHA1: aa2348b74255f197f9cfdc47be2f63d06ac0b675
-MD5sum: 0903046d326e181571bb26e2fe5b2041
-Description: Linux kernel debugging symbols for 6.12.17rt-00771-gc85877d40f8e
+Filename: pool/main/l/linux-upstream/linux-image-6.12.24-k3-rt-dbg_6.12.24-gb0afb35642d7-1_arm64.deb
+Size: 46437004
+SHA256: 4113426bb8e65f595ae88eb69f7cb8a127895c78630b2d05cfb6d7deb1d1670a
+SHA1: 7daafbe9d72ba02fd14afc9703ab07c3ea9b6d4e
+MD5sum: 17c5d88f842b436eec7feefc23820ff8
+Description: Linux kernel debugging symbols for 6.12.24-k3-rt
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
 
 Package: linux-libc-dev
 Source: linux-upstream
-Version: 6.12.17-k3-rt
+Version: 6.12.24-gb0afb35642d7-1
 Architecture: arm64
-Maintainer: Suhaas Joshi <s-joshi@ti.com>
+Maintainer: suhaas <suhaas@debian>
 Installed-Size: 7058
 Provides: linux-kernel-headers
 Multi-Arch: same
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-upstream/linux-libc-dev_6.12.17-k3-rt_arm64.deb
-Size: 1371388
-SHA256: 5894ecde170845f2b43adc81cac532f4de0777e8beee1430925cf8b147c108d2
-SHA1: 41fdcd109e23251180749f967a210bd8a2b12b99
-MD5sum: 20617b5b77d0bee98318064d303818bd
+Filename: pool/main/l/linux-upstream/linux-libc-dev_6.12.24-gb0afb35642d7-1_arm64.deb
+Size: 1371568
+SHA256: 210127c265756e38c8853dfa3839e3a5ea34e018427793b37387bd06dc294005
+SHA1: cc8cfab963fe8c8ef06c8f4c74fc5917bc077975
+MD5sum: e81ddf82fbb4b06da432e9001eb5e12c
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
