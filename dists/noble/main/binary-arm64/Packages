@@ -1131,7 +1131,7 @@ Description: Imagination Rogue Kernel Mode Driver for Texas Instruments J784s4
  This set of modules provides the kernel mode graphical driver for IMG Rogue GPU on TI J784s4.
 
 Package: ti-lvgl-demo
-Version: 1.0+git20250602+b8396cf2ca51-1
+Version: 1.0+git20250610+c5296bb00f3cb74-1
 Architecture: arm64
 Maintainer: Suhaas Joshi <s-joshi@ti.com>
 Installed-Size: 40450
@@ -1139,11 +1139,11 @@ Depends: libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libmosq
 Homepage: https://github.com/texasinstruments/ti-lvgl-demo
 Priority: optional
 Section: embedded
-Filename: pool/main/t/ti-lvgl-demo/ti-lvgl-demo_1.0+git20250602+b8396cf2ca51-1_arm64.deb
-Size: 18780832
-SHA256: 3acc586f6eb0b053aeb3376d8a1addde61fc0fc89922f7ec3cd8be84faeec0af
-SHA1: d71741222043e90ae597832aa0c2b6392c7d4496
-MD5sum: 03ef12cca84e63547a94e31e47ae0179
+Filename: pool/main/t/ti-lvgl-demo/ti-lvgl-demo_1.0+git20250610+c5296bb00f3cb74-1_arm64.deb
+Size: 18779060
+SHA256: 0842b545cf41f848c9ea4e23af25c3f198593ec0395833f74244afe5a9b3072e
+SHA1: 212361027098938956e12232fcd708b47df84c2a
+MD5sum: b8f024ea09a3665ba68696bd623cb279
 Description: High Resolution OOB Demo for TI Platforms
  ti-lvgl-demo is a high resolution OOB demo for TI platforms.
  It outputs its graphics directly to the framebuffer, thus can
@@ -1151,19 +1151,19 @@ Description: High Resolution OOB Demo for TI Platforms
 
 Package: ti-lvgl-demo-dbgsym
 Source: ti-lvgl-demo
-Version: 1.0+git20250602+b8396cf2ca51-1
+Version: 1.0+git20250610+c5296bb00f3cb74-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Suhaas Joshi <s-joshi@ti.com>
-Installed-Size: 3045
-Depends: ti-lvgl-demo (= 1.0+git20250602+b8396cf2ca51-1)
+Installed-Size: 3041
+Depends: ti-lvgl-demo (= 1.0+git20250610+c5296bb00f3cb74-1)
 Priority: optional
 Section: debug
-Filename: pool/main/t/ti-lvgl-demo/ti-lvgl-demo-dbgsym_1.0+git20250602+b8396cf2ca51-1_arm64.deb
-Size: 2861040
-SHA256: 3935dace578ba4c306cb763bb3df71317c75e1021163b371dd61c9bc726b5fd6
-SHA1: 27dac71f34daaea4146c593888c3593fec25366a
-MD5sum: ae26314ff56687373b75677c4a01d2ef
+Filename: pool/main/t/ti-lvgl-demo/ti-lvgl-demo-dbgsym_1.0+git20250610+c5296bb00f3cb74-1_arm64.deb
+Size: 2857692
+SHA256: acfc8aa39d17299915ea0e5ff71dff0186528e3bf94d5de13ebd093429d13016
+SHA1: d0196d56e39616eb211d7413d5eb652dcbba2520
+MD5sum: bb2b31de67847dc44d7eb8afb7d3da08
 Description: debug symbols for ti-lvgl-demo
-Build-Ids: 8542a477afc1c3110531c589ea2eefc8e1b764b2
+Build-Ids: f5d32799bd46b9643e10d9c80fa19131a5f82398
 
