@@ -1042,91 +1042,91 @@ Description: Programmable Real-time Unit (PRU) Software Support Package v6.1.0
 
 Package: ti-img-rogue-driver-am62-dkms
 Source: ti-img-rogue-driver
-Version: 24.2.6643903+git20250328+3bcbba9708fe6-1
+Version: 24.2.6643903+git20250625+8eaff654a887-1
 Architecture: all
 Maintainer: Andrew Davis <afd@ti.com>
-Installed-Size: 19361
+Installed-Size: 19362
 Depends: dkms (>= 2.1.0.0), libc-dev | libc, ti-img-rogue-firmware-am62
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-driver
 Priority: optional
 Section: kernel
-Filename: pool/main/t/ti-img-rogue-driver/ti-img-rogue-driver-am62-dkms_24.2.6643903+git20250328+3bcbba9708fe6-1_all.deb
-Size: 1698076
-SHA256: 92d8f47e669fdcdd261b7124bcdc39e3cf3631429b8a446a72c1e3906b1202bd
-SHA1: b31c7a2acdf686b101ed8eb2ef00b6b097c9b178
-MD5sum: 403e865fd0428853384a8871e32352f2
+Filename: pool/main/t/ti-img-rogue-driver/ti-img-rogue-driver-am62-dkms_24.2.6643903+git20250625+8eaff654a887-1_all.deb
+Size: 1698116
+SHA256: 545d149335c298b9ed9724443e7ee89aa3395fbcdc8fd2254b39ed0ce20408be
+SHA1: 78d7442df2a04605bfd5e40162f60613f118b9d9
+MD5sum: 8d6400dfd93a6b68cb417a58d003cf6b
 Description: Imagination Rogue Kernel Mode Driver for Texas Instruments AM62
  This set of modules provides the kernel mode graphical driver for IMG Rogue GPU on TI AM62.
 
 Package: ti-img-rogue-driver-am62p-dkms
 Source: ti-img-rogue-driver
-Version: 24.2.6643903+git20250328+3bcbba9708fe6-1
+Version: 24.2.6643903+git20250625+8eaff654a887-1
 Architecture: all
 Maintainer: Andrew Davis <afd@ti.com>
-Installed-Size: 19361
+Installed-Size: 19362
 Depends: dkms (>= 2.1.0.0), libc-dev | libc, ti-img-rogue-firmware-am62p
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-driver
 Priority: optional
 Section: kernel
-Filename: pool/main/t/ti-img-rogue-driver/ti-img-rogue-driver-am62p-dkms_24.2.6643903+git20250328+3bcbba9708fe6-1_all.deb
-Size: 1698360
-SHA256: 06e61dd792e92e57164df5346307dd517032213f89aee2b7ff2b5513a20c209c
-SHA1: 1864ece8073228111a1a357955c05782e01c317e
-MD5sum: 29f653d242a5b6663783c8efb4d32f9b
+Filename: pool/main/t/ti-img-rogue-driver/ti-img-rogue-driver-am62p-dkms_24.2.6643903+git20250625+8eaff654a887-1_all.deb
+Size: 1698364
+SHA256: bb703133c2ed16691e610c4518eff1a215914cc336149508abde8d97977c72db
+SHA1: 9d2414f8f8a496c450957063d4360ad43b732f55
+MD5sum: e1e327128cc562f4102c1359715c1824
 Description: Imagination Rogue Kernel Mode Driver for Texas Instruments AM62P
  This set of modules provides the kernel mode graphical driver for IMG Rogue GPU on TI AM62P.
 
 Package: ti-img-rogue-driver-j721e-dkms
 Source: ti-img-rogue-driver
-Version: 24.2.6643903+git20250328+3bcbba9708fe6-1
+Version: 24.2.6643903+git20250625+8eaff654a887-1
 Architecture: all
 Maintainer: Andrew Davis <afd@ti.com>
-Installed-Size: 19361
+Installed-Size: 19362
 Depends: dkms (>= 2.1.0.0), libc-dev | libc, ti-img-rogue-firmware-j721e
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-driver
 Priority: optional
 Section: kernel
-Filename: pool/main/t/ti-img-rogue-driver/ti-img-rogue-driver-j721e-dkms_24.2.6643903+git20250328+3bcbba9708fe6-1_all.deb
-Size: 1698100
-SHA256: 9aa5a2f4ce932ea76174bad2af403013795ac1a802a0e4098cfd01649d4b5941
-SHA1: 89409efdc39fc1cd4e5c7d0e04a1bebbde898b35
-MD5sum: fd361ab2ec8eeaf460ca607428f36b36
+Filename: pool/main/t/ti-img-rogue-driver/ti-img-rogue-driver-j721e-dkms_24.2.6643903+git20250625+8eaff654a887-1_all.deb
+Size: 1697888
+SHA256: 6301e27d344d661dd39d901a52845326d235d023a85c1d7f75347b3ae5f8d921
+SHA1: 74de63aeb3465a1b7b69cacec9e759fc5068e8a2
+MD5sum: 55dc5ee6bed89f7e0f930e5d4f007fbe
 Description: Imagination Rogue Kernel Mode Driver for Texas Instruments J721e
  This set of modules provides the kernel mode graphical driver for IMG Rogue GPU on TI J721e.
 
 Package: ti-img-rogue-driver-j721s2-dkms
 Source: ti-img-rogue-driver
-Version: 24.2.6643903+git20250328+3bcbba9708fe6-1
+Version: 24.2.6643903+git20250625+8eaff654a887-1
 Architecture: all
 Maintainer: Andrew Davis <afd@ti.com>
-Installed-Size: 19361
+Installed-Size: 19362
 Depends: dkms (>= 2.1.0.0), libc-dev | libc, ti-img-rogue-firmware-j721s2
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-driver
 Priority: optional
 Section: kernel
-Filename: pool/main/t/ti-img-rogue-driver/ti-img-rogue-driver-j721s2-dkms_24.2.6643903+git20250328+3bcbba9708fe6-1_all.deb
-Size: 1698368
-SHA256: 45a19e3beeca820fb3f882da0d5c2d2663db8ec33ece833f3b57221f0e266264
-SHA1: 7e896b4634b48afb2220195e385acea14a869924
-MD5sum: c9eb3bd822e0a6d36cd9556837f9ee07
+Filename: pool/main/t/ti-img-rogue-driver/ti-img-rogue-driver-j721s2-dkms_24.2.6643903+git20250625+8eaff654a887-1_all.deb
+Size: 1697824
+SHA256: fb5ea9dad6593bc4c21395bfd89ec83480e50eae29486ec8c46f0059843aca26
+SHA1: 6da28664fe3c12fefb57cf76ce62b40bf17651b4
+MD5sum: 60ea289a8a44745e976f9562f57d9b00
 Description: Imagination Rogue Kernel Mode Driver for Texas Instruments J721s2
  This set of modules provides the kernel mode graphical driver for IMG Rogue GPU on TI J721s2.
 
 Package: ti-img-rogue-driver-j784s4-dkms
 Source: ti-img-rogue-driver
-Version: 24.2.6643903+git20250328+3bcbba9708fe6-1
+Version: 24.2.6643903+git20250625+8eaff654a887-1
 Architecture: all
 Maintainer: Andrew Davis <afd@ti.com>
-Installed-Size: 19361
+Installed-Size: 19362
 Depends: dkms (>= 2.1.0.0), libc-dev | libc, ti-img-rogue-firmware-j784s4
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-driver
 Priority: optional
 Section: kernel
-Filename: pool/main/t/ti-img-rogue-driver/ti-img-rogue-driver-j784s4-dkms_24.2.6643903+git20250328+3bcbba9708fe6-1_all.deb
-Size: 1698216
-SHA256: 2f19b4be87558c472cf59ee1afca66cdfb6edea6d920ec4ea487db928c2a54a4
-SHA1: 785b7f010364919bf222201ff313242e352fa540
-MD5sum: 41f5dde70754945bc0558d8f036bfdf2
+Filename: pool/main/t/ti-img-rogue-driver/ti-img-rogue-driver-j784s4-dkms_24.2.6643903+git20250625+8eaff654a887-1_all.deb
+Size: 1698184
+SHA256: de9e8ae6d3c46fc5f748c2c4355330ea4f80912f96525e4c119389f8a4bf5c9a
+SHA1: e036890773d4e59c205056afbbb05f915ea4f897
+MD5sum: 018a5b84226402e061d39430778b6669
 Description: Imagination Rogue Kernel Mode Driver for Texas Instruments J784s4
  This set of modules provides the kernel mode graphical driver for IMG Rogue GPU on TI J784s4.
 
