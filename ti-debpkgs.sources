@@ -1,6 +1,6 @@
 Types: deb deb-src
 URIs: http://TexasInstruments.github.io/ti-debpkgs/
-Suites: bookworm
+Suites: trixie
 Components: main contrib non-free
 Signed-By:
  -----BEGIN PGP PUBLIC KEY BLOCK-----
