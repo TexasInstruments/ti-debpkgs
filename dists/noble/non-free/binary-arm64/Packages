@@ -223,6 +223,41 @@ MD5sum: bbab820041e2b7403dfc053af91cd867
 Description: PRU Ethernet Switch firmware for AM64
  This package provides PRU Ethernet Switch firmware for AM64
 
+Package: inky
+Version: 0.1-1
+Architecture: arm64
+Maintainer: Jonas Wood <jw@ti.com>
+Installed-Size: 215
+Depends: libc6 (>= 2.34), libgpiod3 (>= 2.1)
+Priority: optional
+Section: non-free
+Filename: pool/non-free/i/inky/inky_0.1-1_arm64.deb
+Size: 93912
+SHA256: 0f90103a1393d729f72c70f42c680ddc502c5dfbdd17d958aa499dfba29ba8fa
+SHA1: 5b369dc32c0f225ae853cfd002639659c6e2a9bc
+MD5sum: e8f3810d32841f7b70c57961b7d715a0
+Description: Demo application for e-ink display on the new
+ beagleboard.org BeagleBadge device, supported by the
+ AM62Lx Texas Instruments K3 SoC.
+
+Package: inky-dbgsym
+Source: inky
+Version: 0.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jonas Wood <jw@ti.com>
+Installed-Size: 102
+Depends: inky (= 0.1-1)
+Priority: optional
+Section: non-free
+Filename: pool/non-free/i/inky/inky-dbgsym_0.1-1_arm64.deb
+Size: 31456
+SHA256: 2b1cf9c890c604343a0d9f1121dd9f87373ea4554b9c9d4fb840c20f24a00380
+SHA1: 970c5d99573ed8e4bda8bd832b6da71976ae7352
+MD5sum: 7b455a2a210384ec78a3e149d56347cd
+Description: debug symbols for inky
+Build-Ids: 2c4185cc2b653827ef97e4fc02a301131080a584
+
 Package: ti-img-rogue-firmware-am62
 Source: ti-img-rogue-umlibs
 Version: 24.2.6643903+git20250317+1ed9ee185cd87-1
