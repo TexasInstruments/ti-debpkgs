@@ -17,26 +17,26 @@ Description: Firmware for Running Wifi Drivers
 
 Package: firmware-cnm-wave
 Source: ti-linux-firmware
-Version: 11.01.16-1
+Version: 11.02.03-1
 Architecture: all
-Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
+Maintainer: Jonas Wood <jw@ti.com>
 Installed-Size: 987
 Homepage: https://git.ti.com/cgit/processor-firmware/ti-linux-firmware
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-linux-firmware/firmware-cnm-wave_11.01.16-1_all.deb
-Size: 142928
-SHA256: 86928c13414024d303da0438c8fafcb698f3c16454abeaf8250151d0be304a8e
-SHA1: 57bd62ded575be7ed5f39e5bd55c048a3397c937
-MD5sum: 719bb7c40e33f12dc48808195b0e67da
+Filename: pool/non-free/t/ti-linux-firmware/firmware-cnm-wave_11.02.03-1_all.deb
+Size: 142940
+SHA256: 052ced70486d2b7ac2d0bdc31ecde5710dfc363a6859abf2cf0c42230952968a
+SHA1: e8cb8017d8573bf83b7b6ccd92d76e5422f1c5ac
+MD5sum: d31586291f2ca5e8bafb950b1cebe7b2
 Description: Chips&Media codec firmware for TI Platforms
  cnm wave521C combined decoder and encoder firmware for TI platforms
 
 Package: firmware-ti-ipc-am62
 Source: ti-linux-firmware
-Version: 11.01.16-1
+Version: 11.02.03-1
 Architecture: all
-Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
+Maintainer: Jonas Wood <jw@ti.com>
 Installed-Size: 65
 Conflicts: firmware-ti-ipc
 Replaces: firmware-ti-ipc
@@ -44,19 +44,19 @@ Provides: firmware-ti-ipc
 Homepage: https://git.ti.com/cgit/processor-firmware/ti-linux-firmware
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-am62_11.01.16-1_all.deb
-Size: 31268
-SHA256: 7a5edc11ea4585aa6303850af9cb265b93b29d9c447a4f75d34b2963464fb285
-SHA1: 51ec43ef03d36417854bf5e05aaafbabf5a85373
-MD5sum: b624500692ff15f74e17ae040976691d
+Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-am62_11.02.03-1_all.deb
+Size: 31272
+SHA256: 5cb92b6b8f822280eafaca85ff4dbfd8c1d83ffd6bf88775f2c9e8680015f3ab
+SHA1: f2f674a903940abe4ebefa4f0d38d4f3086370e5
+MD5sum: 6fd7ab2d84c64694852c1c45e931a043
 Description: TI IPC firmware for AM62
  This package provides TI IPC firmwares for remoteprocs on AM62
 
 Package: firmware-ti-ipc-am62a
 Source: ti-linux-firmware
-Version: 11.01.16-1
+Version: 11.02.03-1
 Architecture: all
-Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
+Maintainer: Jonas Wood <jw@ti.com>
 Installed-Size: 27022
 Conflicts: firmware-ti-ipc
 Replaces: firmware-ti-ipc
@@ -64,19 +64,19 @@ Provides: firmware-ti-ipc
 Homepage: https://git.ti.com/cgit/processor-firmware/ti-linux-firmware
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-am62a_11.01.16-1_all.deb
-Size: 1983696
-SHA256: 48aca19a66012d8f3cfa5e8332211d4da997dffedd9ad5e9f07431890e182712
-SHA1: 17e677cf526e65685deb59b4022284f51d71c0cc
-MD5sum: 10be5c53d5369d746e211fff1540575e
+Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-am62a_11.02.03-1_all.deb
+Size: 1983468
+SHA256: 04b7b17b488b1c3efbee605e66f6809cda96500025f3a4b96a8e39df186077ae
+SHA1: 727f850fe98070476a36a5b5d4b02a1a04cf6380
+MD5sum: e81e0e1579f2d3814afe2bec7496c62a
 Description: TI IPC firmware for AM62A
  This package provides TI IPC firmwares for remoteprocs on AM62A
 
 Package: firmware-ti-ipc-am62p
 Source: ti-linux-firmware
-Version: 11.01.16-1
+Version: 11.02.03-1
 Architecture: all
-Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
+Maintainer: Jonas Wood <jw@ti.com>
 Installed-Size: 69
 Conflicts: firmware-ti-ipc
 Replaces: firmware-ti-ipc
@@ -84,19 +84,19 @@ Provides: firmware-ti-ipc
 Homepage: https://git.ti.com/cgit/processor-firmware/ti-linux-firmware
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-am62p_11.01.16-1_all.deb
-Size: 35092
-SHA256: 780f6d800ea11b1be067b2eee5e0c7d7ddce9551649512921ad0d9b6e0d1d8f8
-SHA1: 08d4c7d2f9ef7bdeda54768767dccce27b9a03e6
-MD5sum: 5d41b5dd801c8c156d022d08e7c57ec0
+Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-am62p_11.02.03-1_all.deb
+Size: 35116
+SHA256: dc7588f4032ed933d9394acd3ddaf29c36623b6c5a986bb47124c703e9f34b04
+SHA1: f995bb9edb632a480e491a57404615428d62f954
+MD5sum: 82808307b35c7769683dc3cdd242ac08
 Description: TI IPC firmware for AM62P
  This package provides TI IPC firmwares for remoteprocs on AM62P
 
 Package: firmware-ti-ipc-am64
 Source: ti-linux-firmware
-Version: 11.01.16-1
+Version: 11.02.03-1
 Architecture: all
-Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
+Maintainer: Jonas Wood <jw@ti.com>
 Installed-Size: 467
 Conflicts: firmware-ti-ipc
 Replaces: firmware-ti-ipc
@@ -104,19 +104,19 @@ Provides: firmware-ti-ipc
 Homepage: https://git.ti.com/cgit/processor-firmware/ti-linux-firmware
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-am64_11.01.16-1_all.deb
-Size: 70808
-SHA256: ccb78595984be4d12b20c208d4b955bb32da56374d453b199f14546061b60f11
-SHA1: 47b0546090bc8f75935e38da0c932a738d713cf7
-MD5sum: 25e5e00bb5f4dbd6348090adcb95e0f6
+Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-am64_11.02.03-1_all.deb
+Size: 70880
+SHA256: a5abbfffd76f1310d60b4b26bcfcf80c7436a3a79f259ec8039951b6a2398faf
+SHA1: f81d353ec76a6f53bcaa848a988e36c38dc845ef
+MD5sum: 433c54bbe9067867b381160a88d48251
 Description: TI IPC firmware for AM64
  This package provides TI IPC firmwares for remoteprocs on AM64
 
 Package: firmware-ti-ipc-j721e
 Source: ti-linux-firmware
-Version: 11.01.16-1
+Version: 11.02.03-1
 Architecture: all
-Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
+Maintainer: Jonas Wood <jw@ti.com>
 Installed-Size: 10999
 Conflicts: firmware-ti-ipc
 Replaces: firmware-ti-ipc
@@ -124,19 +124,19 @@ Provides: firmware-ti-ipc
 Homepage: https://git.ti.com/cgit/processor-firmware/ti-linux-firmware
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-j721e_11.01.16-1_all.deb
-Size: 199236
-SHA256: 8063e897377b2f285f10b3d0fff4564e71cfdf56015e2a843ea681c7b81abee6
-SHA1: 397326cfdd82b8f0ff635440d5bdc93c5d0679de
-MD5sum: 623dd78fdeee66f11beae1d20545b984
+Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-j721e_11.02.03-1_all.deb
+Size: 199660
+SHA256: 98c027ea19e435b63c94d0583e4b332eac4fd9f8020ae75e077b20159ed017d6
+SHA1: 8e656d2fc97d20e3ee74554a6313ed76ef3335d7
+MD5sum: dbbac2dffa02c7f884c6fd6ac6aee5d0
 Description: TI IPC firmware for J721E
  This package provides TI IPC firmwares for remoteprocs on J721E
 
 Package: firmware-ti-ipc-j721s2
 Source: ti-linux-firmware
-Version: 11.01.16-1
+Version: 11.02.03-1
 Architecture: all
-Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
+Maintainer: Jonas Wood <jw@ti.com>
 Installed-Size: 20890
 Conflicts: firmware-ti-ipc
 Replaces: firmware-ti-ipc
@@ -144,19 +144,19 @@ Provides: firmware-ti-ipc
 Homepage: https://git.ti.com/cgit/processor-firmware/ti-linux-firmware
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-j721s2_11.01.16-1_all.deb
-Size: 184868
-SHA256: bc932e3aa6cb240e6b9744bff4abdcc6aa9b2ea547cea760928525d1c3fd3ad0
-SHA1: 05e525cb3b2b71a2643c238aceda632c32bf2f5c
-MD5sum: 009c786103f3763933005491729b3a7c
+Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-j721s2_11.02.03-1_all.deb
+Size: 184916
+SHA256: e2beb2cd2e5343156578d16d5b1c82bbd3f15aced4d32e933053ef01e36437b9
+SHA1: fac0be86bd72cd548b908a89eee119f502deb2f9
+MD5sum: c8079452d5227e4acddb900a4d8ed516
 Description: TI IPC firmware for J721S2
  This package provides TI IPC firmwares for remoteprocs on J721S2
 
 Package: firmware-ti-ipc-j784s4
 Source: ti-linux-firmware
-Version: 11.01.16-1
+Version: 11.02.03-1
 Architecture: all
-Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
+Maintainer: Jonas Wood <jw@ti.com>
 Installed-Size: 41564
 Conflicts: firmware-ti-ipc
 Replaces: firmware-ti-ipc
@@ -164,62 +164,62 @@ Provides: firmware-ti-ipc
 Homepage: https://git.ti.com/cgit/processor-firmware/ti-linux-firmware
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-j784s4_11.01.16-1_all.deb
-Size: 327916
-SHA256: e486ad88aa4bd45afbd0c79721f4468f6927f229fae37cdc0a187268ca9f235c
-SHA1: 93c5270a54c4388c9633e1f37f780a822efed632
-MD5sum: 6f8db88ff00eb863b695638e9a604437
+Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-ipc-j784s4_11.02.03-1_all.deb
+Size: 327924
+SHA256: e392a3e1b62e3b238ee615296bdc6bad230db3ceedf927722c0b34d1ac040e2a
+SHA1: 101860972a0037fb903702913a3f7abc7f2537ba
+MD5sum: a2b0dc6f07e402df5dac22f5157a06ee
 Description: TI IPC firmware for J784S4
  This package provides TI IPC firmwares for remoteprocs on J784S4
 
 Package: firmware-ti-prueth-am64
 Source: ti-linux-firmware
-Version: 11.01.16-1
+Version: 11.02.03-1
 Architecture: all
-Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
+Maintainer: Jonas Wood <jw@ti.com>
 Installed-Size: 229
 Homepage: https://git.ti.com/cgit/processor-firmware/ti-linux-firmware
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-prueth-am64_11.01.16-1_all.deb
-Size: 24116
-SHA256: 6f6c0334b9bef6148fb7e91cabdcfd7494a2c145498a726ae90f4dc87243fcaf
-SHA1: e4440a485a032b6624f137b4c084374fdef9a3f7
-MD5sum: f1309c298a00ccccca2ca292b5e4a6bc
+Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-prueth-am64_11.02.03-1_all.deb
+Size: 24140
+SHA256: 7d40cc423cfe0b89c029a0905f1176c92b79879bcd295d689e274d549582896e
+SHA1: a36d35fc2e46351f7ff5bb7a5396442cc907eac0
+MD5sum: ecf494aace991efe3dfdf4ab1233ed77
 Description: PRU Ethernet firmware for AM64
  This package provides PRU Ethernet firmware for AM64
 
 Package: firmware-ti-pruhsr-am64
 Source: ti-linux-firmware
-Version: 11.01.16-1
+Version: 11.02.03-1
 Architecture: all
-Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
+Maintainer: Jonas Wood <jw@ti.com>
 Installed-Size: 236
 Homepage: https://git.ti.com/cgit/processor-firmware/ti-linux-firmware
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-pruhsr-am64_11.01.16-1_all.deb
-Size: 25288
-SHA256: bee2edcb9909a01ae789b803d0d1e8ef0158bf85e298a862123856ecafac2b52
-SHA1: 5a9300cbf0a598ec6cd579690d041ceae2ddf4be
-MD5sum: e87b7206098c6daee3f97122b9c7f304
+Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-pruhsr-am64_11.02.03-1_all.deb
+Size: 25384
+SHA256: 84e195cc2e48c1b9d6565498cf0b536a5e5f446019498b2ebc1c6203fceef2a2
+SHA1: 70dd839e0a18731366425179fb84e91805d5c836
+MD5sum: 2589b1b097fde576b207cce0c4677b84
 Description: PRU HSR firmware for AM64
  This package provides PRU HSR firmware for AM64
 
 Package: firmware-ti-prusw-am64
 Source: ti-linux-firmware
-Version: 11.01.16-1
+Version: 11.02.03-1
 Architecture: all
-Maintainer: Sai Sree Kartheek Adivi <s-adivi@ti.com>
+Maintainer: Jonas Wood <jw@ti.com>
 Installed-Size: 245
 Homepage: https://git.ti.com/cgit/processor-firmware/ti-linux-firmware
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-prusw-am64_11.01.16-1_all.deb
-Size: 26112
-SHA256: 421e7e36425ba1cefab01658a68fba3a15b4c3a516c2e73bcedb451824309ddb
-SHA1: 468051cd725ada5cf364c59ecd43e23a0b94f32e
-MD5sum: bbab820041e2b7403dfc053af91cd867
+Filename: pool/non-free/t/ti-linux-firmware/firmware-ti-prusw-am64_11.02.03-1_all.deb
+Size: 26104
+SHA256: 1397a4489f742e8a34010fcdbb7727ef6256a009c05add217ba5d15969f9b1cd
+SHA1: e4b291ae587259b21f8535c3cc588b37546c20a2
+MD5sum: e44d083ce727e8485c06c5237d50fc7f
 Description: PRU Ethernet Switch firmware for AM64
  This package provides PRU Ethernet Switch firmware for AM64
 
