@@ -1,17 +1,17 @@
 Package: cc33xx-fw
-Version: 1.7.0.120-1+git20241018+988ded3a-1
+Version: 1.7.0.323+git20250907+0b4f850-1
 Architecture: all
-Maintainer: Suhaas Joshi <s-joshi@ti.com>
-Installed-Size: 585
+Maintainer: Jonas Wood <jw@ti.com>
+Installed-Size: 616
 Multi-Arch: foreign
-Homepage: https://git.ti.com/git/cc33xx-wlan/cc33xx-fw
+Homepage: https://git.ti.com/cgit/cc33xx-wlan/cc33xx-fw
 Priority: optional
 Section: non-free
-Filename: pool/non-free/c/cc33xx-fw/cc33xx-fw_1.7.0.120-1+git20241018+988ded3a-1_all.deb
-Size: 385036
-SHA256: 2215d1a10f5af61c9a39cef2d9913157a400491ce9a54d01b322ea1cd228c036
-SHA1: d3a545cf6beb596f7373fe8f6eb8f9c838b60267
-MD5sum: ca93328884507adede9a043c36aec965
+Filename: pool/non-free/c/cc33xx-fw/cc33xx-fw_1.7.0.323+git20250907+0b4f850-1_all.deb
+Size: 407264
+SHA256: 098f6c02611d401f337ff4230b5865c0851f672248a5d1ac062670c610a7c414
+SHA1: 929f26d9e181fc8faad1f667923a0f7807465123
+MD5sum: 7ef7aed49c728622c47de5379153a40b
 Description: Firmware for Running Wifi Drivers
  Firmware and binaries for running wifi drivers.
 
