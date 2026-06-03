@@ -1,16 +1,16 @@
 Package: badge-launcher
-Version: 0.1.1-1
+Version: 0.1.2-1
 Architecture: arm64
 Maintainer: Andrei Aldea <andrei@ti.com>
 Installed-Size: 3132
 Depends: libc6 (>= 2.38), libffi8 (>= 3.4), libsdl2-2.0-0 (>= 2.0.12), rsync, git, network-manager, bluez, i2c-tools, psmisc, curl
 Priority: optional
 Section: utils
-Filename: pool/main/b/badge-launcher/badge-launcher_0.1.1-1_arm64.deb
-Size: 738924
-SHA256: 52516b1a4537bba648993d6d9ae86710195b0376209110d264b116d4d011734e
-SHA1: 6f6d37ffcd0bdf69e19fe5c99c48dc72e071d1fb
-MD5sum: fe5c798460c7c78f0c78154ca92c1037
+Filename: pool/main/b/badge-launcher/badge-launcher_0.1.2-1_arm64.deb
+Size: 739032
+SHA256: 52e727a08d30440738ff2f52f869212033404437cdc6dba6748787b958878a02
+SHA1: dce780371c328678ce6d731a07c2a9ba778ff476
+MD5sum: 87f982410ade3e2aa432db86f036d06f
 Description: Python-based Badge Launcher for BeagleBadge
  A comprehensive launcher and driver suite for the BeagleBadge.
  Includes LVGL-based UI and systemd integration.
