@@ -1,7 +1,7 @@
 Origin: ti-debpkgs
 Label: ti-debpkgs
 Codename: trixie
-Date: Wed, 01 Jul 2026 21:26:48 UTC
+Date: Mon, 06 Jul 2026 16:58:53 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free
 Description: Apt repository for Texas Instruments
@@ -30,14 +30,14 @@ MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e 0 contrib/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 contrib/source/Sources.gz
  4910088e594c632fb8924d3cc56bc35e 127 contrib/source/Release
- 0900768b1cace5bf8e22ae9ad60648c5 8690 non-free/binary-i386/Packages
- fe7a51679966874e08dec191306a7f58 2057 non-free/binary-i386/Packages.gz
+ e747f600dce933bf7ddc3b301f9ffd7a 8690 non-free/binary-i386/Packages
+ 534e88e8324591006236dffcc762ceb2 2062 non-free/binary-i386/Packages.gz
  3a612023ea11117632135cd3aa410144 126 non-free/binary-i386/Release
- 0900768b1cace5bf8e22ae9ad60648c5 8690 non-free/binary-amd64/Packages
- fe7a51679966874e08dec191306a7f58 2057 non-free/binary-amd64/Packages.gz
+ e747f600dce933bf7ddc3b301f9ffd7a 8690 non-free/binary-amd64/Packages
+ 534e88e8324591006236dffcc762ceb2 2062 non-free/binary-amd64/Packages.gz
  48d968084543318a51844a31e6da4c28 127 non-free/binary-amd64/Release
- 0777f687ce27da2c108610badf80ae2d 23138 non-free/binary-arm64/Packages
- 10848f5c9b980ba642aa982a1af8ed20 4653 non-free/binary-arm64/Packages.gz
+ b3bef0692fc22fbfcc46ebc8b8c9f4e9 23138 non-free/binary-arm64/Packages
+ 7e3e2d0b16e6896fa7f67ee8a0f4f7e1 4656 non-free/binary-arm64/Packages.gz
  8eb7e3feec379e8a6f8af3784ad7ba0e 127 non-free/binary-arm64/Release
  dfe4ff1cf46c72fa595602202dcb8444 1062 non-free/source/Sources
  298a5d101e8738ffa64bca06af2ea331 627 non-free/source/Sources.gz
@@ -67,14 +67,14 @@ SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 contrib/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 contrib/source/Sources.gz
  f7e6d76880aa71d41a626cd19a5b925b02012c18 127 contrib/source/Release
- 80b2e5437e4cbd11f52bb90766173298efeaef95 8690 non-free/binary-i386/Packages
- 1a1330810cc3fd2bb73cda5e4c410d19c49e9343 2057 non-free/binary-i386/Packages.gz
+ 37af6a377db775ebf2b3fe558ec4695f80f97664 8690 non-free/binary-i386/Packages
+ 67d0fc3636180cf3e472c1841aa64533cbcfbbd0 2062 non-free/binary-i386/Packages.gz
  b73ba87b1d11d05ab2accb61f2dad23b21354b55 126 non-free/binary-i386/Release
- 80b2e5437e4cbd11f52bb90766173298efeaef95 8690 non-free/binary-amd64/Packages
- 1a1330810cc3fd2bb73cda5e4c410d19c49e9343 2057 non-free/binary-amd64/Packages.gz
+ 37af6a377db775ebf2b3fe558ec4695f80f97664 8690 non-free/binary-amd64/Packages
+ 67d0fc3636180cf3e472c1841aa64533cbcfbbd0 2062 non-free/binary-amd64/Packages.gz
  f9bbceeef1a6c514e8cdc317664fa1153f7300fd 127 non-free/binary-amd64/Release
- ade0f5d66e1eb0cd83b2e05f728dfde916225fbf 23138 non-free/binary-arm64/Packages
- 8db5ba6f1698d89722ecd9c0471ddb2cb3c50042 4653 non-free/binary-arm64/Packages.gz
+ c3e69475bae9972eaf860ae6b2f156e1e7147561 23138 non-free/binary-arm64/Packages
+ e6a16a75e21dd2ea2075125c4bbed85d57440dde 4656 non-free/binary-arm64/Packages.gz
  42891126319ca1bedb187d6e5e64ded0e72f1033 127 non-free/binary-arm64/Release
  8396f9508dcdba489f753bae60b55625ec6a0b69 1062 non-free/source/Sources
  b057a45582fe7f20d9f048937537202a3df22b63 627 non-free/source/Sources.gz
@@ -104,14 +104,14 @@ SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 contrib/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 contrib/source/Sources.gz
  06d3fd8686ddd8f94a28b964182cb5ea8ea6ae9b36c3960ff3092b013968a8f9 127 contrib/source/Release
- 6926a02bc7a6a17973aba9902f448dd21b69423c6ff0f8f3b2a184b78155090a 8690 non-free/binary-i386/Packages
- a894756bb2f8a79bb5b95d38f471435c493842a0e99684b9f25b900f5bafb0b9 2057 non-free/binary-i386/Packages.gz
+ 0ae7407a991c23f2c45dd54e4a8cf1d0de1866333c0cb5808de4003256b4d387 8690 non-free/binary-i386/Packages
+ 58e60a66258b57ffd1317a35a7dcf02b0cb747678e9c0634a08158c70fa29085 2062 non-free/binary-i386/Packages.gz
  4c63a6f176cb88c5e5120010d2744aacc6a94e05d7862f204d96ddba60e8ecf4 126 non-free/binary-i386/Release
- 6926a02bc7a6a17973aba9902f448dd21b69423c6ff0f8f3b2a184b78155090a 8690 non-free/binary-amd64/Packages
- a894756bb2f8a79bb5b95d38f471435c493842a0e99684b9f25b900f5bafb0b9 2057 non-free/binary-amd64/Packages.gz
+ 0ae7407a991c23f2c45dd54e4a8cf1d0de1866333c0cb5808de4003256b4d387 8690 non-free/binary-amd64/Packages
+ 58e60a66258b57ffd1317a35a7dcf02b0cb747678e9c0634a08158c70fa29085 2062 non-free/binary-amd64/Packages.gz
  401c3373d19bf92a91177edef2f090cf5b0ca56dc78f1e4980ab881103a687b8 127 non-free/binary-amd64/Release
- 9bb7fed7a2e804f4cf046ec2feeb1c5f2098bb8bf3ddd9f486fb00d1c8b596da 23138 non-free/binary-arm64/Packages
- caf88c2c65cf6897fd197a9079c7daa2105758f22bfc7f6b036a67554e2e9d10 4653 non-free/binary-arm64/Packages.gz
+ 28c5bac4655e4a0af64a7fba7165e7a718cd41a83947a0d15c44969838aee75c 23138 non-free/binary-arm64/Packages
+ 2e380ffdded1acb900a20d7cb31bdc649c4a3672fd2483affeebff9fdec973bc 4656 non-free/binary-arm64/Packages.gz
  6a1f808660583254a90dd6230ddab485792f59f64ac9c3a3f964b29471a15813 127 non-free/binary-arm64/Release
  08ac0f8ad3fb08818a594d85f944647be3fc464fff7855fc1384c24c9ac31329 1062 non-free/source/Sources
  029ad72be56ef084ba37dd6f0abf84abccc0395aeda6e69ccb04b311dcd61a29 627 non-free/source/Sources.gz
