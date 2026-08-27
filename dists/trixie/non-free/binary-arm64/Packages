@@ -277,311 +277,316 @@ Build-Ids: 2c4185cc2b653827ef97e4fc02a301131080a584
 
 Package: ti-img-rogue-firmware-am62
 Source: ti-img-rogue-umlibs
-Version: 25.3.6908880+git20260217+2ecc98c61aed-2
+Version: 26.1.6967606+git20260515+a59e0e6b92df-3
 Architecture: arm64
 Maintainer: Jonas Wood <jw@ti.com>
-Installed-Size: 574
+Installed-Size: 594
 Conflicts: ti-img-rogue-firmware
 Replaces: ti-img-rogue-firmware
 Provides: ti-img-rogue-firmware
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-umlibs
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-firmware-am62_25.3.6908880+git20260217+2ecc98c61aed-2_arm64.deb
-Size: 87424
-SHA256: e9aa23d792fb5577a66ec81473b48bbe8c0cb9c9d685c4339bd152da056bf859
-SHA1: c7fb2bcce2ac4542defe77c40d5775cbfed45117
-MD5sum: 9e7dddaddade91edfc7ef2cebcd8bfef
+Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-firmware-am62_26.1.6967606+git20260515+a59e0e6b92df-3_arm64.deb
+Size: 90996
+SHA256: 5b76d172e0a2a842d0660553044216b5b0312e0ec7972c3dd525697f0bdae6c7
+SHA1: e884643f072bc871e28ee4e220e8b62c8fb6b83c
+MD5sum: ea3f1830f2db64d566a9bb07773872dd
 Description: Rogue GPU firmware for AM62
  Rogue GPU firmware for AM62
 
 Package: ti-img-rogue-firmware-am62p
 Source: ti-img-rogue-umlibs
-Version: 25.3.6908880+git20260217+2ecc98c61aed-2
+Version: 26.1.6967606+git20260515+a59e0e6b92df-3
 Architecture: arm64
 Maintainer: Jonas Wood <jw@ti.com>
-Installed-Size: 513
+Installed-Size: 517
 Conflicts: ti-img-rogue-firmware
 Replaces: ti-img-rogue-firmware
 Provides: ti-img-rogue-firmware
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-umlibs
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-firmware-am62p_25.3.6908880+git20260217+2ecc98c61aed-2_arm64.deb
-Size: 92020
-SHA256: 9fc0650c52379e852cd28ed0badc0038d7e02e6ea3cfbe0deb3d04d53c10156f
-SHA1: 7344e4d78750a3d83920b797fdbfbab943523392
-MD5sum: 4d38aac9548883d1d084de65e7505de4
+Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-firmware-am62p_26.1.6967606+git20260515+a59e0e6b92df-3_arm64.deb
+Size: 89460
+SHA256: a33824428387911349c611dce17a5a8ab945c04a0bfb8b3434583c9b89c85b20
+SHA1: 98f09a06f131702f6f84810739bfc04e8dd0ddc3
+MD5sum: ca195a3b69815e8571cc715746be58c0
 Description: Rogue GPU firmware for AM62P
  Rogue GPU firmware for AM62P
 
 Package: ti-img-rogue-firmware-j721e
 Source: ti-img-rogue-umlibs
-Version: 25.3.6908880+git20260217+2ecc98c61aed-2
+Version: 26.1.6967606+git20260515+a59e0e6b92df-3
 Architecture: arm64
 Maintainer: Jonas Wood <jw@ti.com>
-Installed-Size: 585
+Installed-Size: 605
 Conflicts: ti-img-rogue-firmware
 Replaces: ti-img-rogue-firmware
 Provides: ti-img-rogue-firmware
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-umlibs
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-firmware-j721e_25.3.6908880+git20260217+2ecc98c61aed-2_arm64.deb
-Size: 90524
-SHA256: a38e472737aa859c68d7f47e9532b089e1d77946cef746618f1f440064213ec8
-SHA1: bdb192603d0ecd02c3327f8e60bbd01033dfa4cf
-MD5sum: 0d91ae232cfad1e1ba6a826fd796eeba
+Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-firmware-j721e_26.1.6967606+git20260515+a59e0e6b92df-3_arm64.deb
+Size: 93972
+SHA256: b27ba7c86fcb005a163866cb5e4cf8efee36a76ad31810a0fae78dc7a9a0ce41
+SHA1: 905c9c9d32b6686bdad3ce7b072b133561fa7955
+MD5sum: 32a499f314a3f129adffede6f0bb5e25
 Description: Rogue GPU firmware for J721e
  Rogue GPU firmware for J721e
 
 Package: ti-img-rogue-firmware-j721s2
 Source: ti-img-rogue-umlibs
-Version: 25.3.6908880+git20260217+2ecc98c61aed-2
+Version: 26.1.6967606+git20260515+a59e0e6b92df-3
 Architecture: arm64
 Maintainer: Jonas Wood <jw@ti.com>
-Installed-Size: 513
+Installed-Size: 517
 Conflicts: ti-img-rogue-firmware
 Replaces: ti-img-rogue-firmware
 Provides: ti-img-rogue-firmware
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-umlibs
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-firmware-j721s2_25.3.6908880+git20260217+2ecc98c61aed-2_arm64.deb
-Size: 91948
-SHA256: d3eca66f21bfede809dfdd6b7b5fc89183b89967dd30ba21e14035dd34588b3b
-SHA1: 51bd19c07c225ad48d564033b2a0b67e668995ba
-MD5sum: 650f0c415688045865fb9384429e0678
+Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-firmware-j721s2_26.1.6967606+git20260515+a59e0e6b92df-3_arm64.deb
+Size: 89460
+SHA256: bd07071e5cb08c81396c205afda1220ad58c7c5be96f0d38bbb587a2f93aa8aa
+SHA1: b05ff69134846eb80982405c055ab43656c38899
+MD5sum: 3aaf5945bc46f90c67dc9da41b4caa53
 Description: Rogue GPU firmware for J721s2
  Rogue GPU firmware for J721s2
 
 Package: ti-img-rogue-firmware-j784s4
 Source: ti-img-rogue-umlibs
-Version: 25.3.6908880+git20260217+2ecc98c61aed-2
+Version: 26.1.6967606+git20260515+a59e0e6b92df-3
 Architecture: arm64
 Maintainer: Jonas Wood <jw@ti.com>
-Installed-Size: 513
+Installed-Size: 517
 Conflicts: ti-img-rogue-firmware
 Replaces: ti-img-rogue-firmware
 Provides: ti-img-rogue-firmware
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-umlibs
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-firmware-j784s4_25.3.6908880+git20260217+2ecc98c61aed-2_arm64.deb
-Size: 92204
-SHA256: faef46fe7afb945cb591b519bc56a909775cd176135f3536c8dcff6a71b1f3ac
-SHA1: 3316e03636816c7463ae2394c3d77922f9dd9cca
-MD5sum: 2255fbc232947a6d3967f8dff144d323
+Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-firmware-j784s4_26.1.6967606+git20260515+a59e0e6b92df-3_arm64.deb
+Size: 89460
+SHA256: d4b3f95e1462b86a0bb5bb046baa6dbed57e0c49304d79a4f501da5e66af9f61
+SHA1: 596c3cfcb7c8ec8796c73fd6b0506bb51e9e7bb0
+MD5sum: ef2e177cb6b0cadb599248b5bb873a85
 Description: Rogue GPU firmware for J784s4
  Rogue GPU firmware for J784s4
 
 Package: ti-img-rogue-tools-am62
 Source: ti-img-rogue-umlibs
-Version: 25.3.6908880+git20260217+2ecc98c61aed-2
+Version: 26.1.6967606+git20260515+a59e0e6b92df-3
 Architecture: arm64
 Maintainer: Jonas Wood <jw@ti.com>
-Installed-Size: 1160
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libstdc++6 (>= 4.1.1), ti-img-rogue-umlibs-am62 (>= 25.3.6908880+git20260217+2ecc98c61aed)
+Installed-Size: 1164
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libstdc++6 (>= 4.1.1), ti-img-rogue-umlibs-am62 (>= 26.1.6967606+git20260515+a59e0e6b92df)
 Conflicts: ti-img-rogue-tools
 Replaces: ti-img-rogue-tools
 Provides: ti-img-rogue-tools
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-umlibs
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-tools-am62_25.3.6908880+git20260217+2ecc98c61aed-2_arm64.deb
-Size: 272376
-SHA256: 549833e93ab19edca0c08473627ffb44e706f3fd0d97b6f2ea3953c87e0116ae
-SHA1: eb79ac3526f98a31f5d8ac140f8abd48000d8308
-MD5sum: 027bd0b93b58b48a2131b2eccbb6eeaf
+Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-tools-am62_26.1.6967606+git20260515+a59e0e6b92df-3_arm64.deb
+Size: 273608
+SHA256: 3b3ef7ebda226d9dd62e80b412e51990e898040d79949852da9b3916de2884d1
+SHA1: 95222598dcde62e04f90a0960409626a9c6f8276
+MD5sum: e43f5725343302c8e638fd044fc53595
 Description: Rogue GPU tools for AM62
  Rogue GPU tools for AM62
 
 Package: ti-img-rogue-tools-am62p
 Source: ti-img-rogue-umlibs
-Version: 25.3.6908880+git20260217+2ecc98c61aed-2
+Version: 26.1.6967606+git20260515+a59e0e6b92df-3
 Architecture: arm64
 Maintainer: Jonas Wood <jw@ti.com>
-Installed-Size: 1160
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libstdc++6 (>= 4.1.1), ti-img-rogue-umlibs-am62p (>= 25.3.6908880+git20260217+2ecc98c61aed)
+Installed-Size: 1164
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libstdc++6 (>= 4.1.1), ti-img-rogue-umlibs-am62p (>= 26.1.6967606+git20260515+a59e0e6b92df)
 Conflicts: ti-img-rogue-tools
 Replaces: ti-img-rogue-tools
 Provides: ti-img-rogue-tools
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-umlibs
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-tools-am62p_25.3.6908880+git20260217+2ecc98c61aed-2_arm64.deb
-Size: 274056
-SHA256: 2fbcfe897ad3303cbc5451fb2821f596cdac41525dd0ba5730e2daa1db98a3c1
-SHA1: db01468ebb7f8f64fd7e7342c9a3590675655ec4
-MD5sum: 89c8ad3fea71324ad741cdb7ae79d316
+Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-tools-am62p_26.1.6967606+git20260515+a59e0e6b92df-3_arm64.deb
+Size: 275072
+SHA256: 396a0ba6cd45a89db34428bebc1198093342bd2d47481eb54bacbc397ee9f361
+SHA1: 0f0886ba046104b5529d24840e25acff7f885834
+MD5sum: 79b1a3b63f71473bb4e3c2150167a474
 Description: Rogue GPU tools for AM62P
  Rogue GPU tools for AM62P
 
 Package: ti-img-rogue-tools-j721e
 Source: ti-img-rogue-umlibs
-Version: 25.3.6908880+git20260217+2ecc98c61aed-2
+Version: 26.1.6967606+git20260515+a59e0e6b92df-3
 Architecture: arm64
 Maintainer: Jonas Wood <jw@ti.com>
-Installed-Size: 1176
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libstdc++6 (>= 4.1.1), ti-img-rogue-umlibs-j721e (>= 25.3.6908880+git20260217+2ecc98c61aed)
+Installed-Size: 1180
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libstdc++6 (>= 4.1.1), ti-img-rogue-umlibs-j721e (>= 26.1.6967606+git20260515+a59e0e6b92df)
 Conflicts: ti-img-rogue-tools
 Replaces: ti-img-rogue-tools
 Provides: ti-img-rogue-tools
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-umlibs
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-tools-j721e_25.3.6908880+git20260217+2ecc98c61aed-2_arm64.deb
-Size: 275020
-SHA256: 413cf644141fbe16f35ced75af1bc54d4dbd951c63df29450f1a0c5d1100372c
-SHA1: 79a44702d86dc306640adaaffbb845de8f1745da
-MD5sum: a8eb57ad0a9aab74a1c5223ab54b3fea
+Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-tools-j721e_26.1.6967606+git20260515+a59e0e6b92df-3_arm64.deb
+Size: 275820
+SHA256: 9e6e07db9609b071d2a90da13ea4fd415d24648be0882ed632373ed545bcb1a3
+SHA1: bc16a17e9cee95dff0a640c9a0b38175a0338ac3
+MD5sum: ff83f6703adbc24ba53a5a9d70617843
 Description: Rogue GPU tools for J721e
  Rogue GPU tools for J721e
 
 Package: ti-img-rogue-tools-j721s2
 Source: ti-img-rogue-umlibs
-Version: 25.3.6908880+git20260217+2ecc98c61aed-2
+Version: 26.1.6967606+git20260515+a59e0e6b92df-3
 Architecture: arm64
 Maintainer: Jonas Wood <jw@ti.com>
-Installed-Size: 1160
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libstdc++6 (>= 4.1.1), ti-img-rogue-umlibs-j721s2 (>= 25.3.6908880+git20260217+2ecc98c61aed)
+Installed-Size: 1164
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libstdc++6 (>= 4.1.1), ti-img-rogue-umlibs-j721s2 (>= 26.1.6967606+git20260515+a59e0e6b92df)
 Conflicts: ti-img-rogue-tools
 Replaces: ti-img-rogue-tools
 Provides: ti-img-rogue-tools
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-umlibs
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-tools-j721s2_25.3.6908880+git20260217+2ecc98c61aed-2_arm64.deb
-Size: 274308
-SHA256: 17a7de014cee04cc24404517a9f13aea0fac20bd620b80ea7c409e91d368881a
-SHA1: 9df0f6e1a0eede53d8e166eef0557ae832fb9cb4
-MD5sum: 25a60e9185c109ec79139c54f52802c5
+Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-tools-j721s2_26.1.6967606+git20260515+a59e0e6b92df-3_arm64.deb
+Size: 275096
+SHA256: b67559292aaf49f52ab9460a0d1c30a50e003df65d7f61f7dfaa8cb42d2da83f
+SHA1: 1d801c32a291dacaf2ed719038e590a80d0041db
+MD5sum: aa8829c5da151ebc02cb27cde62c9dda
 Description: Rogue GPU tools for J721s2
  Rogue GPU tools for J721s2
 
 Package: ti-img-rogue-tools-j784s4
 Source: ti-img-rogue-umlibs
-Version: 25.3.6908880+git20260217+2ecc98c61aed-2
+Version: 26.1.6967606+git20260515+a59e0e6b92df-3
 Architecture: arm64
 Maintainer: Jonas Wood <jw@ti.com>
-Installed-Size: 1160
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libstdc++6 (>= 4.1.1), ti-img-rogue-umlibs-j784s4 (>= 25.3.6908880+git20260217+2ecc98c61aed)
+Installed-Size: 1164
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libstdc++6 (>= 4.1.1), ti-img-rogue-umlibs-j784s4 (>= 26.1.6967606+git20260515+a59e0e6b92df)
 Conflicts: ti-img-rogue-tools
 Replaces: ti-img-rogue-tools
 Provides: ti-img-rogue-tools
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-umlibs
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-tools-j784s4_25.3.6908880+git20260217+2ecc98c61aed-2_arm64.deb
-Size: 274364
-SHA256: 9476a1368367243128e111651b09eb05d5502c388ec19a9ab029358f56a66fef
-SHA1: 4e5dba714cfead830b90d315484374f008b4efbf
-MD5sum: a5ab147166bf77049b3cd6da814be461
+Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-tools-j784s4_26.1.6967606+git20260515+a59e0e6b92df-3_arm64.deb
+Size: 275048
+SHA256: 8c599c47731b950905d385f556a1ef3cccd946bf1f230dd41ea2fd2bfd0f8f49
+SHA1: 6dab1545827de1fac5e63c39155825a25a33d4d2
+MD5sum: 2d0d4916c9de5b19be437645423b62e0
 Description: Rogue GPU tools for J784s4
  Rogue GPU tools for J784s4
 
 Package: ti-img-rogue-umlibs-am62
 Source: ti-img-rogue-umlibs
-Version: 25.3.6908880+git20260217+2ecc98c61aed-2
+Version: 26.1.6967606+git20260515+a59e0e6b92df-3
 Architecture: arm64
 Maintainer: Jonas Wood <jw@ti.com>
-Installed-Size: 59804
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.75), libgcc-s1 (>= 3.0), libstdc++6 (>= 11), libwayland-client0 (>= 1.0.2), ti-img-rogue-driver-am62-dkms, libegl-mesa-pvr0, libgbm1-pvr, libgl1-mesa-pvr-dri, libglapi-mesa-pvr, libglx-mesa-pvr0, mesa-pvr-vulkan-drivers
+Installed-Size: 59913
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.75), libgcc-s1 (>= 3.0), libstdc++6 (>= 11), libwayland-client0 (>= 1.0.2), ti-img-rogue-driver-am62-dkms, libgbm1-pvr, libegl-mesa0-pvr, libgl1-mesa-dri-pvr, libgles2-mesa-pvr, mesa-libgallium-pvr, mesa-vulkan-drivers-pvr
+Recommends: ti-img-rogue-tools-am62
 Conflicts: ti-img-rogue-umlibs
 Replaces: ti-img-rogue-umlibs
 Provides: ti-img-rogue-umlibs
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-umlibs
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-umlibs-am62_25.3.6908880+git20260217+2ecc98c61aed-2_arm64.deb
-Size: 16961620
-SHA256: 5a2b56b766dfa772f2d734b01fe77e6ec795561b245be1a7a77d169b2093e98d
-SHA1: 7c0dc16b90c9ba06e850b4a6424ea48f6f78608a
-MD5sum: d96f50d86cb27505936d1459fd499866
+Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-umlibs-am62_26.1.6967606+git20260515+a59e0e6b92df-3_arm64.deb
+Size: 17000948
+SHA256: d4c794d41926b87dfa6ef1b9f3eaa41368986c72b68cf64dcd3580ae3d0c6611
+SHA1: ddb2d6438f4a5ae00dce483b3ab51fa2d6c3877c
+MD5sum: 871ebffae603bfe1c9a2d43b75dc33fb
 Description: Rogue GPU userspace libraries for AM62
  Rogue GPU userspace libraries for AM62
 
 Package: ti-img-rogue-umlibs-am62p
 Source: ti-img-rogue-umlibs
-Version: 25.3.6908880+git20260217+2ecc98c61aed-2
+Version: 26.1.6967606+git20260515+a59e0e6b92df-3
 Architecture: arm64
 Maintainer: Jonas Wood <jw@ti.com>
-Installed-Size: 59980
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.75), libgcc-s1 (>= 3.0), libstdc++6 (>= 11), libwayland-client0 (>= 1.0.2), ti-img-rogue-driver-am62p-dkms, libegl-mesa-pvr0, libgbm1-pvr, libgl1-mesa-pvr-dri, libglapi-mesa-pvr, libglx-mesa-pvr0, mesa-pvr-vulkan-drivers
+Installed-Size: 60089
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.75), libgcc-s1 (>= 3.0), libstdc++6 (>= 11), libwayland-client0 (>= 1.0.2), ti-img-rogue-driver-am62p-dkms, libgbm1-pvr, libegl-mesa0-pvr, libgl1-mesa-dri-pvr, libgles2-mesa-pvr, mesa-libgallium-pvr, mesa-vulkan-drivers-pvr
+Recommends: ti-img-rogue-tools-am62p
 Conflicts: ti-img-rogue-umlibs
 Replaces: ti-img-rogue-umlibs
 Provides: ti-img-rogue-umlibs
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-umlibs
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-umlibs-am62p_25.3.6908880+git20260217+2ecc98c61aed-2_arm64.deb
-Size: 17039836
-SHA256: 579de9b3fa8dcd6c6e4ca846e0d47e3f8dd39aca31cb868224996e16cf820fec
-SHA1: b84b0299617439cc2f81ad7b935be68a328b4768
-MD5sum: 6843a8695d7431b917ebd1451a51e54f
+Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-umlibs-am62p_26.1.6967606+git20260515+a59e0e6b92df-3_arm64.deb
+Size: 17071820
+SHA256: d5b703d1d82ec6284a5c4fb60618716339226525fc9dca7b303afbca4a827685
+SHA1: 16243c6e49a078a0de3752ab9924d465b38b0e88
+MD5sum: dc2d542716024184a56da66162528f70
 Description: Rogue GPU userspace libraries for AM62P
  Rogue GPU userspace libraries for AM62P
 
 Package: ti-img-rogue-umlibs-j721e
 Source: ti-img-rogue-umlibs
-Version: 25.3.6908880+git20260217+2ecc98c61aed-2
+Version: 26.1.6967606+git20260515+a59e0e6b92df-3
 Architecture: arm64
 Maintainer: Jonas Wood <jw@ti.com>
-Installed-Size: 60004
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.75), libgcc-s1 (>= 3.0), libstdc++6 (>= 11), libwayland-client0 (>= 1.0.2), ti-img-rogue-driver-j721e-dkms, libegl-mesa-pvr0, libgbm1-pvr, libgl1-mesa-pvr-dri, libglapi-mesa-pvr, libglx-mesa-pvr0, mesa-pvr-vulkan-drivers
+Installed-Size: 60109
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.75), libgcc-s1 (>= 3.0), libstdc++6 (>= 11), libwayland-client0 (>= 1.0.2), ti-img-rogue-driver-j721e-dkms, libgbm1-pvr, libegl-mesa0-pvr, libgl1-mesa-dri-pvr, libgles2-mesa-pvr, mesa-libgallium-pvr, mesa-vulkan-drivers-pvr
+Recommends: ti-img-rogue-tools-j721e
 Conflicts: ti-img-rogue-umlibs
 Replaces: ti-img-rogue-umlibs
 Provides: ti-img-rogue-umlibs
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-umlibs
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-umlibs-j721e_25.3.6908880+git20260217+2ecc98c61aed-2_arm64.deb
-Size: 17034400
-SHA256: cea813e4c9c3ee31ce7545c28e368e2cf85e458c54993fb4459233a71f0ef38f
-SHA1: a153946060eb656242a211611c59f9de67625323
-MD5sum: 23071f624448d91b589cc38530d9b570
+Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-umlibs-j721e_26.1.6967606+git20260515+a59e0e6b92df-3_arm64.deb
+Size: 17077624
+SHA256: b0e37f0d57814bde17bf600718ae892db45188e7cb625b372afce3b7d101d565
+SHA1: e769ab699133c5fca6a5a7f40b2eccc09a7b7e06
+MD5sum: 75fb2bc9356c8257cc290f9ad4a2ccb7
 Description: Rogue GPU userspace libraries for J721e
  Rogue GPU userspace libraries for J721e
 
 Package: ti-img-rogue-umlibs-j721s2
 Source: ti-img-rogue-umlibs
-Version: 25.3.6908880+git20260217+2ecc98c61aed-2
+Version: 26.1.6967606+git20260515+a59e0e6b92df-3
 Architecture: arm64
 Maintainer: Jonas Wood <jw@ti.com>
-Installed-Size: 59980
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.75), libgcc-s1 (>= 3.0), libstdc++6 (>= 11), libwayland-client0 (>= 1.0.2), ti-img-rogue-driver-j721s2-dkms, libegl-mesa-pvr0, libgbm1-pvr, libgl1-mesa-pvr-dri, libglapi-mesa-pvr, libglx-mesa-pvr0, mesa-pvr-vulkan-drivers
+Installed-Size: 60097
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.75), libgcc-s1 (>= 3.0), libstdc++6 (>= 11), libwayland-client0 (>= 1.0.2), ti-img-rogue-driver-j721s2-dkms, libgbm1-pvr, libegl-mesa0-pvr, libgl1-mesa-dri-pvr, libgles2-mesa-pvr, mesa-libgallium-pvr, mesa-vulkan-drivers-pvr
+Recommends: ti-img-rogue-tools-j721s2
 Conflicts: ti-img-rogue-umlibs
 Replaces: ti-img-rogue-umlibs
 Provides: ti-img-rogue-umlibs
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-umlibs
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-umlibs-j721s2_25.3.6908880+git20260217+2ecc98c61aed-2_arm64.deb
-Size: 17035988
-SHA256: 8f8132eb79fbc80080682eb63a6fa404e94b609b153ccc8637623ff24dc8f994
-SHA1: 290f8702204a9d1bd77cb066ccf2afb185dd8cff
-MD5sum: 6167668f33728bee32d710feebce7abe
+Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-umlibs-j721s2_26.1.6967606+git20260515+a59e0e6b92df-3_arm64.deb
+Size: 17076536
+SHA256: 4421a01b3dda9046d29fd9b2ba6ef7be43b0d5798b92f98c21dc22dac7cf0758
+SHA1: cb18ac1c415d4f182ec2b5acaee12b23bdb3b87a
+MD5sum: 131e004b0b4cdaa661770188cfd48be3
 Description: Rogue GPU userspace libraries for J721s2
  Rogue GPU userspace libraries for J721s2
 
 Package: ti-img-rogue-umlibs-j784s4
 Source: ti-img-rogue-umlibs
-Version: 25.3.6908880+git20260217+2ecc98c61aed-2
+Version: 26.1.6967606+git20260515+a59e0e6b92df-3
 Architecture: arm64
 Maintainer: Jonas Wood <jw@ti.com>
-Installed-Size: 59980
-Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.75), libgcc-s1 (>= 3.0), libstdc++6 (>= 11), libwayland-client0 (>= 1.0.2), ti-img-rogue-driver-j784s4-dkms, libegl-mesa-pvr0, libgbm1-pvr, libgl1-mesa-pvr-dri, libglapi-mesa-pvr, libglx-mesa-pvr0, mesa-pvr-vulkan-drivers
+Installed-Size: 60097
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.75), libgcc-s1 (>= 3.0), libstdc++6 (>= 11), libwayland-client0 (>= 1.0.2), ti-img-rogue-driver-j784s4-dkms, libgbm1-pvr, libegl-mesa0-pvr, libgl1-mesa-dri-pvr, libgles2-mesa-pvr, mesa-libgallium-pvr, mesa-vulkan-drivers-pvr
+Recommends: ti-img-rogue-tools-j784s4
 Conflicts: ti-img-rogue-umlibs
 Replaces: ti-img-rogue-umlibs
 Provides: ti-img-rogue-umlibs
 Homepage: https://git.ti.com/cgit/graphics/ti-img-rogue-umlibs
 Priority: optional
 Section: non-free
-Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-umlibs-j784s4_25.3.6908880+git20260217+2ecc98c61aed-2_arm64.deb
-Size: 17032884
-SHA256: 295af527bf93b58c16dd32bc33bef502ba010fea2fbc0e7afce9e688c7df0538
-SHA1: ea26a0d12b4fe0f1d813123d6ad461ebcb248c28
-MD5sum: 21206e6b70a2fabb8e3f6347e20ca741
+Filename: pool/non-free/t/ti-img-rogue-umlibs/ti-img-rogue-umlibs-j784s4_26.1.6967606+git20260515+a59e0e6b92df-3_arm64.deb
+Size: 17070028
+SHA256: 7595ed7c4c19b67a5713e70d2ca6dd124011845b4bea4ef413708a0ed3823d06
+SHA1: 33c075fd8dc9c741f51aae7304c83bc7198c66c3
+MD5sum: 4a07a7f7fb2ef9086f74feb566d53b0f
 Description: Rogue GPU userspace libraries for J784s4
  Rogue GPU userspace libraries for J784s4
 
