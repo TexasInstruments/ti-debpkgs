@@ -281,23 +281,23 @@ Build-Ids: ede8412a9589cd03d9659838da9a4054b23bef58
 
 Package: libegl-mesa0-pvr
 Source: mesa
-Version: 25.2.8+git20260619+0cb5bad52580-4
+Version: 25.2.8+git20260619+0cb5bad52580-5
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 430
-Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.124-2), libexpat1 (>= 2.0.1), libgbm1-pvr (= 25.2.8+git20260619+0cb5bad52580-4), libwayland-client0 (>= 1.23.0), libwayland-server0 (>= 1.15.0), mesa-libgallium-pvr (= 25.2.8+git20260619+0cb5bad52580-4)
+Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.124-2), libexpat1 (>= 2.0.1), libgbm1-pvr (= 25.2.8+git20260619+0cb5bad52580-5), libwayland-client0 (>= 1.23.0), libwayland-server0 (>= 1.15.0), mesa-libgallium-pvr (= 25.2.8+git20260619+0cb5bad52580-5)
 Conflicts: libegl-dev, libegl-mesa-pvr0, libegl-mesa0, libegl1
 Replaces: libegl-dev, libegl-mesa-pvr0, libegl-mesa0, libegl1
-Provides: libegl-dev, libegl-mesa-pvr0, libegl-mesa0 (= 25.2.8+git20260619+0cb5bad52580-4), libegl-vendor, libegl1
+Provides: libegl-dev, libegl-mesa-pvr0, libegl-mesa0 (= 25.2.8+git20260619+0cb5bad52580-5), libegl-vendor, libegl1
 Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/libegl-mesa0-pvr_25.2.8+git20260619+0cb5bad52580-4_arm64.deb
-Size: 105332
-SHA256: 088fef32747e528a0161dc0c07e9646f1a8002e9e03d35a050cedc840817b213
-SHA1: 8a56f9d98ec461f1160219c2a191980468a3cb21
-MD5sum: eb6eea308a226a80d414a7cb32022061
+Filename: pool/main/m/mesa/libegl-mesa0-pvr_25.2.8+git20260619+0cb5bad52580-5_arm64.deb
+Size: 105396
+SHA256: b230e2692544c848604d716776e567c8c2241f32d80378fb1601cdc025b8f8af
+SHA1: ecc749bf8752c567d4562daf2bf877a9fbd0818a
+MD5sum: 9ee5ea90cc558cfb53bd56ae6e280337
 Description: free implementation of the EGL API -- Mesa vendor library
  This package contains the EGL native platform graphics interface library.
  EGL provides a platform-agnostic mechanism for creating rendering surfaces
@@ -307,22 +307,22 @@ Description: free implementation of the EGL API -- Mesa vendor library
 
 Package: libegl-mesa0-pvr-dbgsym
 Source: mesa
-Version: 25.2.8+git20260619+0cb5bad52580-4
+Version: 25.2.8+git20260619+0cb5bad52580-5
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 1105
-Depends: libegl-mesa0-pvr (= 25.2.8+git20260619+0cb5bad52580-4)
+Depends: libegl-mesa0-pvr (= 25.2.8+git20260619+0cb5bad52580-5)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/m/mesa/libegl-mesa0-pvr-dbgsym_25.2.8+git20260619+0cb5bad52580-4_arm64.deb
-Size: 1062940
-SHA256: f7035fee7bbea79cc0b6c784c9a205af78834b191ab8c0d23cbff170511f9cac
-SHA1: dc34060621b1e916c4c10e66204c4f10ba53d5b3
-MD5sum: 7ffa34b1e30990b082508aac8b2a822b
+Filename: pool/main/m/mesa/libegl-mesa0-pvr-dbgsym_25.2.8+git20260619+0cb5bad52580-5_arm64.deb
+Size: 1062956
+SHA256: dbb40dacb81e50dcb7927761285835f4209762abee70ad037216400b36f27275
+SHA1: 7a863d48d0ec9db1ab2a95dbc58865f78a23c327
+MD5sum: 731bfc5ba8730c414a516c6ad444c02c
 Description: debug symbols for libegl-mesa0-pvr
-Build-Ids: 629b941a041a4ddfd13060af20e566565a997f65
+Build-Ids: 7e2d592c530594563bb84a81e772dad6c7127b9e
 
 Package: libegl1-mesa-pvr-dev
 Source: mesa
@@ -382,23 +382,23 @@ Description: generic buffer management API -- development files
 
 Package: libgbm-pvr-dev
 Source: mesa
-Version: 25.2.8+git20260619+0cb5bad52580-4
+Version: 25.2.8+git20260619+0cb5bad52580-5
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 73
-Depends: libgbm1-pvr (= 25.2.8+git20260619+0cb5bad52580-4)
+Depends: libgbm1-pvr (= 25.2.8+git20260619+0cb5bad52580-5)
 Conflicts: libgbm-dev, libgbm-dev-pvr
 Replaces: libgbm-dev, libgbm-dev-pvr
-Provides: libgbm-dev (= 25.2.8+git20260619+0cb5bad52580-4), libgbm-dev-pvr
+Provides: libgbm-dev (= 25.2.8+git20260619+0cb5bad52580-5), libgbm-dev-pvr
 Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/m/mesa/libgbm-pvr-dev_25.2.8+git20260619+0cb5bad52580-4_arm64.deb
-Size: 21496
-SHA256: 027257a4e8364691225b598e21c0f0dce831a75b45039f9a1ad23ef5d7fd0a24
-SHA1: 750661cd2ffa71ff96dc78bc79f2264dddf4648b
-MD5sum: 38fc667e1a7e4d3e0bf452fc711d487e
+Filename: pool/main/m/mesa/libgbm-pvr-dev_25.2.8+git20260619+0cb5bad52580-5_arm64.deb
+Size: 21512
+SHA256: 94b1215d2b83554bbd0605fcf90cc548838d2252201ad7a841d2efac2fb3f42b
+SHA1: 56376f9b6b87d076f09002edeb9ed2d9aa540140
+MD5sum: 2dc0414c210cab1e619926223a0a015d
 Description: generic buffer management API -- development files
  This package contains the GBM buffer management library.  It provides a
  mechanism for allocating buffers for graphics rendering tied to Mesa.
@@ -410,23 +410,23 @@ Description: generic buffer management API -- development files
 
 Package: libgbm1-pvr
 Source: mesa
-Version: 25.2.8+git20260619+0cb5bad52580-4
+Version: 25.2.8+git20260619+0cb5bad52580-5
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 179
-Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.124-2), libexpat1 (>= 2.0.1), libwayland-server0 (>= 1.15.0), mesa-libgallium-pvr (= 25.2.8+git20260619+0cb5bad52580-4)
+Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.124-2), libexpat1 (>= 2.0.1), libwayland-server0 (>= 1.15.0), mesa-libgallium-pvr (= 25.2.8+git20260619+0cb5bad52580-5)
 Conflicts: libd3dadapter9-mesa, libd3dadapter9-mesa-dev, libd3dadapter9-mesa-pvr, libd3dadapter9-mesa-pvr-dev, libegl1-mesa-dev, libegl1-mesa-pvr-dev, libgbm1, libgl1-mesa-dev, libgl1-mesa-pvr-dev, libglapi-mesa, libglapi-mesa-pvr, libgles2-mesa-dev, libgles2-mesa-pvr-dev, libglx-mesa-pvr0, libglx-mesa0, libosmesa-dev, libosmesa-pvr6, libosmesa-pvr6-dev, libosmesa6, libosmesa6-dev, libxatracker-dev, libxatracker-dev-pvr, libxatracker2, libxatracker2-pvr, mesa-drm-shim, mesa-opencl-icd, mesa-pvr-drm-shim, mesa-pvr-opencl-icd, mesa-pvr-va-drivers, mesa-pvr-vdpau-drivers, mesa-va-drivers, mesa-vdpau-drivers
 Replaces: libd3dadapter9-mesa, libd3dadapter9-mesa-dev, libd3dadapter9-mesa-pvr, libd3dadapter9-mesa-pvr-dev, libegl1-mesa-dev, libegl1-mesa-pvr-dev, libgbm1, libgl1-mesa-dev, libgl1-mesa-pvr-dev, libglapi-mesa, libglapi-mesa-pvr, libgles2-mesa-dev, libgles2-mesa-pvr-dev, libglx-mesa-pvr0, libglx-mesa0, libosmesa-dev, libosmesa-pvr6, libosmesa-pvr6-dev, libosmesa6, libosmesa6-dev, libxatracker-dev, libxatracker-dev-pvr, libxatracker2, libxatracker2-pvr, mesa-drm-shim, mesa-opencl-icd, mesa-pvr-drm-shim, mesa-pvr-opencl-icd, mesa-pvr-va-drivers, mesa-pvr-vdpau-drivers, mesa-va-drivers, mesa-vdpau-drivers, vdpau-va-driver (<< 0.7.4-5)
-Provides: libd3dadapter9-mesa (= 25.2.8+git20260619+0cb5bad52580-4), libd3dadapter9-mesa-dev (= 25.2.8+git20260619+0cb5bad52580-4), libd3dadapter9-mesa-pvr, libd3dadapter9-mesa-pvr-dev, libegl1-mesa-dev (= 25.2.8+git20260619+0cb5bad52580-4), libegl1-mesa-pvr-dev, libgbm1 (= 25.2.8+git20260619+0cb5bad52580-4), libgl1-mesa-dev (= 25.2.8+git20260619+0cb5bad52580-4), libgl1-mesa-pvr-dev, libglapi-mesa (= 25.2.8+git20260619+0cb5bad52580-4), libglapi-mesa-pvr, libgles2-mesa-dev (= 25.2.8+git20260619+0cb5bad52580-4), libgles2-mesa-pvr-dev, libglx-mesa-pvr0, libglx-mesa0 (= 25.2.8+git20260619+0cb5bad52580-4), libglx-vendor, libosmesa-dev, libosmesa-pvr6, libosmesa-pvr6-dev, libosmesa6 (= 25.2.8+git20260619+0cb5bad52580-4), libosmesa6-dev (= 25.2.8+git20260619+0cb5bad52580-4), libxatracker-dev (= 25.2.8+git20260619+0cb5bad52580-4), libxatracker-dev-pvr, libxatracker2 (= 25.2.8+git20260619+0cb5bad52580-4), libxatracker2-pvr, mesa-drm-shim (= 25.2.8+git20260619+0cb5bad52580-4), mesa-opencl-icd (= 25.2.8+git20260619+0cb5bad52580-4), mesa-pvr-drm-shim, mesa-pvr-opencl-icd, mesa-pvr-va-drivers, mesa-pvr-vdpau-drivers, mesa-va-drivers (= 25.2.8+git20260619+0cb5bad52580-4), mesa-vdpau-drivers (= 25.2.8+git20260619+0cb5bad52580-4), opencl-icd, va-driver, vdpau-driver
+Provides: libd3dadapter9-mesa (= 25.2.8+git20260619+0cb5bad52580-5), libd3dadapter9-mesa-dev (= 25.2.8+git20260619+0cb5bad52580-5), libd3dadapter9-mesa-pvr, libd3dadapter9-mesa-pvr-dev, libegl1-mesa-dev (= 25.2.8+git20260619+0cb5bad52580-5), libegl1-mesa-pvr-dev, libgbm1 (= 25.2.8+git20260619+0cb5bad52580-5), libgl1-mesa-dev (= 25.2.8+git20260619+0cb5bad52580-5), libgl1-mesa-pvr-dev, libglapi-mesa (= 25.2.8+git20260619+0cb5bad52580-5), libglapi-mesa-pvr, libgles2-mesa-dev (= 25.2.8+git20260619+0cb5bad52580-5), libgles2-mesa-pvr-dev, libglx-mesa-pvr0, libglx-mesa0 (= 25.2.8+git20260619+0cb5bad52580-5), libglx-vendor, libosmesa-dev, libosmesa-pvr6, libosmesa-pvr6-dev, libosmesa6 (= 25.2.8+git20260619+0cb5bad52580-5), libosmesa6-dev (= 25.2.8+git20260619+0cb5bad52580-5), libxatracker-dev (= 25.2.8+git20260619+0cb5bad52580-5), libxatracker-dev-pvr, libxatracker2 (= 25.2.8+git20260619+0cb5bad52580-5), libxatracker2-pvr, mesa-drm-shim (= 25.2.8+git20260619+0cb5bad52580-5), mesa-opencl-icd (= 25.2.8+git20260619+0cb5bad52580-5), mesa-pvr-drm-shim, mesa-pvr-opencl-icd, mesa-pvr-va-drivers, mesa-pvr-vdpau-drivers, mesa-va-drivers (= 25.2.8+git20260619+0cb5bad52580-5), mesa-vdpau-drivers (= 25.2.8+git20260619+0cb5bad52580-5), opencl-icd, va-driver, vdpau-driver
 Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/libgbm1-pvr_25.2.8+git20260619+0cb5bad52580-4_arm64.deb
-Size: 41692
-SHA256: b478b7c5b12710290fc2d3e53f8c5a643854f020dbae1c8e5736ad576a7354fd
-SHA1: 799f01eb37d6850ba001d53f9b05e962c1efcb9b
-MD5sum: 0bc6bf50d287005842084a8fdff2cccb
+Filename: pool/main/m/mesa/libgbm1-pvr_25.2.8+git20260619+0cb5bad52580-5_arm64.deb
+Size: 41708
+SHA256: 8b38e8a01c9ab8ecb228ba74049447660927670076f994e7ec77fee8b32e4575
+SHA1: bfae86b012401b53cd1846998abce39792b5532b
+MD5sum: d3403c4b6f4527c410e50200fec7c0d2
 Description: generic buffer management API -- runtime
  This package contains the GBM buffer management library.  It provides a
  mechanism for allocating buffers for graphics rendering tied to Mesa.
@@ -435,42 +435,42 @@ Description: generic buffer management API -- runtime
 
 Package: libgbm1-pvr-dbgsym
 Source: mesa
-Version: 25.2.8+git20260619+0cb5bad52580-4
+Version: 25.2.8+git20260619+0cb5bad52580-5
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 343
-Depends: libgbm1-pvr (= 25.2.8+git20260619+0cb5bad52580-4)
+Depends: libgbm1-pvr (= 25.2.8+git20260619+0cb5bad52580-5)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/m/mesa/libgbm1-pvr-dbgsym_25.2.8+git20260619+0cb5bad52580-4_arm64.deb
-Size: 313796
-SHA256: 6eb8ecdd81e1a865193fc72fc9c9e32504425b55ee6c78e4bb61af2121bc5cb7
-SHA1: a1d995fb543532841ca040cc709effaa5c88f238
-MD5sum: 4fbbc2e6265b983ee7a2d0b68b2a1462
+Filename: pool/main/m/mesa/libgbm1-pvr-dbgsym_25.2.8+git20260619+0cb5bad52580-5_arm64.deb
+Size: 314012
+SHA256: 7045812a6538258b63bbe62d6e03ed020058401d2f121e0e23bc34f990944cda
+SHA1: f12ab849e7abd076d1b893c9da7d8aa43f921914
+MD5sum: 948ddbbffb026a9b5981b088b27357ad
 Description: debug symbols for libgbm1-pvr
-Build-Ids: 405c1241a17ecb5c44cf9caf6a2513dfb3134c7b 9698f83b014980402bbd5904f8a4af19ea9cb02b
+Build-Ids: 9698f83b014980402bbd5904f8a4af19ea9cb02b b225f39611261955527f2e81d4e9537bd1fe4595
 
 Package: libgl1-mesa-dri-pvr
 Source: mesa
-Version: 25.2.8+git20260619+0cb5bad52580-4
+Version: 25.2.8+git20260619+0cb5bad52580-5
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 112
-Depends: libgbm1-pvr (= 25.2.8+git20260619+0cb5bad52580-4), libvulkan1
+Depends: libgbm1-pvr (= 25.2.8+git20260619+0cb5bad52580-5), libvulkan1
 Conflicts: libgl1-mesa-dri, libgl1-mesa-pvr-dri
 Replaces: libgl1-mesa-dri, libgl1-mesa-pvr-dri
-Provides: libgl1-mesa-dri (= 25.2.8+git20260619+0cb5bad52580-4), libgl1-mesa-pvr-dri
+Provides: libgl1-mesa-dri (= 25.2.8+git20260619+0cb5bad52580-5), libgl1-mesa-pvr-dri
 Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/libgl1-mesa-dri-pvr_25.2.8+git20260619+0cb5bad52580-4_arm64.deb
-Size: 26824
-SHA256: 1588f432b11a33ba4ba78443e6903e51b91e76f2c2587bef3b1467c41437f21b
-SHA1: 07838099ca6661be97d65e24a572c855c69e4838
-MD5sum: 0e43baaa53f2d0737fca6824d975c72f
+Filename: pool/main/m/mesa/libgl1-mesa-dri-pvr_25.2.8+git20260619+0cb5bad52580-5_arm64.deb
+Size: 26840
+SHA256: 67841cc9eac2c690e8bd0cbad87a92f20a1edb3d3f27ec9522aa3f1e23574d80
+SHA1: 1c2ac7cf86cdf117e00dc19f8f25c62d9fa09aa8
+MD5sum: f55eaf8be647d4add108963ad821f82d
 Description: free implementation of the OpenGL API -- DRI modules
  This version of Mesa provides GLX and DRI capabilities: it is capable of
  both direct and indirect rendering.  For direct rendering, it can use DRI
@@ -598,11 +598,11 @@ Build-Ids: bb3142c7486b856f8ee352d02954a94d1dde2c9f
 
 Package: libgles2-mesa-pvr
 Source: mesa
-Version: 25.2.8+git20260619+0cb5bad52580-4
+Version: 25.2.8+git20260619+0cb5bad52580-5
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 107
-Depends: mesa-libgallium-pvr (= 25.2.8+git20260619+0cb5bad52580-4), libglvnd0
+Depends: mesa-libgallium-pvr (= 25.2.8+git20260619+0cb5bad52580-5), libglvnd0
 Conflicts: libgles-dev, libgles2
 Replaces: libgles-dev, libgles2
 Provides: libgles-dev, libgles2
@@ -610,33 +610,33 @@ Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/libgles2-mesa-pvr_25.2.8+git20260619+0cb5bad52580-4_arm64.deb
-Size: 24748
-SHA256: 1670fcb36d56282f55d5fa408af04f02486dd84ae4d8d6533c76970fe86bd542
-SHA1: d49bf66637e1e4ab48ddab9133ab5b9c1caf6876
-MD5sum: aec1e2e842c89e9d692fc9f6968ee9ec
+Filename: pool/main/m/mesa/libgles2-mesa-pvr_25.2.8+git20260619+0cb5bad52580-5_arm64.deb
+Size: 24628
+SHA256: b20867fd4243624b5ac24ff8723209833b795667672d4b3dcf475b4aebf737db
+SHA1: 55bbcb6182fca2d7045624272fbe8d29749b143e
+MD5sum: 1396959fe0be5233024773cd963d7565
 Description: free implementation of the OpenGL|ES API -- Mesa vendor library
  This package contains the OpenGL|ES vendor library for Mesa. It provides
  the GLES implementation backed by the Mesa pvr gallium driver.
 
 Package: libgles2-mesa-pvr-dbgsym
 Source: mesa
-Version: 25.2.8+git20260619+0cb5bad52580-4
+Version: 25.2.8+git20260619+0cb5bad52580-5
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 68
-Depends: libgles2-mesa-pvr (= 25.2.8+git20260619+0cb5bad52580-4)
+Depends: libgles2-mesa-pvr (= 25.2.8+git20260619+0cb5bad52580-5)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/m/mesa/libgles2-mesa-pvr-dbgsym_25.2.8+git20260619+0cb5bad52580-4_arm64.deb
-Size: 34536
-SHA256: 3305868b9aff90224e926d2a7daa30f2678884ccf6051410af1eff9766934882
-SHA1: 6249537abfdb7eac203f3ecc07f40bd8ca3659e4
-MD5sum: f5296349af43e37ac0217e8bdb5be4c0
+Filename: pool/main/m/mesa/libgles2-mesa-pvr-dbgsym_25.2.8+git20260619+0cb5bad52580-5_arm64.deb
+Size: 34280
+SHA256: 7901df807e23dc85215230c0e7707862a08c01154cc26fbfee94ad54603ee194
+SHA1: 4afe5c0e7fb43691534a1ce97da0c6d613037adc
+MD5sum: eef0e091fb79aeb5fd708e252a83b75e
 Description: debug symbols for libgles2-mesa-pvr
-Build-Ids: 61038e2deb0b8a6b57d6f28dc1f8f3e1a34cf573
+Build-Ids: 5957cfaab0e85903441411ca6b85f24e4f69c80f
 
 Package: libgles2-mesa-pvr-dev
 Source: mesa
@@ -1003,24 +1003,24 @@ Description: Linux support headers for userspace development
 
 Package: mesa-common-pvr-dev
 Source: mesa
-Version: 25.2.8+git20260619+0cb5bad52580-4
+Version: 25.2.8+git20260619+0cb5bad52580-5
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 3812
 Depends: libgl-dev, libglx-dev, libx11-dev, libdrm-dev (>= 2.4.95)
-Conflicts: mesa-common-dev, mesa-pvr-common-dev
+Conflicts: libglvnd-dev, mesa-common-dev, mesa-pvr-common-dev
 Breaks: libegl1-mesa-dev (<< 18.2.5-2)
-Replaces: libegl1-mesa-dev (<< 18.2.5-2), mesa-common-dev, mesa-pvr-common-dev
-Provides: mesa-common-dev (= 25.2.8+git20260619+0cb5bad52580-4), mesa-pvr-common-dev
+Replaces: libegl1-mesa-dev (<< 18.2.5-2), libglvnd-dev, mesa-common-dev, mesa-pvr-common-dev
+Provides: libglvnd-dev, mesa-common-dev (= 25.2.8+git20260619+0cb5bad52580-5), mesa-pvr-common-dev
 Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/m/mesa/mesa-common-pvr-dev_25.2.8+git20260619+0cb5bad52580-4_arm64.deb
-Size: 3159820
-SHA256: eb4e54b834caa3ed0081e63b9c8efedcf1c5ba5c2e02c8799c659e6bbed9545e
-SHA1: 4439465cabf27ab809eecac323aa68be75579eae
-MD5sum: b6667fe913bbb640a0c7c2a1e0272497
+Filename: pool/main/m/mesa/mesa-common-pvr-dev_25.2.8+git20260619+0cb5bad52580-5_arm64.deb
+Size: 3159876
+SHA256: 72cf94c2a025962b3b2163c67453786ef477f9bc00c994103dc3a6042b07877f
+SHA1: 53f8dbc8e818a5087d84ca30e9ecbbb1c27322d9
+MD5sum: fc740908dea130038fd8c272e56a8224
 Description: Developer documentation for Mesa
  This package includes the specifications for the Mesa-specific OpenGL
  extensions, the complete set of release notes and the development header
@@ -1028,7 +1028,7 @@ Description: Developer documentation for Mesa
 
 Package: mesa-libgallium-pvr
 Source: mesa
-Version: 25.2.8+git20260619+0cb5bad52580-4
+Version: 25.2.8+git20260619+0cb5bad52580-5
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 17914
@@ -1040,11 +1040,11 @@ Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/mesa-libgallium-pvr_25.2.8+git20260619+0cb5bad52580-4_arm64.deb
-Size: 3522132
-SHA256: a282dcb85222ee56f00c6dacec5b5811caa4c41187765ae46706a254b3567d7e
-SHA1: 71d16f496fb33d56e21985556dbdb6924fb04e60
-MD5sum: ffcb1ec8017426ea94d28b954cf28678
+Filename: pool/main/m/mesa/mesa-libgallium-pvr_25.2.8+git20260619+0cb5bad52580-5_arm64.deb
+Size: 3524084
+SHA256: a9ef2f8c206ee9dd6c64f4e9e1e9bfff7101b70229694e10cd4625ee1a1aadf7
+SHA1: eb20e43ce3710480088bd5621d13aa142ffb1701
+MD5sum: c79291d37709a8a20b6e38d16f55d495
 Description: shared infrastructure for Mesa drivers
  This package contains libgallium, a private library shared between
  multiple Mesa drivers. This library is an implementation detail of Mesa
@@ -1052,22 +1052,22 @@ Description: shared infrastructure for Mesa drivers
 
 Package: mesa-libgallium-pvr-dbgsym
 Source: mesa
-Version: 25.2.8+git20260619+0cb5bad52580-4
+Version: 25.2.8+git20260619+0cb5bad52580-5
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 22681
-Depends: mesa-libgallium-pvr (= 25.2.8+git20260619+0cb5bad52580-4)
+Depends: mesa-libgallium-pvr (= 25.2.8+git20260619+0cb5bad52580-5)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/m/mesa/mesa-libgallium-pvr-dbgsym_25.2.8+git20260619+0cb5bad52580-4_arm64.deb
-Size: 20909268
-SHA256: ce4d27c30bb3afef9216e281113bf78be713bb8e243459628ffae863f2833986
-SHA1: bbd0bdacdbecc1b7ca08a61b43f87cfeb4075d70
-MD5sum: 9fc6dc290ceedae688934468b184f0a5
+Filename: pool/main/m/mesa/mesa-libgallium-pvr-dbgsym_25.2.8+git20260619+0cb5bad52580-5_arm64.deb
+Size: 20909404
+SHA256: b56d2fb33b31bbabc20b3f95a8b05d30fb64c232d1b7235a83a2b1e09d5cab4b
+SHA1: b63cd84612789b58ab573de7128ccd4745ec5bde
+MD5sum: ee38166f1d52e48c98b532570bf24731
 Description: debug symbols for mesa-libgallium-pvr
-Build-Ids: a738cd94db942b078a24282abd66992f06068cda
+Build-Ids: 0b126ef5a2cb1ca94f382c45a63b62d4977c6ae6
 
 Package: mesa-pvr-common-dev
 Source: mesa
@@ -1297,45 +1297,45 @@ Build-Ids: 10b4ac5443c76d1623bbc5a4ba24372c34a8cd00 1d62beb6a42b8390121d79fecc22
 
 Package: mesa-vulkan-drivers-pvr
 Source: mesa
-Version: 25.2.8+git20260619+0cb5bad52580-4
+Version: 25.2.8+git20260619+0cb5bad52580-5
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 4730
 Depends: libvulkan1, libc6 (>= 2.38), libdrm2 (>= 2.4.124-2), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), libudev1 (>= 183), libwayland-client0 (>= 1.23.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
 Conflicts: mesa-pvr-vulkan-drivers, mesa-vulkan-drivers
 Replaces: mesa-pvr-vulkan-drivers, mesa-vulkan-drivers
-Provides: mesa-pvr-vulkan-drivers, mesa-vulkan-drivers (= 25.2.8+git20260619+0cb5bad52580-4), vulkan-icd
+Provides: mesa-pvr-vulkan-drivers, mesa-vulkan-drivers (= 25.2.8+git20260619+0cb5bad52580-5), vulkan-icd
 Multi-Arch: same
 Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mesa/mesa-vulkan-drivers-pvr_25.2.8+git20260619+0cb5bad52580-4_arm64.deb
-Size: 1039008
-SHA256: d8e8250ad9429bb8889b80e3502e9e4920f78ff83dc34c5f71239d25493fe197
-SHA1: 335a76af81b79256b37d04446eeedc77fabfd799
-MD5sum: d2fea87dfb6dfb143ae27cfa98b7c300
+Filename: pool/main/m/mesa/mesa-vulkan-drivers-pvr_25.2.8+git20260619+0cb5bad52580-5_arm64.deb
+Size: 1038904
+SHA256: b46982dcf4de9af3a6f9949d2292afa9d79b26a8a3776aa3123d9e34eb6dd874
+SHA1: e0b52d18f2d12a5023434dcbc4e7d6114003d0a3
+MD5sum: b4e9cd878abcf0e20873f64197a692be
 Description: Mesa Vulkan graphics drivers
  Vulkan is a low-overhead 3D graphics and compute API. This package
  includes Vulkan drivers provided by the Mesa project.
 
 Package: mesa-vulkan-drivers-pvr-dbgsym
 Source: mesa
-Version: 25.2.8+git20260619+0cb5bad52580-4
+Version: 25.2.8+git20260619+0cb5bad52580-5
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 5959
-Depends: mesa-vulkan-drivers-pvr (= 25.2.8+git20260619+0cb5bad52580-4)
+Depends: mesa-vulkan-drivers-pvr (= 25.2.8+git20260619+0cb5bad52580-5)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/m/mesa/mesa-vulkan-drivers-pvr-dbgsym_25.2.8+git20260619+0cb5bad52580-4_arm64.deb
-Size: 5470796
-SHA256: 28a8719b49f1667f6438312922ce60828a63fbee31abceec5537fbaf03969ab7
-SHA1: a546597279642f9cbf1f26a05992d57493b3d690
-MD5sum: 6da3f12e167f661996d89cc4b3d125c8
+Filename: pool/main/m/mesa/mesa-vulkan-drivers-pvr-dbgsym_25.2.8+git20260619+0cb5bad52580-5_arm64.deb
+Size: 5470792
+SHA256: 7c920449e3bd521cbdb50d0544c4e2f53ca228076fad0e4d0709b1f6b4f57b72
+SHA1: 53708a951c0358b91cafa2f2a18ae66a45e7feac
+MD5sum: e356e9ddc65ba8f54fefad980af6f286
 Description: debug symbols for mesa-vulkan-drivers-pvr
-Build-Ids: a8fae0c65cef91470847e86e1797da43ad864765
+Build-Ids: 01c9c5b1fee0eacec1e20d7ba732ec51d054329b
 
 Package: pru-pssp
 Version: 6.4.0+git20240415+f3e3996-1
