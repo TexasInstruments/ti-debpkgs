@@ -128,7 +128,7 @@ Description: Linux Kernel device for cryptographic accelerator access
  implementation of a cipher.
 
 Package: k3conf
-Version: 0.3+git20251030+cba7dc1-1
+Version: 0.4+git20260511+eaa148f-1
 Architecture: arm64
 Maintainer: Jonas Wood <jw@ti.com>
 Installed-Size: 4118
@@ -136,11 +136,11 @@ Depends: libc6 (>= 2.34)
 Homepage: https://git.ti.com/cgit/k3conf/k3conf
 Priority: optional
 Section: devel
-Filename: pool/main/k/k3conf/k3conf_0.3+git20251030+cba7dc1-1_arm64.deb
-Size: 103084
-SHA256: 3ca4b1222d4bae9ab9d83949dd895478249c06f586d9c2e53c2d19bfe07ebec0
-SHA1: ae03ed7eea6a361137a9ed614da0cfed9873c398
-MD5sum: 6d5191ea557b9acb3ed079165c3f27ee
+Filename: pool/main/k/k3conf/k3conf_0.4+git20260511+eaa148f-1_arm64.deb
+Size: 103204
+SHA256: 37342965d03af520a7423929b24bbca01afa9eabf93a98a9d34de894e4132a2c
+SHA1: d17fdc9e7001b69a8428861d857a07dc7491b2bc
+MD5sum: 8ea48f584d26c0baeef52cec62d965ea
 Description: Powerful Diagnostic Tool for Texas Instruments K3 based Processors
  K3CONF is a Linux user-space application designed to provide a quick'n easy way
  to dynamically diagnose Texas Instruments' K3 architecture based processors.
@@ -149,21 +149,21 @@ Description: Powerful Diagnostic Tool for Texas Instruments K3 based Processors
 
 Package: k3conf-dbgsym
 Source: k3conf
-Version: 0.3+git20251030+cba7dc1-1
+Version: 0.4+git20260511+eaa148f-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Jonas Wood <jw@ti.com>
 Installed-Size: 189
-Depends: k3conf (= 0.3+git20251030+cba7dc1-1)
+Depends: k3conf (= 0.4+git20260511+eaa148f-1)
 Priority: optional
 Section: debug
-Filename: pool/main/k/k3conf/k3conf-dbgsym_0.3+git20251030+cba7dc1-1_arm64.deb
-Size: 97160
-SHA256: e1974029694e43733a75988841337e91c45b8fbd7d2050683fbdb485e72fd85b
-SHA1: 019dbb5f4719910a5093e3706150933d8b62d50d
-MD5sum: be4046fcf2e62557a39191ce6f9e8b84
+Filename: pool/main/k/k3conf/k3conf-dbgsym_0.4+git20260511+eaa148f-1_arm64.deb
+Size: 97368
+SHA256: 8b8a6ff42ff08574c8c8e99955cc37d1de313f5722e0f2ead0c2e37c229188d5
+SHA1: 748555ff9c0f0595560895cdf818f1cc01040594
+MD5sum: c71a279dbd7b2522efd0ecf39790bcdd
 Description: debug symbols for k3conf
-Build-Ids: b4e6772568e47c551eb911d271073ef8a9cda370
+Build-Ids: 7883e3c54b02302586bbca157f3557542755f397
 
 Package: libd3dadapter9-mesa-pvr
 Source: mesa
